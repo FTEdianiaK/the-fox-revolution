@@ -33,9 +33,33 @@ I personally use:
 
 ### Resource Packs
 
-*Pay attention to the ones below marked with :boom: as these resource pack couldn't be embedded into the file on the account of them not being from Modrinth.*
-
-(TBA)
+- Seasonal Lush Caves
+- [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
+- Better tom's create storage
+- Create Simple Storage Solid GUI
+- [Eclectic Trove](https://modrinth.com/resourcepack/eclectic-trove-legendary-tooltips)
+- [Unique Dark Gui Modded Compat](https://www.curseforge.com/minecraft/texture-packs/unique-dark-gui-modded-compat)
+- [Unique Dark](https://modrinth.com/resourcepack/unique-dark)
+- [Raven Phantoms](https://modrinth.com/resourcepack/raven-phantoms)
+- [Tissou's Zombie Pack](https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-20)
+- [FA - Details](https://modrinth.com/resourcepack/fresh-animations-extensions)
+- [FA - Emissive](https://modrinth.com/resourcepack/fresh-animations-extensions)
+- [FA - Objects](https://modrinth.com/resourcepack/fresh-animations-extensions)
+- [FA - Quivers](https://modrinth.com/resourcepack/fresh-animations-extensions)
+- [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
+- [xali's Potions](https://modrinth.com/resourcepack/xalis-potion)
+- [Even Better Enchants](https://modrinth.com/resourcepack/even-better-enchants)
+- [Low fire](https://modrinth.com/resourcepack/low-fire-txf)
+- [Stay True](https://www.curseforge.com/minecraft/texture-packs/stay-true)
+- [Sparkles](https://modrinth.com/resourcepack/sparkles)
+- Create: Food - Farmer's Delight
+- Create: Food - Create
+- Highlight Extended
+- Default Sound Pack
+- Tiny Skeletons
+- Moonlight Mods Dynamic Assets
+- Fabric Mods
+- Default
 
 ### Shader Pack
 
