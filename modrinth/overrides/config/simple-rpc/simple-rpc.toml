@@ -31,7 +31,7 @@
 
 	[[init.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [main_menu]
 	#Enable/Disable the Main Menu Event
@@ -52,7 +52,7 @@
 
 	[[main_menu.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [server_list]
 	#Enable/Disable the Server List Event
@@ -73,7 +73,7 @@
 
 	[[server_list.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [realms_list]
 	#Enable/Disable the Realms Screen Event
@@ -94,7 +94,7 @@
 
 	[[realms_list.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [join_game]
 	#Enable/Disable the Join Game Event
@@ -115,7 +115,7 @@
 
 	[[join_game.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [single_player]
 	#Enable/Disable the Single Player Event
@@ -136,7 +136,7 @@
 
 	[[single_player.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [multi_player]
 	#Enable/Disable the Multi Player Event
@@ -157,7 +157,7 @@
 
 	[[multi_player.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [realms]
 	#Enable/Disable the Realms Game Event
@@ -178,7 +178,7 @@
 
 	[[realms.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [generic]
 	#The first line of text under the app name
@@ -197,7 +197,7 @@
 
 	[[generic.buttons]]
 		label = "Get it here!"
-		url = "https://modrinth.com/modpack/the-fox-revolution"
+		url = "https://github.com/FTEdianiaK/the-fox-revolution"
 
 [custom]
 	#Must these variables be parsed along with other variables
