@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:chest"
+	id: "0B819351FE0BD676"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "minecraft:cooked_beef" }
+		{ count: 4, item: "minecraft:bread" }
+	]
+	title: "food"
+}

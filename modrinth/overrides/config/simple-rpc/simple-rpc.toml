@@ -1,0 +1,301 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1210644260823760987
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Minecraft %mcver% (Fabric)"
+	#The second line of text under the app name
+	state = "is initializing %mods% mods"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["flame"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack by F_TEK"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Ain't that a lot of mods?"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is"
+	#The second line of text under the app name
+	state = "idling in the menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["prism"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Perusing through %launcher%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "No creation comes without destruction."
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is"
+	#The second line of text under the app name
+	state = "looking for a friend"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["server"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Is anyone out there?"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is"
+	#The second line of text under the app name
+	state = "floating around Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["realms"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "I peered into the abyss..."
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is"
+	#The second line of text under the app name
+	state = "joining a game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["loading"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Any day now, right?"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is alone"
+	#The second line of text under the app name
+	state = "in %biome%"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["world"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Where in the %savename% is %player%?"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This world given to you, make sure it's returned in a better state."
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is with others"
+	#The second line of text under the app name
+	state = "in %biome%"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["world"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Where in the %servername% is %player%?"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Before our time, a group of %players% roamed these lands."
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is with others"
+	#The second line of text under the app name
+	state = "in %biome% "
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["world"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Where in the %realmname% is %player%?"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Once upon a time, %players% explorer(s) descended upon this Realm."
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[generic]
+	#The first line of text under the app name
+	description = "Minecraft %mcver% (Fabric)"
+	#The second line of text under the app name
+	state = "is doing... something?"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "No creation comes without destruction."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["prism"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Works using %launcher%"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "Get it here!"
+		url = "https://modrinth.com/modpack/the-fox-revolution"
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = ""
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "Roaming around in %world%"
+		smallImageKey = []
+		smallImageText = "Look at the trees, watch them burn."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = ""
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "Roughing it in %world%"
+		smallImageKey = []
+		smallImageText = "Even in fiery pits, things can get worse for the piglins."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = ""
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "The abyss peered back in %world%"
+		smallImageKey = []
+		smallImageText = "Dragon rules this dimension without any intervention."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "deeperdarker:otherside"
+		description = ""
+		state = ""
+		largeImageKey = ["deeperdarker"]
+		largeImageText = "Many souls ended in %world%"
+		smallImageKey = []
+		smallImageText = "The price for immortality is one most wouldn't pay."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecells:black_bridge"
+		description = ""
+		state = ""
+		largeImageKey = ["minecells"]
+		largeImageText = "Fancy a little challenge in %world%"
+		smallImageKey = []
+		smallImageText = "Is the challenge still fair when the very threads of this world are against you."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecells:insufferable_crypt"
+		description = ""
+		state = ""
+		largeImageKey = ["minecells"]
+		largeImageText = "Fancy a little challenge in %world%"
+		smallImageKey = []
+		smallImageText = "Is the challenge still fair when the very threads of this world are against you."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecells:prison"
+		description = ""
+		state = ""
+		largeImageKey = ["minecells"]
+		largeImageText = "Fancy a little challenge in %world%"
+		smallImageKey = []
+		smallImageText = "Is the challenge still fair when the very threads of this world are against you."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecells:promenade"
+		description = ""
+		state = ""
+		largeImageKey = ["minecells"]
+		largeImageText = "Fancy a little challenge in %world%"
+		smallImageKey = []
+		smallImageText = "Is the challenge still fair when the very threads of this world are against you."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "minecells:ramparts"
+		description = ""
+		state = ""
+		largeImageKey = ["minecells"]
+		largeImageText = "Fancy a little challenge in %world%"
+		smallImageKey = []
+		smallImageText = "Is the challenge still fair when the very threads of this world are against you."
+		buttons = []
+
+

@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "4FC6652C01F825FF", title: "Story Mode" }
+		{ id: "4D9515EE9951EFE0", title: "Walkthrough" }
+	]
+}

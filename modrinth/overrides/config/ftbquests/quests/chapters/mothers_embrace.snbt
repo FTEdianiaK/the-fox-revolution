@@ -1,0 +1,17 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mothers_embrace"
+	group: "4D9515EE9951EFE0"
+	icon: "botania:pink_mystical_flower"
+	id: "4A1AAFBAD66D001C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: [
+		"It's your turn to help nature."
+		"Botania"
+		"(Walkthrough)"
+	]
+	title: "Mother's Embrace"
+}

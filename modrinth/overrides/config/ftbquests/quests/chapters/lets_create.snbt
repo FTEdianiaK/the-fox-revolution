@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_create"
+	group: "4D9515EE9951EFE0"
+	icon: "immersive_paintings:glow_painting"
+	id: "236054BA49F61AB6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64EB2C42E08CFCF0"
+			rewards: [{
+				id: "0FCB58121CEDB730"
+				item: "supplementaries:altimeter"
+				type: "item"
+			}]
+			subtitle: "And don't forget to even it out!"
+			tasks: [{
+				id: "22AF7D3EA74AD3D1"
+				item: "measurements:tape_measure"
+				type: "item"
+			}]
+			title: "Pixel-perfect"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "713CFA7015694206"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "210E56713EA71384"
+				table_id: 829105786776704630L
+				type: "choice"
+			}]
+			subtitle: "You better be ready to push."
+			tasks: [{
+				id: "3E1B16DCA55B0874"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "Manual transportation"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["713CFA7015694206"]
+			id: "7F25B450F3BB49C2"
+			rewards: [{
+				count: 4
+				id: "42529DDAFC8A01D0"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Just don't blow it up."
+			tasks: [{
+				id: "51288A194DE1757F"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "Zeppelin's idea"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F25B450F3BB49C2"]
+			id: "08BA99538AFF0FC4"
+			rewards: [{
+				id: "5AF8FCD9034B4C26"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			subtitle: "Get ready for the delays."
+			tasks: [{
+				id: "00100FE16AA0E791"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "World-wide flights"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "2C30AEFD29092AF7"
+			shape: "gear"
+			tasks: [{
+				icon: "immersive_aircraft:propeller"
+				id: "645394E1E8F9FAA0"
+				title: "&lTransportation&r"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			id: "38AD824657E2782B"
+			rewards: [{
+				count: 32
+				id: "18C5B8063C590712"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			subtitle: "We didn't have this back in the Beta-testing days."
+			tasks: [{
+				id: "70F035EB05809AA5"
+				item: "connectedglass:borderless_glass"
+				type: "item"
+			}]
+			title: "Glass of tomorrow"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "152FDCE27BA071F2"
+			shape: "gear"
+			tasks: [{
+				icon: "immersive_paintings:painting"
+				id: "6D7D499CCFF9CB07"
+				title: "&lDecorations&r"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "4150804A49642D52"
+			rewards: [{
+				count: 2
+				id: "11113524159A6B4E"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			subtitle: "There's no thing as a mistake, just happy little accidents."
+			tasks: [{
+				id: "7F8C8DB4C0B75461"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			title: "Van Gogh's blessing"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "14EC28F3EB8B7219"
+			shape: "gear"
+			tasks: [{
+				icon: "toms_storage:ts.storage_terminal"
+				id: "50B476C68071B528"
+				title: "&lWarehouse&r"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "0D4E53443602CDB6"
+			rewards: [{
+				id: "5937053353C3C97D"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A higher ground not included."
+			tasks: [{
+				id: "7304612375370532"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A basic mode of travel"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D4E53443602CDB6"]
+			id: "57336AF58F424C0E"
+			rewards: [{
+				count: 16
+				id: "1FDE12C9E299A3D4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "The higher ground isn't even needed now."
+			tasks: [{
+				id: "2CBDE66F183C4F0D"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900.0f
+					}
+				}
+				type: "item"
+			}]
+			title: "A more advanced mode"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4150804A49642D52"]
+			id: "0752AA452C65FF54"
+			rewards: [{
+				count: 2
+				id: "72DC88A049BDBAD8"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			subtitle: "And your creativity will style the walls."
+			tasks: [{
+				id: "0C38BFAFA2A32924"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			title: "Just a press"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "2A5117868AE203C2"
+			rewards: [{
+				count: 6
+				id: "262586243942E28A"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Easy way to make a warehouse."
+			tasks: [{
+				id: "3BDC87FEBCF4620E"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "A storage interface"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12C07321A3F50FF3"]
+			id: "4AB795519A27FE1A"
+			rewards: [{
+				count: 4
+				id: "6E727433ED7160E0"
+				item: "ironchest:wood_iron_upgrade"
+				type: "item"
+			}]
+			subtitle: "A C00L way to craft."
+			tasks: [{
+				id: "518D25B1285AF3AD"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "A crafting interface"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4AB795519A27FE1A"]
+			id: "18930C7D87D58F8E"
+			rewards: [{
+				count: 2
+				id: "7725991703E0E83E"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "Pinging the crafting server."
+			tasks: [{
+				id: "1D09D33F273263F1"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "A remote access"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A5117868AE203C2"]
+			id: "12C07321A3F50FF3"
+			rewards: [{
+				count: 8
+				id: "2C03E1DBF0D23393"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "A closed alternative to mechanical belts."
+			tasks: [{
+				id: "14BEE4AE5CB74F01"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "A storage connector"
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	subtitle: [
+		"Many new wonders await."
+		"Technology"
+	]
+	title: "Fly Around"
+}

@@ -1,0 +1,48 @@
+{
+	icon: "minecraft:chest"
+	id: "0D710E9C05611A36"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mcdw:hammer_suns_grace"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "mcdw:radiance"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mcdw:soul_dagger_eternal_knife"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "mcdw:soul_siphon"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mcdw:crossbow_corrupted_crossbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "mcdw:dynamo"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+	]
+	title: "starweaps"
+}

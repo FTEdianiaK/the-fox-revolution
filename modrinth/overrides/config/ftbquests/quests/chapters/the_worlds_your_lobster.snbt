@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_worlds_your_lobster"
+	group: "4D9515EE9951EFE0"
+	icon: "minecraft:spyglass"
+	id: "2EEFB0D998EE0174"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39E9854CAE64CC6F"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "3FA433FE2904679D"
+				item: "minecraft:parrot_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "I don't really need this though."
+			tasks: [{
+				id: "7BDFC26C2F3256DB"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "I spy with my little eye"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "5D2F1D1A4A095836"
+			invisible: true
+			rewards: [{
+				id: "73F5BCFFF3B474C6"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}
+						]
+						RepairCost: 3
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "What a cute little rascal."
+			tasks: [{
+				advancement: "friendsandfoes:adventure/complete_hide_and_seek_game"
+				criterion: ""
+				id: "160AE6F20F4934ED"
+				type: "advancement"
+			}]
+			title: "Why hi there"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "1A37E452353932D8"
+			invisible: true
+			rewards: [
+				{
+					id: "55D0E57DF0DB6FE2"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "3A26382FAAE8C887"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "2A67C84E147EBD8C"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "I'm gonna let you dual class."
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "200553F664ECCA48"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 2
+			}]
+			title: "Nat 1"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "218432F4D8D7EB18"
+			invisible: true
+			rewards: [{
+				count: 16
+				id: "54C14F0A10090EEA"
+				item: "connectedglass:borderless_glass"
+				type: "item"
+			}]
+			subtitle: "Finally settled down."
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "5E8386E86C8B20A2"
+				type: "advancement"
+			}]
+			title: "Sleep sweet sleep"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "68008196946F40B1"
+			invisible: true
+			rewards: [
+				{
+					id: "7F36FCF1604A0CA4"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					id: "048B91C1A7E81914"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			subtitle: "And spin it around."
+			tasks: [{
+				id: "6911F2619F6614ED"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			title: "To see the world"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "5522826F970E42AD"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:magma_cube_spawn_egg"
+				id: "4B02E79AFDCA25FC"
+				title: "&lEaster Eggs&r"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "7926FDB2AEC2B5A8"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:magma_cube_spawn_egg"
+				id: "4B126BA633510763"
+				title: "&lEaster Eggs&r"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "12C7379BEB69D0E2"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:magma_cube_spawn_egg"
+				id: "2F55546A48BE8FAA"
+				title: "&lEaster Eggs&r"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "107EDFCCEED1BBD6"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:magma_cube_spawn_egg"
+				id: "0E706AE70D2595B9"
+				title: "&lEaster Eggs&r"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "520D4F14D2E78846"
+			invisible: true
+			rewards: [{
+				id: "3CA6E41CB065F338"
+				item: "ironchest:iron_diamond_upgrade"
+				type: "item"
+			}]
+			subtitle: "Some would call it magic, I call it mineral."
+			tasks: [{
+				id: "3348FDD6219C6975"
+				item: "ironchest:wood_iron_upgrade"
+				type: "item"
+			}]
+			title: "A storage upgrade"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Enchanting isn't far from rocket science with how difficult it is, so allow me to explain it to you a bit."
+				"{@pagebreak}"
+				"There are three main aspects of crafting:"
+				"&n&aEterna&r represents how strong your enchantment is, increasing the level cost. "
+				"&n&cQuanta&r is a measure of randomness, changing just how much luck is involved. "
+				"&n&dArcana&r increases the number of enchantments and makes rare enchantments more common. "
+			]
+			id: "3054F11FDE1C2994"
+			invisible: true
+			rewards: [{
+				count: 6
+				id: "705C19CF35FF6474"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			subtitle: "Chookity-pookity, let me get a sharpness twentity."
+			tasks: [{
+				id: "697C06C3422F7EA6"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Time to magic"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3B720890149924BF"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "6516F260DC1B1587"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Told you to keep an eye on your folder hierarchy."
+			tasks: [{
+				advancement: "minecells:root"
+				criterion: ""
+				id: "11010F1616E21DD8"
+				title: "Find a portal to the Prisoner's Quarters"
+				type: "advancement"
+			}]
+			title: "When two .exe files collide"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4F27ED25516A4B1A"
+			invisible: true
+			rewards: [{
+				id: "064D0FDE2DE0251C"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			subtitle: "Pop, pop, pop!"
+			tasks: [{
+				id: "51A20A75C0403FEE"
+				item: "supplementaries:soap_block"
+				type: "item"
+			}]
+			title: "Let's make some bubbles"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D09F0B2E121523E"]
+			id: "12B07666A92A2F93"
+			rewards: [{
+				count: 12
+				id: "3358A50B8A2A8145"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "The inhabitants of this place are ready to trade too."
+			tasks: [{
+				id: "1B68D8F97A2829F1"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Come one, come all"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "625793721736F571"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "066F3B626D4A40FE"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3054F11FDE1C2994"
+				"1A37E452353932D8"
+				"3B720890149924BF"
+				"68008196946F40B1"
+				"5D2F1D1A4A095836"
+				"39E9854CAE64CC6F"
+				"12B07666A92A2F93"
+				"4F27ED25516A4B1A"
+				"107EDFCCEED1BBD6"
+				"12C7379BEB69D0E2"
+				"520D4F14D2E78846"
+				"218432F4D8D7EB18"
+			]
+			hide_dependency_lines: true
+			id: "14EC955BA0DECB9D"
+			invisible: true
+			subtitle: "Woah, you've done it!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "botania:third_eye"
+				id: "06FF1271612C86B1"
+				title: "To see it all"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "4DAF49CD7F4889E0"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "208F885AB7687B6E"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "4846C392BB87F93A"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "6954F4270E78C5F7"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "6318EF5367B569E5"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "472846ACBB2CACA4"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "24718DE01EB63F87"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "24593F2B684C89C8"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "376BC1D5B9C18FC0"
+			subtitle: "W.I.P."
+			tasks: [{
+				icon: "createutilities:void_steel_block"
+				id: "0E6A87E73AC8C76E"
+				title: "Placeholder"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"Who says you can't explore."
+		"Exploration"
+	]
+	title: "The World's Your Lobster"
+}

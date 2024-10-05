@@ -1,0 +1,187 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				bee = true
+				axolotl = true
+				egg = true
+				arrow = true
+				cow = true
+				pig = true
+				allay = true
+				skeleton = true
+				llama = true
+				bat = true
+				frog = true
+				husk = true
+				hoglin = true
+				camel = true
+				experience_bottle = true
+				rabbit = true
+				firework_rocket = true
+				armor_stand = true
+				giant = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				stray = true
+				salmon = true
+				goat = true
+				ocelot = true
+				furnace_minecart = true
+				item_frame = true
+				vindicator = true
+				horse = true
+				phantom = true
+				ender_dragon = true
+				leash_knot = true
+				evoker = true
+				llama_spit = true
+				glow_squid = true
+				warden = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				dragon_fireball = true
+				chicken = true
+				donkey = true
+				evoker_fangs = true
+				tropical_fish = true
+				chest_minecart = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				blaze = true
+				end_crystal = true
+				endermite = true
+				cat = true
+				zombie = true
+				ender_pearl = true
+				item_display = true
+				guardian = true
+				ghast = true
+				sheep = true
+				fireball = true
+				player = true
+				pufferfish = true
+				illusioner = true
+				eye_of_ender = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				zombie_villager = true
+				tnt_minecart = true
+				block_display = true
+				elder_guardian = true
+				chest_boat = true
+				boat = true
+				polar_bear = true
+				hopper_minecart = true
+				falling_block = true
+				painting = true
+				cave_spider = true
+				interaction = true
+				cod = true
+				witch = true
+				spider = true
+				command_block_minecart = true
+
+			[light_sources.settings.entities.naturalist]
+				zebra = true
+				deer = true
+				rattlesnake = true
+				snail = true
+				canary = true
+				rhino = true
+				firefly = true
+				bluejay = true
+				coral_snake = true
+				snake = true
+				cardinal = true
+				lion = true
+				vulture = true
+				boar = true
+				robin = true
+				bass = true
+				tortoise = true
+				giraffe = true
+				butterfly = true
+				bear = true
+				sparrow = true
+				elephant = true
+				lizard = true
+				finch = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				tank = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				biplane = true
+
+			[light_sources.settings.entities.minecells]
+				shieldbearer = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				copper_golem = true
+				mauler = true
+				rascal = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				bamboo_creeper = true
+				snowy_creeper = true
+				ocean_creeper = true
+				dark_oak_creeper = true
+				jungle_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				hills_creeper = true
+				spruce_creeper = true
+
+			[light_sources.settings.entities.deeperdarker]
+				shattered = true
+				sculk_centipede = true
+
+			[light_sources.settings.entities.aquamirae]
+				anglerfish = true
+				tortured_soul = true
+				maze_mother = true
+				spinefish = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				sorcerer = true
+				provoker = true
+				inquisitor = true
+				marauder = true
+

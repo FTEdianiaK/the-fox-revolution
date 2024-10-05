@@ -1,0 +1,322 @@
+{
+	autofocus_id: "1C9F10B7B5542EDF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_leaving_the_den"
+	group: "4FC6652C01F825FF"
+	icon: "minecraft:tall_grass"
+	id: "064785A04A397E53"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It's been quite a long time now since people last seen anything of the &l&6Revolutionaries&r. Years, maybe even decades."
+				""
+				"The guild of monumental technological wonder and all its members seeminlgy vanished into thin air, leaving behind only the collosal structures which were now lost to time and nature."
+				"{@pagebreak}"
+				"But within one of those constructs, they left this book."
+				""
+				"&l&6The Revolutionarium&r, which could possible be the key to reconstructing their long lost innovations and maybe even to figuring out why they dissapeared in the first place."
+			]
+			id: "35A5660839324BA2"
+			rewards: [{
+				auto: "enabled"
+				id: "27821E160A05B6EE"
+				item: {
+					Count: 1
+					id: "ftbquests:book"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"The Revolutionarium\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The beginning of the end."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:tall_grass"
+				id: "197DB50539D5BE45"
+				title: "And so it begins..."
+				type: "dimension"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35A5660839324BA2"]
+			description: [
+				"After the book was found and its copies released, many adventurers wandered out into the &aOverworld&r, each with a different reason in mind."
+				"{@pagebreak}"
+				"Some in plain desire of finding riches and fame for themselves."
+				""
+				"Some hoping to find out more about the fate of the lost &l&6Revolutionaries&r."
+				""
+				"Others even believing that they could bring back their long-lost technologies."
+				"{@pagebreak}"
+				"So it came that one day, you wanted to became an adventurer as well."
+				""
+				"Armed with some of the remaining gear of the lost guild and your own copy of &l&6The Revolutionarium&r, you left behind the cozy den that you called home and set out, looking for your own story to tell."
+				""
+				"For what reason though? That's up to you to decide."
+			]
+			icon: "create:goggles"
+			id: "1C9F10B7B5542EDF"
+			rewards: [{
+				id: "055A789966FDF776"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Count: 8b
+									Slot: 0b
+									id: "minecraft:oak_planks"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:crafting_table"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:leather_leggings"
+									tag: {
+										Damage: 0
+										Trim: {
+											material: "minecraft:redstone"
+											pattern: "minecraft:ward"
+										}
+										display: {
+											color: 10329495
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "create:goggles"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "botania:lexicon"
+								}
+								{
+									Count: 6b
+									Slot: 9b
+									id: "minecraft:oak_log"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:leather_boots"
+									tag: {
+										Damage: 0
+										Trim: {
+											material: "minecraft:redstone"
+											pattern: "minecraft:snout"
+										}
+										display: {
+											color: 10329495
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "minecraft:shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 4b
+									Slot: 17b
+									id: "minecraft:cooked_salmon"
+								}
+								{
+									Count: 1b
+									Slot: 18b
+									id: "minecraft:wooden_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 19b
+									id: "minecraft:wooden_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 21b
+									id: "minecraft:lantern"
+								}
+								{
+									Count: 4b
+									Slot: 24b
+									id: "minecraft:torch"
+								}
+								{
+									Count: 32b
+									Slot: 25b
+									id: "minecraft:dirt"
+								}
+								{
+									Count: 4b
+									Slot: 26b
+									id: "minecraft:apple"
+								}
+							]
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Left behind by the ones before us."
+			tasks: [{
+				id: "4904C757607E9228"
+				title: "Revolutionary gear"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["35A5660839324BA2"]
+			description: [
+				"You may have already chosen yours, but maybe there is still time to rewrite it."
+				""
+				"When choosing an origin, remember this, it's really hard to find friends in this world and making enemies out of the inhabitants of the local settlements is a really bad idea."
+				""
+				"&c(Don't abuse this power given to you.)&r"
+			]
+			id: "4189AA26BF9C1929"
+			rewards: [{
+				id: "56D4C1F6C4E46FA8"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "Your origins may just seal your fate."
+			tasks: [{
+				id: "1A57EEF358C637ED"
+				title: "Changing your destiny"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1C9F10B7B5542EDF"
+				"367079F18E7E7FE4"
+			]
+			description: ["Oh, and I left some change in it as well."]
+			hide_text_until_complete: true
+			id: "60DC5B51AC3D4EFB"
+			progression_mode: "linear"
+			rewards: [{
+				count: 2
+				id: "33F339BDE274DBFA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Yeah, I forgot mine back home."
+			tasks: [{
+				id: "4F6427B10E9D7057"
+				item: "beansbackpacks:backpack"
+				type: "item"
+			}]
+			title: "A way to carry more"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C9F10B7B5542EDF"]
+			description: ["Even if the night aren't cold just yet, a campfire may be a nice way to light up the dark. Or to roast some meat. Or to heal the scars."]
+			id: "47B5A7ABE8CA3E3C"
+			rewards: [{
+				count: 8
+				id: "02CCA074641719AE"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			subtitle: "And to cook food."
+			tasks: [{
+				id: "38F25DF4460FD04F"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "A fire to warm yourself with"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60DC5B51AC3D4EFB"]
+			description: ["Seems like you had some iron left over."]
+			hide_text_until_complete: true
+			id: "4F2466368121F309"
+			rewards: [{
+				id: "7C7C9659A5AEF0BB"
+				item: "ironchest:wood_iron_upgrade"
+				type: "item"
+			}]
+			subtitle: "Though it must be quite a lot heavier."
+			tasks: [{
+				id: "40384F3D87F97A8D"
+				item: "beansbackpacks:metal_backpack"
+				type: "item"
+			}]
+			title: "A way to carry even more"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F2466368121F309"]
+			description: ["How did that get in here?"]
+			hide_text_until_complete: true
+			id: "60999DC4BEFAEDD9"
+			rewards: [{
+				id: "4F609E8E86B6BC7B"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			subtitle: "Careful not to break your break though!"
+			tasks: [{
+				id: "5A9C9705D88CB276"
+				item: {
+					Count: 1
+					id: "beansbackpacks:metal_backpack"
+					tag: {
+						backpack_id: "netherite"
+					}
+				}
+				type: "item"
+			}]
+			title: "A way to carry the world"
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	subtitle: [
+		"Don't wait for the world to be ready."
+		"Exploration"
+	]
+	title: "Leaving The Den"
+}

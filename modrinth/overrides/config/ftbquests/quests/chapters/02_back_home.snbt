@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02_back_home"
+	group: "4FC6652C01F825FF"
+	icon: "minecraft:oak_door"
+	id: "3E4A38C5ADF38BEF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Even after travelling through the world, your own person being changed in the progress, you still feel rather compelled to come back home, to the people you know."
+				""
+				"You're sure that they haven't forgotten you, gladly trading their treasures for yours. Maybe there could be some work for you to do as well."
+			]
+			id: "367079F18E7E7FE4"
+			invisible: true
+			rewards: [{
+				id: "09086843178A3409"
+				item: "beansbackpacks:backpack"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "I still can't tell where the road will take me."
+			tasks: [{
+				icon: "minecraft:villager_spawn_egg"
+				id: "4A0117A0BE2A7779"
+				observe_type: 5
+				timer: 0L
+				title: "Meet a villager"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "To return back to the start"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["367079F18E7E7FE4"]
+			description: ["Clearing the mobs, finding supplies, no-one ever knows what the next job will require, so don't laze about and grab a bounty off the board."]
+			id: "7F22C4F021229743"
+			subtitle: "There's always work to be done around the village."
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "4363DC41A6F23D9B"
+				observe_type: 0
+				timer: 0L
+				title: "Find a bounty board"
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "To lend a helping hand"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F22C4F021229743"]
+			description: ["And don't forget to turn it in afterwards."]
+			id: "691EB5DAC671A880"
+			rewards: [{
+				count: 8
+				id: "2849659EA9FA1B14"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Now just to finish this before the deadline."
+			tasks: [{
+				id: "379BAE53405D4475"
+				item: {
+					Count: 1
+					id: "bountiful:bounty"
+					tag: {
+						"bountiful:bounty_data": "{}"
+						"bountiful:bounty_info": "{}"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "To get a job done"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["367079F18E7E7FE4"]
+			description: ["Books, arrows, food – you want it? It's yours, my friend, as long as you have enough emeralds."]
+			id: "534FCB5DB49ECE33"
+			rewards: [{
+				count: 3
+				id: "32D1DD93F847BDC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "You are richer already."
+			tasks: [{
+				id: "2608042BC7FD3A50"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "To give no credit"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["367079F18E7E7FE4"]
+			description: [
+				"One of the remaining inventions, discovered by the &l&6Revolutionaries&r, that's still used to this day are the Waystones."
+				""
+				"These magical cornerstones are built on powerful nexuses of the underlying laylines, which spread across the entire &aOverworld&r."
+				"{@pagebreak}"
+				"Those that are sensitive to these laylines can then use them as gateways to any of the nexuses that they previously discovered."
+				""
+				"You, luckily, are one of them."
+			]
+			id: "7755119F00DC8E55"
+			rewards: [{
+				count: 8
+				id: "5CAA298B75984A2A"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			subtitle: "See the lines behind your view shiver."
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "54B4FDBC517DE210"
+				observe_type: 0
+				timer: 0L
+				title: "Find a waystone"
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			title: "To travel around"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7755119F00DC8E55"]
+			description: [
+				"There seems to be more to those Waystones than it seemed."
+				""
+				"Reading through &l&6The Revolutionarium&r reveals that they aren't built on some existing nexuses."
+				"{@pagebreak}"
+				"Instead, they take the leylines and twist them around to create the nexus themselves."
+				""
+				"This could theoratically allow you to create your own Waystones and transportation points. Interesting."
+			]
+			id: "52B43F39BA678657"
+			subtitle: "Figuring out the quantum mechanics of a magical spell."
+			tasks: [{
+				id: "151033E77D0379EC"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "To tie up the lines"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B0FF99AAA832640"]
+			description: [
+				"Getting a treasure map from a local cartographer, you set out to find hidden treasure."
+				""
+				"You can't even start to imagine what you might find in there."
+				""
+				"Riches, materials, maybe even some relics with magical properties."
+			]
+			id: "50D59BFCFBCB827C"
+			rewards: [{
+				id: "27BEEAA178EF8F99"
+				item: {
+					Count: 1
+					id: "mermod:sea_necklace"
+					tag: {
+						necklace_modifiers: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Things hide in sunken treasure chests."
+			tasks: [{
+				id: "4FA2EA6EE940CD58"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "To dive under the sea"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["367079F18E7E7FE4"]
+			description: [
+				"Something doesn't feel right ever since you've killed that captain."
+				""
+				"You feel uneasy and on edge, but you have a reason to be."
+				"{@pagebreak}"
+				"Whenever you turn, you could swear that you saw a scout of sorts looking at you."
+				""
+				"It must be paranoia, you hope it is."
+			]
+			id: "600536F9CF043D6E"
+			subtitle: "I've got a bad feeling about this."
+			tasks: [{
+				id: "7315B1D32CE420A2"
+				item: {
+					Count: 1
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 9
+									Pattern: "mr"
+								}
+								{
+									Color: 8
+									Pattern: "bs"
+								}
+								{
+									Color: 7
+									Pattern: "cs"
+								}
+								{
+									Color: 8
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "ms"
+								}
+								{
+									Color: 8
+									Pattern: "hh"
+								}
+								{
+									Color: 8
+									Pattern: "mc"
+								}
+								{
+									Color: 15
+									Pattern: "bo"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						HideFlags: 32
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "To cross the odd fellowes"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["600536F9CF043D6E"]
+			description: [
+				"The scout followed you!"
+				""
+				"The pillagers started a raid."
+				"{@pagebreak}"
+				"You have to protect your village!"
+				""
+				"Whatever it takes, this settlement can not fall!"
+			]
+			id: "342E3F19D891E45F"
+			rewards: [
+				{
+					id: "211AFCA03813B3E0"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C270272F1930FC3"
+					item: {
+						Count: 1
+						id: "supplementaries:quiver"
+						tag: {
+							SelectedSlot: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "To arms! Save the village!"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6820C2824D47246A"
+				type: "kill"
+				value: 3L
+			}]
+			title: "To ring the bells"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"691EB5DAC671A880"
+				"342E3F19D891E45F"
+			]
+			description: [
+				"Thanks to your help, the local economy is thriving and there are still people around to help it prosper."
+				"{@pagebreak}"
+				"You really are a hero."
+			]
+			id: "464733BBB55DDCD6"
+			rewards: [{
+				id: "49A3982D24C263A6"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "mcda:heros_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "mcda:heros_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "mcda:heros_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "mcda:heros_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "I've saved the town!"
+			tasks: [{
+				id: "389E10BF8EB2E607"
+				title: "Hero"
+				type: "checkmark"
+			}]
+			title: "To be a hero"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["534FCB5DB49ECE33"]
+			description: ["The trading post offers a very efficient way for the villagers to give you trade offers, all in one place."]
+			id: "7B0FF99AAA832640"
+			rewards: [{
+				id: "163561E307A89206"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "And at the same time."
+			tasks: [{
+				id: "1BFD5BD26EC36500"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "To trade it all"
+			x: -6.0d
+			y: -2.0d
+		}
+	]
+	subtitle: [
+		"All roads lead..."
+		"Villages"
+	]
+	title: "Back Home"
+}

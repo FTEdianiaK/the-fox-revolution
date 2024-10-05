@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_create_2"
+	group: "4D9515EE9951EFE0"
+	icon: "create:cogwheel"
+	id: "700ADDF90A9BFFD4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C6A98C6ED6C0AB7"
+			shape: "rsquare"
+			subtitle: "Andesite, the most vital ingredient."
+			tasks: [{
+				id: "0EEB1D86D7A9BA48"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Time to create"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C6A98C6ED6C0AB7"]
+			id: "55F147BD8536AAF9"
+			subtitle: "First steps on a fantastical journey."
+			tasks: [{
+				id: "1F7435ABF8AE2A9F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Baby steps"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F147BD8536AAF9"]
+			id: "77FF181D7F540CFB"
+			subtitle: "Now, we just need power."
+			tasks: [{
+				id: "7743585610A51D4F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "A way to connect"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77FF181D7F540CFB"]
+			id: "568F32E086BF43E7"
+			rewards: [{
+				id: "3194365D2E43C703"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Let it flow, let it flow, let it flow."
+			tasks: [{
+				id: "384E61D1DC9A56B5"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Harnessing the water"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FF181D7F540CFB"]
+			id: "6E10185A244F42BE"
+			rewards: [{
+				count: 6
+				id: "41DF91C54267D2D8"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Here be dragons, Sancho."
+			tasks: [
+				{
+					id: "5E9ECCAA8A92117B"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "4BEBB78761A975CF"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Harnessing the wind"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"568F32E086BF43E7"
+				"6E10185A244F42BE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"By placing a large wheel to a smaller one, you can increase its speed."
+				""
+				"Do this multiple times in a row and you'll have the quickest machine in existence."
+			]
+			id: "0B5364CF1B567DA5"
+			subtitle: "Time to expand."
+			tasks: [
+				{
+					id: "319FCE8287B23DA3"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7D7F56FF0E410FF9"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "A simple shift"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B5364CF1B567DA5"]
+			id: "7A5A9E9497B8CEC2"
+			subtitle: "In andesite alloy!"
+			tasks: [{
+				id: "52FC9FBBBE09C4E9"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Encasing the heart"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A5A9E9497B8CEC2"]
+			description: [
+				"Oh no, you smashed your precious goggles!"
+				"{@pagebreak}"
+				"Time to make new ones :D"
+			]
+			hide_text_until_complete: true
+			id: "0AE32CAE90F20CC9"
+			rewards: [{
+				count: 4
+				id: "667C148E04972430"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Beware the news!"
+			tasks: [
+				{
+					id: "73DF32907E19F169"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5FE5DFE3A802EE39"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "The mechanical press"
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE32CAE90F20CC9"]
+			id: "1F00B9C8B6382212"
+			subtitle: "Like stress units and more."
+			tasks: [{
+				id: "16D7D12149678D3D"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "A way to see more"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174E98DCD82DECEC"]
+			id: "4B6C1D04A18DD342"
+			subtitle: "To a more industrial grade!"
+			tasks: [
+				{
+					id: "127A419FD308C9C7"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "5642CD14E74618B7"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Upgrading the axe"
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F00B9C8B6382212"]
+			id: "174E98DCD82DECEC"
+			subtitle: "I'm never without."
+			tasks: [{
+				id: "759F3E78A8BD22D2"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Tools of the trade"
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F00B9C8B6382212"]
+			id: "1AED838639BAB86B"
+			subtitle: "Now I can make soup!"
+			tasks: [
+				{
+					id: "372D4F28DC29A662"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "1BFB7CFED87F1A4D"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "More ways to process"
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3401F393F044B1DD"]
+			id: "7907839BE5FAAC21"
+			subtitle: "Hear the winds blow."
+			tasks: [{
+				id: "2B71608BFFE5CBA8"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Careful now"
+			x: 29.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AED838639BAB86B"]
+			description: ["Use it by connecting two shafts."]
+			id: "3401F393F044B1DD"
+			subtitle: "Now, we can get things moving."
+			tasks: [{
+				id: "24A5B424F71BA1F0"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Logistical advancement"
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7907839BE5FAAC21"]
+			id: "014BD2FE26230BAE"
+			subtitle: "Now we just need a depot."
+			tasks: [{
+				id: "2B48471F7F6E05F5"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Another way of import"
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["014BD2FE26230BAE"]
+			id: "204DF4C69FBA53A6"
+			subtitle: "It's a depot."
+			tasks: [{
+				id: "261529F91301E1E1"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "What do you know"
+			x: 35.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["204DF4C69FBA53A6"]
+			id: "7EE4DA8065AF2B6E"
+			subtitle: "What an em&lbrass&ring thing."
+			tasks: [{
+				id: "4439FFC27A6F86C2"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Logistics of tommorrow"
+			x: 38.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["014BD2FE26230BAE"]
+			id: "6C13BB5C85A09A2B"
+			subtitle: "Nothing against frogs, but..."
+			tasks: [{
+				id: "1DEDE8F56859BBB6"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Hoppers are old"
+			x: 35.5d
+			y: 0.0d
+		}
+		{
+			id: "254CC3072829F7A6"
+			tasks: [{
+				id: "2E9731A61B6E0725"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.0d
+			y: 3.5d
+		}
+		{
+			id: "019928A2D92FB53E"
+			tasks: [{
+				id: "7A6CDEDD36F2F65A"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 42.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B6C1D04A18DD342"]
+			id: "47CEC710B34B9C70"
+			subtitle: "To a stronger level!"
+			tasks: [{
+				id: "10BC2C221A242F8B"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Upgrading the pickaxe"
+			x: 29.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47CEC710B34B9C70"]
+			id: "31856136084A1D05"
+			subtitle: "Okay, it's time to stop."
+			tasks: [{
+				id: "15E5C6D69F23588A"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Upgrading the villager"
+			x: 32.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31856136084A1D05"]
+			description: ["Har-har."]
+			id: "4E30F26AF68C8DBF"
+			subtitle: "..."
+			tasks: [{
+				id: "27284730442AAE32"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Upgrading the player"
+			x: 35.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F00B9C8B6382212"]
+			description: ["No, I have no idea what that little arrow means."]
+			id: "5F787E0FCB441C9D"
+			subtitle: "Why, yes, yes..."
+			tasks: [{
+				id: "557B5A83E5E543BF"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "Getting an exact reading"
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C13BB5C85A09A2B"]
+			id: "74B263CE0FB58677"
+			rewards: [{
+				id: "6C7544AF933C6143"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Oh, and steam, I guess."
+			tasks: [{
+				id: "66F0D3ECA1FB9DAE"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Entering the blaze era"
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DCE753E5868FFE5"]
+			id: "4948961348DEEAAF"
+			rewards: [{
+				count: 6
+				id: "14719D1CA98C3B68"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "... Again?"
+			tasks: [{
+				id: "3CBD8E6ECDE7D93A"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "It sucks"
+			x: 47.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4948961348DEEAAF"]
+			id: "5921A5E8EC8F985D"
+			subtitle: "Hah, get it? It's for a well."
+			tasks: [{
+				id: "29EA136605F45B79"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "A well-made machine"
+			x: 50.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74B263CE0FB58677"]
+			id: "452893C567867760"
+			subtitle: "And even more ahead."
+			tasks: [{
+				id: "1DA3085BE30911E6"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Adult steps"
+			x: 41.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["452893C567867760"]
+			id: "4DCE753E5868FFE5"
+			subtitle: "In copper casing!"
+			tasks: [{
+				id: "085618BD97149BE3"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Encasing the future"
+			x: 44.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4948961348DEEAAF"]
+			id: "1D625EE4230190F5"
+			tasks: [{
+				id: "30729CF2371063AC"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4948961348DEEAAF"]
+			id: "4D61679745EFC502"
+			subtitle: "Where's a Gabe, when you need one?"
+			tasks: [{
+				id: "3078C017340F455B"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam, finally"
+			x: 50.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D61679745EFC502"]
+			id: "5BC545F7AC03AD05"
+			subtitle: "What's below the waves?"
+			tasks: [
+				{
+					id: "1519FB9E207C1553"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D2C1A890FA61BBE"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Time for a deep dive"
+			x: 53.5d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"The gears start turning."
+		"Create"
+		"(Walkthrough)"
+	]
+	title: "Let's Create"
+}

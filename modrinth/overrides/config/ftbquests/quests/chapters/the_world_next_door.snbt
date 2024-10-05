@@ -1,0 +1,1411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_world_next_door"
+	group: "4FC6652C01F825FF"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:sculk_vein"
+	id: "3BC5B88FDC4657F8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E55E6B06A4BCBCF"]
+			description: [
+				"As you lit the portal on fire, you felt like you just made an irreversible mistake."
+				"{@pagebreak}"
+				"The world behind the portal is a hellish land-scape, filled with fire and strange monsters that you haven't seen before."
+				""
+				"But it seems like you aren't the first one to get here, seeing the remains of strongly defended buildings in the distance. Maybe they hide the answer."
+				"{@pagebreak}"
+				"You may safely venture forth now into this unknown plane."
+				""
+				"The portal remains open, securing your return to the &aOverworld&r whenever you'd like to take the opportunity."
+			]
+			id: "2D09F0B2E121523E"
+			rewards: [{
+				id: "773E62EEC8A6E977"
+				item: "majruszsdifficulty:recall_potion"
+				type: "item"
+			}]
+			subtitle: "The barriers shake and crumble"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "02CBCE9A7BA8A0F1"
+				title: "Get to the &cNether&r"
+				type: "dimension"
+			}]
+			title: "Making the same mistakes"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624376E1F1DBFE45"]
+			description: [
+				"Stepping through the portal, you find yourself at the &dEnd&r."
+				""
+				"There's nothing after this, you know this."
+				"{@pagebreak}"
+				"And so did the &6&lRevolutionaries&r when they stepped through it before scattering the eyes."
+				""
+				"There's no way back, effectively trapping you here."
+				"{@pagebreak}"
+				"You'll never see the &aOverworld&r again."
+				""
+				"Or your village."
+				""
+				"This really is... &dThe End&r."
+			]
+			id: "0FB9F1DEDC797477"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "1867A545214C4CB3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "There's no escaping the consequences of our actions."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "302365E42C976A34"
+				title: "Go to The End"
+				type: "dimension"
+			}]
+			title: "Finding what remains"
+			x: 26.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3527AF3D6836490A"]
+			description: [
+				"The final result of Project Soul Capture?"
+				"{@pagebreak}"
+				"Its makers never left."
+				""
+				"Their souls forever trapped in the in-between they built themselves."
+				"{@pagebreak}"
+				"They tried to capture the life essence of others."
+				""
+				"Instead, they only captured their own."
+			]
+			id: "7B492FFD9C5A1512"
+			rewards: [{
+				id: "6BCB609D26323E3E"
+				item: "majruszsdifficulty:soul_jar"
+				type: "item"
+			}]
+			subtitle: "Where souls go to die."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:sculk"
+				id: "5EFB737A7439CD02"
+				title: "Go to the Otherside"
+				type: "dimension"
+			}]
+			title: "The deep dark deep dark"
+			x: 29.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F6FC99384DC6A7B"]
+			description: [
+				"The archivist was indeed of no help, but the books he collected fortunately seemed to hold the key."
+				""
+				"The &6&lRevolutionaries&r actually found a solution to stopping the infection."
+				"{@pagebreak}"
+				"To stop the infection, you'll need to place four two-block-high pillars around the portal."
+				""
+				"Their material being gold blocks, seemingly to pay the entities of the &cNether&r to keep their own powers at bay."
+			]
+			id: "0D0BAFC20EB39FAE"
+			rewards: [{
+				count: 2
+				id: "544755E6D0892327"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			subtitle: "Before the world ends."
+			tasks: [{
+				count: 8L
+				id: "410F6A762CD0AD7D"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "To stop the infection"
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Flipping through the pages, you find ancient writing documenting a theory of another dimension hidden deep beneath the impenetrable core of the &aOverworld&r."
+				""
+				"This so called \"&cNether&r\" seemed to fascinate the &l&6Revolutionaries&r. They sketched up a possible gateway, which could be used to travel into this other dimension."
+				"{@pagebreak}"
+				"Better not to build it in or close to your base though. Who knows what the gateway might do, supposing it doesn't just explode."
+			]
+			id: "1E55E6B06A4BCBCF"
+			shape: "rsquare"
+			subtitle: "It shouldn't be opened."
+			tasks: [
+				{
+					id: "5C6E209F4C791583"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "3DDF02787171CF02"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The gateway beckons"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A6FE0A920756C44"]
+			description: [
+				"You killed the warden."
+				"{@pagebreak}"
+				"At its heart was a captured soul."
+				""
+				"Forever frozen in time and stopped from getting eternal peace."
+				"{@pagebreak}"
+				"This was the reason why Project Soul Capture failed."
+				""
+				"Dying souls don't like being kept as immortal beings."
+				""
+				"Luckily, this one was finally freed."
+				"{@pagebreak}"
+				"In its place was just the evil machinery that started this, the Heart of the Deep."
+				""
+				"Pulsating in your hands like a broken pump, your surroundings seem to react to it."
+			]
+			id: "6808865AE0E64E42"
+			rewards: [{
+				id: "5EBC9F2EB877E2C4"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "And the silence is defeaning."
+			tasks: [
+				{
+					id: "2F7CB1D44270FBD9"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					entity: "minecraft:warden"
+					id: "5F3F5ED7498D21C7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The darkness responds"
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FB9F1DEDC797477"]
+			description: [
+				"You look around."
+				""
+				"All you can see are enderman."
+				""
+				"No human remains or other traces of the &6&lRevolutionaries&r ever being here."
+				""
+				"That's when it hits you."
+				"{@pagebreak}"
+				"Of course."
+				""
+				"The enderman &lare&r the &6&lRevolutionaries&r."
+				""
+				"They never got out, the alien environment slowly changing them until nothing remained."
+				""
+				"Getting them stuck under the rule of the dragon."
+				"{@pagebreak}"
+				"Now you'll become one of them..."
+				""
+				"No, you can't just give up."
+				""
+				"You have to fight!"
+				"{@pagebreak}"
+				"This isn't the end!"
+				""
+				"YOU'RE STILL HERE!"
+				""
+				"YOU CAN SAVE YOU, THEM, EVERYONE!"
+				""
+				"YOU CAN FREE &dTHE END&r, FREE THE &6&lREVOLUTIONARIES&r!"
+			]
+			id: "7841AFA379E5C69E"
+			progression_mode: "linear"
+			rewards: [{
+				id: "17DA7E25E73DA7A2"
+				item: {
+					Count: 1
+					id: "supplementaries:enderman_head"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Enderman Mask\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "They never left."
+			tasks: [{
+				icon: "minecraft:ender_pearl"
+				id: "0780DB0FEC15D53E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:enderman"
+				type: "observation"
+			}]
+			title: "Finding the Revolutionaries"
+			x: 29.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"Legends say this eye once belonged to one of the great Sandworms"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Desert Pyramids"
+			]
+			id: "3D9878DBD9EAFD34"
+			tasks: [{
+				id: "7CABC82F8C840F37"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["20B753485250E0EF"]
+			description: [
+				"You've heard rumors that if you throw an Eye of Ender into the sky, that it will reveal a way to the Stronghold, the final ark of the &6&lRevolutionaries&r."
+				""
+				"Your guide doesn't seem to neither agree or disagree with this rumor, it instead offers a rather extensive explanation."
+				"{@pagebreak}"
+				"Apparently, the rumor is right but the reality is not that simple."
+				""
+				"You do need to use the Eye of Ender, but not these primitive DIYed ones."
+				"{@pagebreak}"
+				"The Stronghold is well-hidden and protected, as it holds the key to where a group of the &6&lRevolutionaries&r disappeared to."
+				""
+				"As such to find it, one needs to prove themselves as worthy of this key as the &6&lRevolutionaries&r by finding different eyes, each hidden at a different location."
+				"{@pagebreak}"
+				"Luckily, &l&6The Revolutionarium&r offers an extensive list of clues and hints to aid in your search."
+			]
+			hide_text_until_complete: true
+			id: "7C0D562D86C8CA29"
+			shape: "pentagon"
+			subtitle: "Look into the sky and it might just pierce your soul."
+			tasks: [{
+				count: 4L
+				id: "6739BB4D2A60B7D6"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Finding the way"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5AEC087A7745D9F3"
+				"22C3C5CAF809F301"
+				"653962CE61B9476C"
+				"6F520D02E61834AC"
+				"204B3D8267F4B1D9"
+				"6B6B23E245F6197A"
+				"6BB3312D2016C4C1"
+				"7D517130BC109578"
+				"21B0B1100130265D"
+				"55BE946368A9307A"
+				"05F6F424A05B0E39"
+				"2006048D385A2740"
+				"1904D6325EA06324"
+				"51C9B924F5C23653"
+				"3D9878DBD9EAFD34"
+				"6E6157484997D120"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Hidden in the Stronghold should be a portal that the &l&6Revolutionaries&r built as a final frontier."
+				""
+				"A contigency plan in case their technological wonders ever go wrong."
+				"{@pagebreak}"
+				"Did they? We'll never know, but it seems like they really did use this gateway to another &ddimension&r."
+				""
+				"Time to follow them."
+			]
+			id: "624376E1F1DBFE45"
+			subtitle: "The final ark awaits."
+			tasks: [{
+				icon: "minecraft:mossy_stone_bricks"
+				id: "13F8CA698E214F65"
+				structure: "betterstrongholds:stronghold"
+				title: "Find the Stronghold"
+				type: "structure"
+			}]
+			title: "Finding the Stronghold"
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"It was lost by a demon in the battle between the Aether and the Nether"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Nether Fortresses"
+			]
+			id: "6B6B23E245F6197A"
+			tasks: [{
+				id: "7648488E78D50EC7"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Igloos"
+			]
+			id: "6BB3312D2016C4C1"
+			tasks: [{
+				id: "0AC90BBAB0FAE7A5"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"This eye is believed to have given our ancestors the knowledge of Redstone"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Jungle Pyramids"
+			]
+			id: "1904D6325EA06324"
+			tasks: [{
+				id: "59865566E57BD527"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"Pirates say it gave sight to the legendary Black Pearl"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Buried Chests"
+			]
+			id: "22C3C5CAF809F301"
+			tasks: [{
+				id: "6543D591078FB304"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"Without this eye, the Evoker has no power"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Dropped by Evokers"
+			]
+			id: "55BE946368A9307A"
+			tasks: [{
+				id: "6C5B8F83D2743096"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"It is told that it was forged by the first blacksmiths of time"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Mineshafts"
+			]
+			id: "51C9B924F5C23653"
+			tasks: [{
+				id: "3A3FED0EE0F409D8"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Pillager Outposts"
+			]
+			id: "6E6157484997D120"
+			tasks: [{
+				id: "38293780B282F1BD"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7C0D562D86C8CA29"
+				"67A0E3CDF53DA991"
+			]
+			description: [
+				"Has witnessed destruction. Maybe it also witnessed your stuff disappear"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Dropped by The Wither"
+			]
+			id: "6F520D02E61834AC"
+			tasks: [{
+				id: "1D899B4F9242AB5F"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"It has seen many warriors drown into the depths of the sea"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Get it by Killing Elder Guardian"
+			]
+			id: "2006048D385A2740"
+			tasks: [{
+				id: "369ED789C6AB4102"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"This pupil is believed to have seen the ancient brewing recipes that were lost in time."
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Craft it using the witch pupil"
+			]
+			id: "21B0B1100130265D"
+			tasks: [{
+				id: "2634482153BAC9C8"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Found in Bastions treasure chest "
+			]
+			id: "7D517130BC109578"
+			tasks: [{
+				id: "6D2D431543A7ABAF"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Craft it using aquatic items"
+			]
+			id: "5AEC087A7745D9F3"
+			tasks: [{
+				id: "299F833C738330E8"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"A holy talisman said to protect its owner from bad luck"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Buy it from a master cleric"
+			]
+			id: "204B3D8267F4B1D9"
+			tasks: [{
+				id: "27260B4492FC2E76"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Craft it using an Undead Soul"
+			]
+			id: "05F6F424A05B0E39"
+			subtitle: "Remembrance of the past lives of those who live in death"
+			tasks: [{
+				id: "7FCD515E6AF9A257"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C0D562D86C8CA29"]
+			description: [
+				"No information about this eye"
+				"&c(solution on next page)&r"
+				"{@pagebreak}"
+				"Have a small chance to get it when enchanting"
+			]
+			id: "653962CE61B9476C"
+			tasks: [{
+				id: "0DD3A457C98A9F63"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2D09F0B2E121523E"]
+			description: [
+				"Returning to the &aOverworld&r you discover the consequences of toying with something that you shouldn't have messed around with."
+				"{@pagebreak}"
+				"The &cNether&r is a much stronger force than that of the &aOverworld&r, easily overtaking it and pushing it out."
+				""
+				"If you don't find a cure, it will soon change the entire lush nature of your dimension into a firey hell-scape."
+			]
+			hide_text_until_complete: true
+			id: "1759B6B0A1C59AC8"
+			progression_mode: "linear"
+			shape: "pentagon"
+			subtitle: "The seal has been broken."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "0EC2FF2BC035F4B7"
+				title: "Return to the &aOverworld&r"
+				type: "dimension"
+			}]
+			title: "The infection spreads"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1759B6B0A1C59AC8"]
+			description: [
+				"&l&6The Revolutionarium&r reveals no clue to as what the cure might be."
+				""
+				"Could this perhaps be how the story of the &l&6Revolutionaries&r ended? With them unleashing unstoppable flames on their homes?"
+				"{@pagebreak}"
+				"If they didn't know, then all is lost. Without the knowledge of the cure, the world will soon burst up in flames and nothing will be able to stop it."
+				"{@pagebreak}"
+				"Just when all hope seems lost, you recall a gossip you heard whispered in the village a long time ago."
+				""
+				"About a group of villagers who left their homes in search of the old forgotten knowledge of the &l&6Revolutionaries&r."
+				"{@pagebreak}"
+				"You have to find them. Maybe they found the answer on how to stop the &cNether&r from seeping through the portal."
+			]
+			id: "41BB55A25C65E6D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DB94ECA93D529E0"
+				table_id: 829105786776704630L
+				type: "choice"
+			}]
+			subtitle: "Catch it before it burns out."
+			tasks: [{
+				icon: "minecraft:dark_oak_planks"
+				id: "0329F409435ADB0E"
+				structure: "minecraft:mansion"
+				title: "Find a mansion"
+				type: "structure"
+			}]
+			title: "A glint of hope"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41BB55A25C65E6D7"]
+			description: [
+				"As you enter the mansion, you discover that no-one will be able to answer your questions here."
+				"{@pagebreak}"
+				"All the villagers caught some kind of... sickness."
+				""
+				"Their skin turned dark and their eyes cold."
+				"{@pagebreak}"
+				"Whatever knowledge lies in these books should have never been discovered by our limited minds."
+				""
+				"Still, that knowledge you must try to comprehend."
+				"{@pagebreak}"
+				"Unless you want to say goodbye to your precious &aOverworld&r."
+			]
+			id: "5F6FC99384DC6A7B"
+			rewards: [{
+				id: "38068E0FC9185BE5"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Knowing too much can be dangerous."
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 1s
+							}]
+						}
+					}
+					id: "5B23A189203E6616"
+					observe_type: 5
+					timer: 0L
+					title: "Find an archivist"
+					to_observe: "illagerinvasion:archivist"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:bookshelf"
+					id: "188EFEE39B94B1B4"
+					observe_type: 0
+					timer: 0L
+					title: "Look at a bookshelf"
+					to_observe: "minecraft:bookshelf"
+					type: "observation"
+				}
+			]
+			title: "The mad librarian"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7841AFA379E5C69E"]
+			description: [
+				"You've done it."
+				""
+				"You killed the dragon."
+				""
+				"You've saved the enderman."
+				""
+				"They can safely return to the &aOverworld&r, and so can you."
+				"{@pagebreak}"
+				"Well, they could do that before as well, but... who cares, you're a hero!"
+			]
+			id: "7E1758924C42FD07"
+			rewards: [{
+				id: "1AAB613CD565D242"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			subtitle: "It's over."
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "6A32AC984B865FB5"
+				type: "advancement"
+			}]
+			title: "Free the End"
+			x: 32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E1758924C42FD07"]
+			description: [
+				"Exploring &dThe End&r, you find a strange invention."
+				""
+				"A wing-like device that also looks partially organic and partially magic?"
+				""
+				"It seems that this..."
+				"{@pagebreak}"
+				"This is the final invention that the &6&lRevolutionaries&r ever made."
+				""
+				"In your hands now lies the last existing trace of their empire."
+				""
+				"Keep it safe."
+			]
+			id: "38527C6260F93CA4"
+			subtitle: "To travel the worlds."
+			tasks: [{
+				id: "518861209C3D1E3A"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The final invention"
+			x: 32.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0BAFC20EB39FAE"]
+			description: [
+				"The trail of the &6&lRevolutionaries&r doesn't stop with &cNether&r."
+				""
+				"Their endeavours in opening a gateway to this dimension had an underlying motive."
+				"{@pagebreak}"
+				"Mastering the powers of nature and technology, they seemingly reached an end-point of their own growth."
+				""
+				"That's when one of them found a new direction that they could expand in, mastering &k&0death&r itself."
+				"{@pagebreak}"
+				"&cNether&r was the so-called \"Project Zero\" for their next series of experiments."
+				""
+				"The sands of souls that they brought back confirmed what they suspected."
+				""
+				"You can indeed imbue physical items with metaphysical souls."
+				"{@pagebreak}"
+				"Meaning? At the very least it was pretty damn cool."
+				""
+				"You could enhance regular machinery with the power of captured life essence."
+				"{@pagebreak}"
+				"But theoratically?"
+				""
+				"You could have power over &k&0death&r and reach immortality."
+				"{@pagebreak}"
+				"And so they got to work."
+				""
+				"Deep down beneath the &aOverworld&r."
+				""
+				"In the darkness of the &7Ancient City&r."
+				""
+				"It's time to find it."
+			]
+			id: "4789D4B3DAB68541"
+			rewards: [{
+				id: "602F6179496D3910"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Terrible experiments took place here."
+			tasks: [{
+				icon: "minecraft:sculk_sensor"
+				id: "2439673EFCE54A02"
+				structure: "minecraft:ancient_city"
+				title: "Find the Ancient City"
+				type: "structure"
+			}]
+			title: "The deep dark"
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4789D4B3DAB68541"]
+			description: [
+				"The Warden"
+				""
+				"&oCustoditus Vatchorus&r"
+				""
+				"One of the remaining experiments from Project Soul Capture."
+				"{@pagebreak}"
+				"His function?"
+				""
+				"No-body knows anymore."
+				"{@pagebreak}"
+				"He &k&0killed&r his masters before they could tell anyone else."
+			]
+			id: "0A6FE0A920756C44"
+			invisible: true
+			subtitle: "It seems to whisper."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1CE1E748A1CD3C8D"
+				observe_type: 5
+				timer: 0L
+				title: "Awake the warden"
+				to_observe: "minecraft:warden"
+				type: "observation"
+			}]
+			title: "Calling the darkness"
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			id: "267D858540D113F0"
+			invisible: true
+			subtitle: "Can you hear your past talk?"
+			tasks: [{
+				icon: "deeperdarker:echo_log"
+				id: "79ACAC1700707F5E"
+				observe_type: 0
+				timer: 0L
+				title: "Find an echo tree"
+				to_observe: "deeperdarker:echo_log"
+				type: "observation"
+			}]
+			title: "Actions grow volumes"
+			x: 28.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			id: "777620791B7FDA72"
+			invisible: true
+			subtitle: "The soul-born be praised."
+			tasks: [{
+				icon: "minecraft:reinforced_deepslate"
+				id: "0310664BA9023770"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find a soul temple"
+				type: "structure"
+			}]
+			title: "No gods or kings"
+			x: 30.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			id: "771ABBB2BA2DBC91"
+			invisible: true
+			subtitle: "A guide to the lost souls."
+			tasks: [{
+				icon: "deeperdarker:angler_fish_spawn_egg"
+				id: "2C25838D53316FE5"
+				observe_type: 5
+				timer: 0L
+				title: "Notice an angler fish"
+				to_observe: "deeperdarker:angler_fish"
+				type: "observation"
+			}]
+			title: "A glow in the dark"
+			x: 30.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			id: "6A9222C0093800B1"
+			invisible: true
+			subtitle: "One of the trapped inventors."
+			tasks: [{
+				icon: "deeperdarker:shattered_spawn_egg"
+				id: "6443B217FD0B11A6"
+				observe_type: 5
+				timer: 0L
+				title: "Find a shattered"
+				to_observe: "deeperdarker:shattered"
+				type: "observation"
+			}]
+			title: "Neverleave"
+			x: 28.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			description: [
+				"No-one should ever return to this place."
+				""
+				"You have to destroy the portal."
+				""
+				"No reason to risk an inter-dimensional infection again."
+			]
+			id: "670AC84EEB4C73A2"
+			rewards: [{
+				id: "74FA9758501C7C6F"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			subtitle: "And drives the darkness out."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:podzol"
+				id: "4BB80EB10994CF71"
+				title: "Return home"
+				type: "dimension"
+			}]
+			title: "The light is reborn"
+			x: 32.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6808865AE0E64E42"]
+			description: [
+				"The archway in the heart of the Ancient City seems to have some kind of connection with the Heart you hold in your hands."
+				""
+				"Time to see what this project was all about."
+			]
+			id: "3527AF3D6836490A"
+			subtitle: "And so do you."
+			tasks: [{
+				icon: "minecraft:reinforced_deepslate"
+				id: "1844263DB8F3C15D"
+				observe_type: 0
+				timer: 0L
+				title: "Find the heart of the City"
+				to_observe: "minecraft:reinforced_deepslate"
+				type: "observation"
+			}]
+			title: "The darkness dies"
+			x: 21.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7E1758924C42FD07"
+				"670AC84EEB4C73A2"
+			]
+			description: [
+				"You found out..."
+				""
+				"- how both groups met their demise."
+				""
+				"- how the empire that reached the top of their smarts pushed too much."
+				""
+				"- how their contigency plan turned into a suicide mission."
+				"{@pagebreak}"
+				"With this you figured out their story, there is still more to explore."
+				""
+				"Maybe you could restart the &6&lRevolutionaries&r, bring new change into this world."
+				""
+				"One that doesn't destroy it in the process, hopefully."
+				""
+				"As it's clear to you that this story is written by you now and only you decide what goes after the . . ."
+			]
+			id: "26EB0B68D1C1C216"
+			rewards: [
+				{
+					id: "6196731EA0A6A397"
+					item: "supplementaries:pedestal"
+					type: "item"
+				}
+				{
+					id: "7927EF273BFCC694"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-124826
+									40131
+									22105
+									-80262
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmRkZmE1NTNjZTc4NjgzYmU0NzdiOGQ4NjU0ZjNkZmMzYWEyOTY5ODA4NDc4Yzk4N2FiODhjMzc2YTAifX19"
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"A spacetime warping manifestation of raw knowledge.\",\"italic\":false}]"
+									"[\"\",{\"text\":\"It silently whispers that no creation comes without destruction.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"The Revolutionarium Nexus\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Long live the new one!"
+			tasks: [{
+				id: "746FE8420BA7CD50"
+				title: "The old era is dead"
+				type: "checkmark"
+			}]
+			x: 35.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A9222C0093800B1"
+				"771ABBB2BA2DBC91"
+				"777620791B7FDA72"
+				"267D858540D113F0"
+			]
+			id: "51D43B71EB157D14"
+			rewards: [{
+				id: "5917508FEC65F362"
+				item: {
+					Count: 1
+					id: "deeperdarker:sonorous_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F8E554556BDD289"
+				type: "checkmark"
+			}]
+			title: "The deep dark deep dark deep dark"
+			x: 29.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CBB2F30C7213F4B"]
+			description: [
+				"These so-called \"enderman\" hold \"ender pearls\", magical items that can be used as a rather primitive short-distance teleportation spell."
+				""
+				"They are also the other ingredient that you'll need for what comes next."
+			]
+			id: "20B753485250E0EF"
+			subtitle: "They hold an unknown teleportation spell."
+			tasks: [
+				{
+					biome: "minecraft:warped_forest"
+					id: "02336D124AB6DBD4"
+					title: "Walk into a warped forest"
+					type: "biome"
+				}
+				{
+					count: 4L
+					id: "5E4FE1591977059A"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					entity: "minecraft:enderman"
+					id: "34F1C02BBC301B64"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Killing the &kRevolutionaries&r"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D09F0B2E121523E"]
+			description: [
+				"It's hard to say who built this building."
+				""
+				"Its design doesn't quite fit the one of the &6&lRevolutionaries&r, but it had to be built from a fire-proof material, which would explain the stray from the norm."
+			]
+			id: "6F2F34A24C04D487"
+			shape: "pentagon"
+			subtitle: "It's not quite as terrible."
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "59225B1E7CE0545C"
+				structure: "minecraft:fortress"
+				title: "Find a fortress"
+				type: "structure"
+			}]
+			title: "A strongly defended building"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03031DDDC22FECA5"]
+			description: ["According to your guide, the rods that spin around those weird fiery twisters are one of the two ingredients needed for your next journey."]
+			id: "0CBB2F30C7213F4B"
+			subtitle: "Three more and you'll have the whole set."
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "01F6AC20E9749D4C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "213C146984DBF817"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "A fiery twister"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F2F34A24C04D487"]
+			description: [
+				"Its inhabitants are clearly of local origin though."
+				""
+				"The skeletons are also different from the ones that roam at night in the &aOverworld&r,"
+				""
+				"I wouldn't touch them if I were you."
+			]
+			id: "03031DDDC22FECA5"
+			subtitle: "Beware his sword or wither."
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "7C48CC8975E18FC0"
+				observe_type: 5
+				timer: 0L
+				title: "Notice a wither skeleton"
+				to_observe: "minecraft:wither_skeleton"
+				type: "observation"
+			}]
+			title: "The undead guard"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03031DDDC22FECA5"]
+			id: "12B6B13569A34F04"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "109AFF6901E06A5C"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			subtitle: "Three seems to be the magical total."
+			tasks: [{
+				count: 3L
+				id: "71C5D7BB8F03214F"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Beheading the guard"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12B6B13569A34F04"]
+			description: [
+				"&6&lThe Revolutionarium&r reveals its secrets to you."
+				""
+				"One would think that the skulls of some skeletons are pretty much useless (unless you plan on redecorating), but a glimpse into the book reveals an old ritual."
+				"{@pagebreak}"
+				"Combined with four blocks of soul sand (or soil) in a T-like shape will create a soul-imbued monster of horrendous destructive scale."
+				""
+				"It seems that this ritual was the reason that a part of the &6&lRevolutionaries&r got so interested in soul research."
+			]
+			hide_dependent_lines: true
+			id: "67A0E3CDF53DA991"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "591D3BBCBAA9304A"
+				table_id: 968571458129304118L
+				type: "choice"
+			}]
+			subtitle: "Handle with caution."
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "23280F95F3EA81F6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The withered Wither"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B492FFD9C5A1512"]
+			description: ["Might not be the best idea to show the lost souls that there really was an easier way to get (at least half) immortality."]
+			id: "7E7930C243FB565B"
+			invisible: true
+			subtitle: "Better keep it to yourself though."
+			tasks: [{
+				id: "74FF10C42AF5CA22"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Laugh in the face of death"
+			x: 29.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E1758924C42FD07"
+				"670AC84EEB4C73A2"
+			]
+			description: [
+				"Before their demise, the &l&6Revolutionaries&r split into two groups."
+				"{@pagebreak}"
+				"One continued the research of mastering &k&0death&r itself."
+				""
+				"The other, fearing the apocalypse this would bring, looked for another &dDimension&r to escape to."
+				"{@pagebreak}"
+				"You found how one of them ended."
+				""
+				"Now find the other one."
+				""
+				"Finish the story."
+			]
+			id: "2E4287F9DC4F22BA"
+			shape: "hexagon"
+			tasks: [{
+				id: "1C439AFD6BFAB596"
+				title: "This isn't the only end"
+				type: "checkmark"
+			}]
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26EB0B68D1C1C216"]
+			id: "004DE7D684F334BA"
+			invisible: true
+			rewards: [{
+				id: "27B86BF09955A021"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-124826
+								40131
+								22105
+								-80262
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmRkZmE1NTNjZTc4NjgzYmU0NzdiOGQ4NjU0ZjNkZmMzYWEyOTY5ODA4NDc4Yzk4N2FiODhjMzc2YTAifX19"
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"[\"\",{\"text\":\"A spacetime warping manifestation of raw knowledge.\",\"italic\":false}]"
+								"[\"\",{\"text\":\"It silently whispers that no creation comes without destruction.\",\"italic\":false}]"
+							]
+							Name: "[\"\",{\"text\":\"The Revolutionarium Nexus\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Don't worry, I've got you covered."
+			tasks: [{
+				id: "40E2ED8273073609"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-124826
+								36531
+								22105
+								-73062
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmRkZmE1NTNjZTc4NjgzYmU0NzdiOGQ4NjU0ZjNkZmMzYWEyOTY5ODA4NDc4Yzk4N2FiODhjMzc2YTAifX19"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "I broke it!"
+			x: 36.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A0E3CDF53DA991"]
+			id: "17AE0B1476D31CFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F02A84B0319E92C"
+				table_id: 968571458129304118L
+				type: "choice"
+			}]
+			subtitle: "Time for a rematch."
+			tasks: [{
+				id: "66F2A10D7E58E754"
+				item: "botania:pinkinator"
+				type: "item"
+			}]
+			title: "Better in pink"
+			x: 6.5d
+			y: 4.5d
+		}
+	]
+	subtitle: [
+		"A portal a window."
+		"Dimensions"
+	]
+	title: "The World Next Door"
+}
