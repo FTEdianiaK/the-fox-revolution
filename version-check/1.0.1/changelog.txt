@@ -1,2 +1,0 @@
-- fixed:
-    - Simple RPC: link should point correctly now
