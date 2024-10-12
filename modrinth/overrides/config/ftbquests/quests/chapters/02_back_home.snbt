@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "02_back_home"
 	group: "4FC6652C01F825FF"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_door"
 	id: "3E4A38C5ADF38BEF"
 	order_index: 2
@@ -17,8 +18,12 @@
 			id: "367079F18E7E7FE4"
 			invisible: true
 			rewards: [{
-				id: "09086843178A3409"
-				item: "beansbackpacks:backpack"
+				id: "732254220DBFBEE7"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -87,13 +92,14 @@
 			description: ["Books, arrows, food – you want it? It's yours, my friend, as long as you have enough emeralds."]
 			id: "534FCB5DB49ECE33"
 			rewards: [{
-				count: 3
+				count: 12
 				id: "32D1DD93F847BDC7"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			subtitle: "You are richer already."
 			tasks: [{
+				count: 4L
 				id: "2608042BC7FD3A50"
 				item: "minecraft:emerald"
 				type: "item"
@@ -161,37 +167,6 @@
 			title: "To tie up the lines"
 			x: -6.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["7B0FF99AAA832640"]
-			description: [
-				"Getting a treasure map from a local cartographer, you set out to find hidden treasure."
-				""
-				"You can't even start to imagine what you might find in there."
-				""
-				"Riches, materials, maybe even some relics with magical properties."
-			]
-			id: "50D59BFCFBCB827C"
-			rewards: [{
-				id: "27BEEAA178EF8F99"
-				item: {
-					Count: 1
-					id: "mermod:sea_necklace"
-					tag: {
-						necklace_modifiers: { }
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Things hide in sunken treasure chests."
-			tasks: [{
-				id: "4FA2EA6EE940CD58"
-				item: "minecraft:heart_of_the_sea"
-				type: "item"
-			}]
-			title: "To dive under the sea"
-			x: -9.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["367079F18E7E7FE4"]

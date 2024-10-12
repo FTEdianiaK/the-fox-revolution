@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"item": "minecraft:ancient_debris"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "numismatics:sun",
+			"count": 1
+		}
+	]
+}

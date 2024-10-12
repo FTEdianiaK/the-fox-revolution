@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "01_leaving_the_den"
 	group: "4FC6652C01F825FF"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:tall_grass"
 	id: "064785A04A397E53"
 	order_index: 0
@@ -239,22 +240,26 @@
 			}]
 			subtitle: "Yeah, I forgot mine back home."
 			tasks: [{
-				id: "4F6427B10E9D7057"
-				item: "beansbackpacks:backpack"
+				id: "6BD87CE9C2054095"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "A way to carry more"
-			x: -5.5d
+			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1C9F10B7B5542EDF"]
-			description: ["Even if the night aren't cold just yet, a campfire may be a nice way to light up the dark. Or to roast some meat. Or to heal the scars."]
+			description: ["Even if the night aren't cold just yet, a campfire may be a nice way to light up the dark and roast some meat. Or to heal the scars."]
 			id: "47B5A7ABE8CA3E3C"
 			rewards: [{
-				count: 8
-				id: "02CCA074641719AE"
-				item: "minecraft:clay_ball"
+				count: 6
+				id: "117591344AE2DBDF"
+				item: "minecraft:clay"
 				type: "item"
 			}]
 			subtitle: "And to cook food."
@@ -268,7 +273,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["60DC5B51AC3D4EFB"]
+			dependencies: ["0D4E53443602CDB6"]
 			description: ["Seems like you had some iron left over."]
 			hide_text_until_complete: true
 			id: "4F2466368121F309"
@@ -279,12 +284,12 @@
 			}]
 			subtitle: "Though it must be quite a lot heavier."
 			tasks: [{
-				id: "40384F3D87F97A8D"
-				item: "beansbackpacks:metal_backpack"
+				id: "1578F18F18209CD7"
+				item: "travelersbackpack:iron_tier_upgrade"
 				type: "item"
 			}]
 			title: "A way to carry even more"
-			x: -2.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -297,21 +302,224 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			subtitle: "Careful not to break your break though!"
+			subtitle: "Careful not to break your back though!"
 			tasks: [{
-				id: "5A9C9705D88CB276"
+				id: "5F013923537A20A4"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			title: "A way to carry the world"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C9F10B7B5542EDF"]
+			description: [
+				"One of the villagers gave you this book before you left."
+				""
+				"It seems to hold some knowledge of this world that might be useful to an adventurer such as yourself."
+			]
+			icon: {
+				Count: 1
+				id: "zenith:gem"
+				tag: {
+					affix_data: {
+						rarity: "zenith:mythic"
+					}
+					gem: "zenith:core/solar"
+				}
+			}
+			id: "1DB98AFDC9ACF970"
+			rewards: [{
+				id: "67AB4A5CC58621BC"
 				item: {
 					Count: 1
-					id: "beansbackpacks:metal_backpack"
+					id: "patchouli:guide_book"
 					tag: {
-						backpack_id: "netherite"
+						"patchouli:book": "zenith:chronicle"
 					}
 				}
 				type: "item"
 			}]
-			title: "A way to carry the world"
+			subtitle: "A guide to gems, bosses, evil."
+			tasks: [{
+				id: "1C7E2B7D46CE446E"
+				title: "Need another one?"
+				type: "checkmark"
+			}]
+			title: "An adventurer's handbook"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["60DC5B51AC3D4EFB"]
+			description: [
+				"You've seen this invention before."
+				""
+				"A local \"flier\" (a villager who dreams of flying) used to crash with it into the nearby mountain-side."
+				"{@pagebreak}"
+				"With a more skilled and, what's more important, careful use, you might be able to safely use it for gliding."
+			]
+			id: "0D4E53443602CDB6"
+			rewards: [{
+				id: "5937053353C3C97D"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A higher ground's not included."
+			tasks: [{
+				id: "7304612375370532"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A basic mode of travel"
 			x: 0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["47B5A7ABE8CA3E3C"]
+			description: [
+				"Skillet's a great way to make food, quickly and easily."
+				"{@pagebreak}"
+				"Unless you're a horrible cook."
+			]
+			id: "418D4E5500D7FE20"
+			subtitle: "Hold it over a campfire."
+			tasks: [{
+				id: "16440E95F5728E03"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Making a roast"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["418D4E5500D7FE20"]
+			description: [
+				"If you plan on becoming a real chef, you'll need something to cook in."
+				""
+				"If only there was something for that."
+				"{@pagebreak}"
+				"Like a cooking pot or something."
+			]
+			id: "494D3DBB2DD0C97D"
+			subtitle: "Sorry, soup-haters."
+			tasks: [{
+				id: "585CB6BB12F76FB0"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Time for soup"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["494D3DBB2DD0C97D"]
+			description: ["Not only does it make for quite the cozy kitchen, it also server as a great place to cook, providing the necessary heat for cooking."]
+			id: "5840AF752626F913"
+			subtitle: "Isn't it magical?"
+			tasks: [{
+				id: "0748F58E6639B37F"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Better than a campfire"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5840AF752626F913"]
+			description: [
+				"Another step on your culinary journey would be getting the cutting board."
+				""
+				"Combined with the cooking pot, this allows you to make all the fun recipes."
+			]
+			id: "79CBE77E3DD21D82"
+			subtitle: "Don't run with it!"
+			tasks: [
+				{
+					id: "67D9A83C00EA64E9"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "3A3CA44BC3EC16C5"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ctrl+X"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["675DCEB77D6759D9"]
+			description: [
+				"You have to prepare for the inavitable winter."
+				"{@pagebreak}"
+				"How?"
+				""
+				"By making a greenhouse, of course."
+			]
+			id: "0A4CC004A36762FC"
+			subtitle: "Even in raging snow storms."
+			tasks: [{
+				id: "4DA01BBA54DE7B2F"
+				item: "seasonsextras:lime_greenhouse_glass"
+				type: "item"
+			}]
+			title: "Cozy and warm"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["47B5A7ABE8CA3E3C"]
+			description: [
+				"The nature of the &aOverworld&r goes through many changes throughout its four seasons."
+				""
+				"The crops each have their favorite season, and snow covers the land in winter, leaving all unprotected crops to die."
+			]
+			id: "675DCEB77D6759D9"
+			rewards: [{
+				id: "67DB283315A39D8B"
+				item: "seasonsextras:season_calendar"
+				type: "item"
+			}]
+			subtitle: "Hide your crops!"
+			tasks: [{
+				id: "4D5C7F9ADEA8E5E0"
+				title: "Winter's coming"
+				type: "checkmark"
+			}]
+			title: "Winter's coming"
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	subtitle: [

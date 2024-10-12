@@ -1,0 +1,805 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sunny_steps"
+	group: "4D9515EE9951EFE0"
+	icon: "botania:corporea_spark"
+	id: "0B3DA6E8FFD002F8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "27102118254A80C1"
+			shape: "rsquare"
+			tasks: [{
+				icon: "botania:pink_mystical_flower"
+				id: "2C3DCFA358CB1018"
+				title: "Continued from &lMother's Embrace&r"
+				type: "custom"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C7B85673742956A"]
+			id: "4B6D5484013F46D8"
+			shape: "diamond"
+			subtitle: "Put it above a mana pool."
+			tasks: [{
+				id: "0F7ABAA8ABB9A69A"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			title: "Nature crystallized"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B6D5484013F46D8"]
+			id: "2F01CA20CD63B2E9"
+			subtitle: "A new portal unlocked."
+			tasks: [{
+				id: "215E63E7C32D046C"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "An elven gateway"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F01CA20CD63B2E9"]
+			id: "74B1BA04F2560C3B"
+			subtitle: "This... shouldn't be possible."
+			tasks: [{
+				advancement: "botania:main/elf_portal_open"
+				criterion: ""
+				id: "1B9E391FCC35FF7F"
+				type: "advancement"
+			}]
+			title: "Breaking the continuity"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74B1BA04F2560C3B"]
+			id: "5DBA31F6AAF1889C"
+			subtitle: "Thanks? I guess?"
+			tasks: [{
+				id: "740D0E80D291A962"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "&kForbroken&r knowledge"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DBA31F6AAF1889C"]
+			id: "7D6F1D95351893FE"
+			subtitle: "Am I dreaming?"
+			tasks: [{
+				id: "72A37A811FFD39EB"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			title: "Life could be a dream"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D6F1D95351893FE"]
+			id: "301A1DF3EEEA5413"
+			subtitle: "Not again."
+			tasks: [{
+				id: "2DFF903E0532D59F"
+				item: "botania:dreamwood_twig"
+				type: "item"
+			}]
+			title: "Are you twigging me?"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["301A1DF3EEEA5413"]
+			id: "347217A2D689B37D"
+			subtitle: "So surreal."
+			tasks: [{
+				id: "442DFE96F1C38480"
+				item: {
+					Count: 1
+					id: "botania:dreamwood_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wand of the elven forest"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["347217A2D689B37D"]
+			id: "59DD62EEF939DB06"
+			shape: "diamond"
+			subtitle: "Time to give and get in return."
+			tasks: [
+				{
+					id: "7FF24212413E0C13"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "308039920506EF1A"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					id: "7176B4BADDB1E98C"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			title: "Inter-whateva trades"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			id: "4DB9686A0E1F961C"
+			subtitle: "started with just the one."
+			tasks: [{
+				id: "4D5B072F3CD5AF0D"
+				item: "botania:quartz_elven"
+				type: "item"
+			}]
+			title: "A story of a hundred worlds"
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"59DD62EEF939DB06"
+				"67A0E3CDF53DA991"
+			]
+			id: "1A78BB4D161C77FE"
+			subtitle: "Worse than that withered thing."
+			tasks: [{
+				id: "1E23EB1DF9F5D649"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			title: "Time to fight"
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A78BB4D161C77FE"]
+			id: "6F85F18C6836DD49"
+			subtitle: "What do you mean first?"
+			tasks: [{
+				id: "00D96E4993528668"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			title: "Winning the first fight"
+			x: 21.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F85F18C6836DD49"]
+			id: "459DBF544DF480E6"
+			subtitle: "Time to make the odds even less even."
+			tasks: [{
+				id: "7B60C9C233FF3460"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Useless piece of metal"
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["459DBF544DF480E6"]
+			id: "5AA61BE0820536E1"
+			subtitle: "Six, six, six."
+			tasks: [{
+				id: "38DC0139B8528DC3"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "Randomized relics"
+			x: 27.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["512A701B62D57FEA"]
+			id: "2CE0CC955E823C5D"
+			subtitle: "With an elven touch though."
+			tasks: [{
+				id: "1D2219AC3DBD47FB"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "Even more upgrades"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"71511F1A6B63812B"
+				"42657B6FA813419C"
+			]
+			id: "512A701B62D57FEA"
+			shape: "diamond"
+			subtitle: "Less mana loss, hopefully."
+			tasks: [{
+				id: "14483DC3EDBA1229"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			title: "More efficiency"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["512A701B62D57FEA"]
+			id: "0B51459345A490E1"
+			subtitle: "Woah... it's so slow."
+			tasks: [{
+				id: "5B38213AABF72D4C"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			title: "More power"
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["347217A2D689B37D"]
+			id: "42657B6FA813419C"
+			subtitle: "Cake, ca&ke, cake&r!"
+			tasks: [{
+				id: "4515DC9E2EDFCA77"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			title: "Sweet-toothed flower"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["347217A2D689B37D"]
+			id: "71511F1A6B63812B"
+			subtitle: "Flowers go in, mana goes out."
+			tasks: [{
+				id: "087DCF44822AF5BB"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			title: "Flower recycler"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "18E322D5BABC6098"
+			shape: "diamond"
+			tasks: [{
+				icon: "botania:orechid"
+				id: "194544A2C086C952"
+				title: "&lFunctional Flora&r (cont.)"
+				type: "custom"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "6D2AAD5B9BCD3412"
+			subtitle: "More powerful than scuba gear."
+			tasks: [{
+				id: "2A0136F504D6585D"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "7E3E0DD4C3485B72"
+			subtitle: "The dungeon's monsters will go to the adventurer instead."
+			tasks: [{
+				id: "017B7091B50CF408"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			title: "If an adventurer doesn't go to a dungeon"
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "0ECEDF7F1D85EB45"
+			subtitle: "That doesn't make any..."
+			tasks: [{
+				id: "07BDFA0B925431B6"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			title: "Farming ores"
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "5FEF0B9CE955A625"
+			subtitle: "Why am I even trying? Magic, it's magic."
+			tasks: [{
+				id: "6CDD3F63503FA5B3"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			title: "Farming other worlds"
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["02A5FBCB806A06E6"]
+			id: "0521896B8C6B2DFD"
+			subtitle: "Who knows what's inside?"
+			tasks: [{
+				id: "6245EEEBA23E3C5E"
+				item: "botania:cocoon"
+				type: "item"
+			}]
+			title: "A new little friend"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0521896B8C6B2DFD"]
+			id: "0CC66354F0AEC9DD"
+			subtitle: "Look at it jump around!"
+			tasks: [{
+				id: "057467C6D1515F14"
+				item: "botania:slime_bottle"
+				type: "item"
+			}]
+			title: "A new tiny friend"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0386D0394A26B5ED"]
+			id: "21B3327CB9081CD4"
+			subtitle: "Look, Shiro, Laputa exists!"
+			tasks: [{
+				id: "279665B95F7AF88E"
+				item: "botania:laputa_shard"
+				type: "item"
+			}]
+			title: "Carrying you"
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			id: "48E8B49A6DA01243"
+			subtitle: "Pixies!"
+			tasks: [{
+				id: "06B5965DE77BBAB2"
+				item: {
+					Count: 1
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A relinked sword"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48E8B49A6DA01243"]
+			id: "088C7574D12CBCD9"
+			subtitle: "Isn't that ironic?"
+			tasks: [{
+				id: "14228CB631534F87"
+				item: {
+					Count: 1
+					id: "botania:elementium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A picky pickaxe"
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			id: "02A5FBCB806A06E6"
+			subtitle: "Everything fades-"
+			tasks: [{
+				id: "435401F71AD09F9A"
+				item: "botania:open_bucket"
+				type: "item"
+			}]
+			title: "Void shaped like a bucket"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48E8B49A6DA01243"]
+			id: "21032A8C6B7461E3"
+			subtitle: "Watch out for the FIRE FIRE FIRE AHH-!"
+			tasks: [{
+				id: "50E75E7AFCAA964D"
+				item: "botania:flare_chakram"
+				type: "item"
+			}]
+			title: "A flaming boomerang"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			id: "27981B4F2E3ED31C"
+			subtitle: "Heimdall!"
+			tasks: [{
+				id: "1BAE666136E5A117"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			title: "The Bifrost bridge"
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27981B4F2E3ED31C"]
+			id: "32134DF15BDDA82B"
+			subtitle: "Space unicorn-!"
+			tasks: [{
+				id: "02EFE34793AEE48D"
+				item: "botania:fabulous_pool"
+				type: "item"
+			}]
+			title: "Rainbows all around"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27981B4F2E3ED31C"]
+			id: "1C45213E4267DFA4"
+			subtitle: "What a marvellous never-before-seen thing. Heard of worldgen?"
+			tasks: [{
+				id: "3A1F45F87E5B3905"
+				item: "botania:skydirt_rod"
+				type: "item"
+			}]
+			title: "Here be floaty dirt"
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C45213E4267DFA4"]
+			id: "0AB458DCF6361D92"
+			subtitle: "Time to shoot things across the globe."
+			tasks: [{
+				id: "71D3277ED9799DD9"
+				item: "botania:gravity_rod"
+				title: "Gravi-rod"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AB458DCF6361D92"]
+			id: "72C7AD532EA76829"
+			subtitle: "High mana drain, high damage gain."
+			tasks: [{
+				id: "098665BDD7CC1241"
+				item: "botania:missile_rod"
+				type: "item"
+			}]
+			title: "An unstable power"
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DB9686A0E1F961C"]
+			id: "0386D0394A26B5ED"
+			subtitle: "Triple jumps unlocked."
+			tasks: [{
+				id: "3329BA6A366F6584"
+				item: "botania:super_cloud_pendant"
+				type: "item"
+			}]
+			title: "A big cloud"
+			x: 21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21032A8C6B7461E3"]
+			id: "059B8BF5CA150A9B"
+			subtitle: "It's you, not me."
+			tasks: [{
+				id: "452BBF2466B416C0"
+				item: "botania:diva_charm"
+				type: "item"
+			}]
+			title: "Hearts on sleeves"
+			x: 24.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			id: "0120449AA5B9C155"
+			subtitle: "Innocent."
+			tasks: [{
+				id: "17632C771EAD4DFA"
+				item: "botania:holy_cloak"
+				type: "item"
+			}]
+			title: "Jury"
+			x: 18.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0120449AA5B9C155"]
+			id: "4AAD68255B47D460"
+			subtitle: "Order must be bestowed."
+			tasks: [{
+				id: "3F48975783FE84AC"
+				item: "botania:balance_cloak"
+				type: "item"
+			}]
+			title: "Judge"
+			x: 21.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4AAD68255B47D460"]
+			id: "7DD47D70675EF8B7"
+			subtitle: "Sorry, no hard feelings."
+			tasks: [{
+				id: "0BD9CCA3EFA523C4"
+				item: "botania:unholy_cloak"
+				type: "item"
+			}]
+			title: "Executioner"
+			x: 24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0120449AA5B9C155"]
+			id: "7F99B7DD7C4A1E29"
+			subtitle: "Or just run away."
+			tasks: [{
+				id: "2C4DBA8CD0370F4F"
+				item: "botania:invisibility_cloak"
+				type: "item"
+			}]
+			title: "Escape rope"
+			x: 21.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["21032A8C6B7461E3"]
+			id: "7461F20B76709055"
+			subtitle: "Now without asbestos."
+			tasks: [{
+				id: "0102E78A9BCB5989"
+				item: "botania:super_lava_pendant"
+				type: "item"
+			}]
+			title: "Becoming fire-proof"
+			x: 24.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "605E60D82C59741F"
+			shape: "diamond"
+			tasks: [{
+				id: "7F0BB150B3360864"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "44605CE10B83F3E0"
+			subtitle: "Little mole would be jealous."
+			tasks: [{
+				id: "02C86352D53053AD"
+				item: "botania:black_hole_talisman"
+				type: "item"
+			}]
+			title: "Builder's pockets"
+			x: 15.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "5F6E209B9991FDA9"
+			subtitle: "Simplicity was just a pipe-dream."
+			tasks: [{
+				id: "4673D3DFA28A652E"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "Magical logistics"
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "1214810E7910725A"
+			subtitle: "Boo, boring! Where's the steam?!"
+			tasks: [{
+				id: "703EE79585382158"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magical jetpacks"
+			x: 14.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "15951AE1B3408216"
+			subtitle: "And you don't even have to be Thor."
+			tasks: [{
+				id: "69D5592C2467FBE1"
+				item: {
+					Count: 1
+					id: "botania:thunder_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["59DD62EEF939DB06"]
+			hide_dependency_lines: true
+			id: "4F38D758BF62163A"
+			subtitle: "Don't look dow-ahh!"
+			tasks: [{
+				id: "4A461ADF287FE52D"
+				item: "botania:light_relay"
+				type: "item"
+			}]
+			title: "Aerial dance"
+			x: 15.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "50E1F95575B68032"
+			invisible: true
+			subtitle: "Return to anywhere you'd like."
+			tasks: [{
+				id: "49F704596023BA84"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			title: "Calibrated recall potion"
+			x: 29.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "30FCE6AEB8ECF5A9"
+			invisible: true
+			subtitle: "Summon an army worthy of the King."
+			tasks: [{
+				id: "57685F9BD21C5BA2"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			title: "Come my minions"
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "138383C088B391EE"
+			invisible: true
+			subtitle: "Ten more hearts for you."
+			tasks: [{
+				id: "0AC493655F3B1F59"
+				item: "botania:odin_ring"
+				type: "item"
+			}]
+			title: "Godly health"
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "2B7413EB641671AF"
+			invisible: true
+			subtitle: "Better get used to the tast of an apple."
+			tasks: [{
+				id: "3E043EE18A70EF5B"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			title: "Eternal apple"
+			x: 30.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "55E7A911C3549942"
+			invisible: true
+			subtitle: "Let's really break the world now."
+			tasks: [{
+				id: "04C7B157FB4CF9B3"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			title: "Godly strength"
+			x: 29.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AA61BE0820536E1"]
+			id: "5A93099E63F67F26"
+			invisible: true
+			subtitle: "Select any shape you'd like."
+			tasks: [{
+				id: "375B482ECDAEB044"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			title: "Godly filter"
+			x: 30.0d
+			y: 6.0d
+		}
+	]
+	subtitle: [
+		"Calling the other worlds."
+		"Botania (cont.)"
+		"(Walkthrough)"
+	]
+	title: "Sunny Steps"
+}

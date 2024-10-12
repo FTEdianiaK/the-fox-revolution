@@ -6,7 +6,6 @@
 - [Ambient Environment](https://modrinth.com/mod/DyTvM1dv) [11.0.0.1] by Jaredlll08
 - [AmbientSounds](https://modrinth.com/mod/fM515JnW) [6.1.1] by CreativeMD
 - [Amendments](https://modrinth.com/mod/6iTJugQR) [1.20-1.2.11] by MehVahdJukaar
-- [Animation Overhaul](https://modrinth.com/mod/jCikwMS7) [1.3.1] by ElocinDev
 - [Anvil Restoration](https://modrinth.com/mod/bd8nwTGy) [2.3] by Rick South
 - [AppleSkin](https://modrinth.com/mod/EsAfCjCV) [2.5.1+mc1.20] by squeek502
 - [Aquamirae](https://modrinth.com/mod/k23mNPhZ) [6] by Obscuria
@@ -22,7 +21,6 @@
 - [Bad Packets](https://modrinth.com/mod/ftdbN0KK) [0.4.3] by deirn
 - [Balm](https://modrinth.com/mod/MBAkmtvl) [7.3.9] by BlayTheNinth
 - [Bartering Station](https://modrinth.com/mod/EOig9U0j) [8.0.0] by Fuzs
-- [BeansBackpacks](https://modrinth.com/mod/kYt0MSgT) [2.0.2] by BeansGalaxy
 - [Berserker Class Mod](https://modrinth.com/mod/8hqOZzxM) [1.1.0] by Fichte
 - [Better Advancements](https://modrinth.com/mod/Q2OqKxDG) [0.4.2.10] by way2muchnoise
 - [Better Archeology](https://modrinth.com/mod/zCh7omyG) [1.2.1-1.20.1] by Pandarix, Dunk3ll1cht
@@ -73,7 +71,6 @@
 - [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv) [0.4.5] by sudolev
 - [Create: Copycats+](https://modrinth.com/mod/UT2M39wf) [2.1.4+mc.1.20.1-fabric] by Lysine, Bennyboy1695, Redcat_XVIII
 - [Create: Food](https://modrinth.com/mod/4HnO3el1) [1.1.2] by average_anime
-- [Create: Interactive](https://modrinth.com/mod/MyfCcqiE) [1.0.3-beta.2+e045de2a48] by Tri0de
 - [Create: New Age](https://modrinth.com/mod/FTeXqI9v) [1.1.2] by Antarctic Gardens
 - [Create: Numismatics](https://modrinth.com/mod/Jdbbtt0i) [1.0.6+fabric-mc1.20.1] by IThundxr, Violet, Pink, Slimeist, Razziel
 - [Create: Power Loader](https://modrinth.com/mod/E9MuZ1zB) [1.5.3-mc1.20.1-fabric] by Lysine
@@ -98,7 +95,6 @@
 - [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/mod/DNuNq5bb) [1] by NovaWostra
 - [Dungeons and Taverns](https://modrinth.com/mod/tpehi7ww) [3.0.3.f] by NovaWostra, Walls
 - [EMI](https://modrinth.com/mod/fRiHVvU7) [1.1.14+1.20.1+fabric] by Emi
-- [Echo Chest](https://modrinth.com/mod/m3pkVbY8) [8.0.0] by Fuzs
 - [Elemental Wizards (RPG Class)](https://modrinth.com/mod/PeZ4h4i0) [1.2.3-1.20.1] by Fichte
 - [Elytra Physics](https://modrinth.com/mod/jfvCMH0K) [2.1_mc1.19.3+] by ImJoshh_
 - [Elytra Trims Extensions](https://modrinth.com/mod/5edtQ4at) [2.2.1] by KikuGie
@@ -141,8 +137,8 @@
 - [Geode Plus](https://modrinth.com/mod/3LAzTsNC) [1.2.5] by YeoXuHang
 - [Geophilic](https://modrinth.com/mod/hl5OLM95) [3.1.3] by bebebea_loste
 - [Grabby Mobs](https://modrinth.com/mod/O6Sh7btX) [1.6] by Rick South
-- [Hand Over Your Items](https://modrinth.com/mod/Z9RMqaGu) [3.5] by Rick South
 - [Hang Glider](https://modrinth.com/mod/uHWrqYcS) [8.0.1] by gr8pefish, Fuzs
+- [Haunted Harvest](https://modrinth.com/mod/a378ICDH) [1.20-3.1.22] by Mehvahdjukaar, Plantkillable
 - [Healing Campfire](https://modrinth.com/mod/kOuPUitF) [6.1] by Rick South
 - [Highlight](https://modrinth.com/mod/Vz96hXMh) [2.0.1] by ThatGravyBoat
 - [Icarus](https://modrinth.com/mod/Dw7M6XKW) [2.10.0] by Cammie, Up
@@ -156,7 +152,6 @@
 - [Immersive Weathering](https://modrinth.com/mod/jkskOO9i) [1.20.1-2.0.3] by Ordana, MehVahdjukaar, Keyberries, kayla_the_bee
 - [Incendium](https://modrinth.com/mod/ZVzW5oNS) [5.3.5] by Stardust Labs
 - [Indium](https://modrinth.com/mod/Orvt0mRa) [1.0.34+mc1.20.1] by comp500
-- [Inventory Profiles Next](https://modrinth.com/mod/O7RBXm3n) [1.10.10] by mirinimi/blackd
 - [Iris Flywheel Compat](https://modrinth.com/mod/ndHYMY2K) [1.1.3a] by Leon
 - [Iris](https://modrinth.com/mod/YL57xq9U) [1.7.2+mc1.20.1] by coderbot, IMS212, Justsnoopy30, FoundationGames
 - [Iron Chests: Restocked](https://modrinth.com/mod/n2de3t2z) [5.0.2] by Dev and Upgrade Textures - ThatGravyBoat, All Other Textures - Kekie
@@ -165,6 +160,9 @@
 - [Jade Addons](https://modrinth.com/mod/fThnVRli) [5.3.1+fabric] by Snownee
 - [Jade](https://modrinth.com/mod/nvQzSEkH) [11.12.0+fabric] by Snownee
 - [Jewelry (RPG Series)](https://modrinth.com/mod/sNJAIjUm) [1.3.7+1.20.1] by Daedelus
+- [JourneyMap-Teams](https://modrinth.com/mod/EV5wjtvP) [1.1.0] by Mysticdrew
+- [JourneyMapIntegration](https://modrinth.com/mod/M1ZKbfkJ) [1.20.1-0.14-48] by frankV
+- [Journeymap](https://modrinth.com/mod/lfHFW1mp) [5.10.2] by Mysticdrew, Techbrew
 - [Just Enough Items](https://modrinth.com/mod/u6dRKJwZ) [15.20.0.102] by mezz
 - [Just Mob Heads](https://modrinth.com/mod/jzTUm9hE) [8.3] by Rick South
 - [Just Player Heads](https://modrinth.com/mod/YdVBZMNR) [4.1] by Rick South
@@ -183,14 +181,10 @@
 - [MC Dungeons Weapons](https://modrinth.com/mod/FZmGDE43) [9.0.4] by Chronosacaria, Kluzzio
 - [MC Dungeons: Enchanting](https://modrinth.com/mod/iwkcspV8) [1.6.4-1.20] by BackupCup, Iamnotagenius
 - [MaLiLib](https://modrinth.com/mod/GcWjdA9I) [0.16.3] by masa
-- [Macaw's Doors](https://modrinth.com/mod/kNxa8z3e) [1.1.1] by Sketch Macaw & Peachy Macaw
 - [Macaw's Fences and Walls](https://modrinth.com/mod/GmwLse2I) [1.1.2] by SketchMacaw
 - [Macaw's Furniture](https://modrinth.com/mod/dtWC90iB) [3.3.0] by Sketch Macaw & Peachy Macaw
-- [Macaw's Lights and Lamps](https://modrinth.com/mod/w4an97C2) [1.1.1] by SketchMacaw
 - [Macaw's Paintings](https://modrinth.com/mod/okE6QVAY) [1.0.5] by Sketch Peachy and Sketch Macaw
 - [Macaw's Paths and Pavings](https://modrinth.com/mod/VRLhWB91) [1.0.5] by Sketch Macaw, Peachy Macaw
-- [Macaw's Trapdoors](https://modrinth.com/mod/n2fvCDlM) [1.1.3] by SketchMacaw
-- [Macaw's Windows](https://modrinth.com/mod/C7I0BCni) [2.3.0] by SketchMacaw
 - [Magnum Torch](https://modrinth.com/mod/jorDmSKv) [8.0.2] by Fuzs
 - [Majrusz Library](https://modrinth.com/mod/PYQD8noM) [7.0.8] by Majrusz
 - [Majrusz's Progressive Difficulty](https://modrinth.com/mod/GGDBwjOg) [1.9.10] by Majrusz
@@ -205,6 +199,7 @@
 - [MmmMmmMmmMmm](https://modrinth.com/mod/Adega8YN) [1.20-2.0.3] by Mehvahdjukaar, Bonusboni, Gooigipunch, Plantkillable
 - [Mod Menu](https://modrinth.com/mod/mOgUt4GM) [7.2.2] by Prospector, haykam821, TerraformersMC
 - [ModernFix](https://modrinth.com/mod/nmDcB62a) [5.19.4+mc1.20.1] by embeddedt
+- [Modpack Update Checker](https://modrinth.com/mod/rR4tY6Cw) [0.15.2] by Jab125
 - [Moonlight](https://modrinth.com/mod/twkfQtEc) [1.20-2.13.3] by MehVahdJukaar
 - [More Armor Trims](https://modrinth.com/mod/FGNYBAJ6) [1.4.0-1.20.1] by Masik16u
 - [More Culling](https://modrinth.com/mod/51shyZVL) [1.20.4-0.24.0] by FX - PR0CESS
@@ -222,6 +217,7 @@
 - [NotEnoughAnimations](https://modrinth.com/mod/MPCX6s5C) [1.7.6] by tr7zw
 - [Nullscape](https://modrinth.com/mod/LPjGiSO4) [1.2.8] by Stardust Labs
 - [Obscure API](https://modrinth.com/mod/fU7jbFHc) [16] by Obscuria
+- [OpenLoader](https://modrinth.com/mod/KwWsINvD) [19.0.4] by Darkhax
 - [Origins++](https://modrinth.com/mod/npBe7UbS) [2.2] by TheQuantumXenon
 - [Origins](https://modrinth.com/mod/3BeIrqZR) [1.10.0] by Apace
 - [Paladins & Priests (RPG Series)](https://modrinth.com/mod/FxXkHaLe) [1.3.1+1.20.1] by Daedelus
@@ -230,7 +226,6 @@
 - [Pehkui](https://modrinth.com/mod/t5W7Jfwy) [3.8.3+1.14.4-1.21] by Virtuoel
 - [Philip`s Ruins](https://modrinth.com/mod/KdJhOYVV) [1.20.1] by Philip
 - [Pick Up Notifier](https://modrinth.com/mod/ZX66K16c) [8.0.0] by Fuzs
-- [Plasmo Voice](https://modrinth.com/mod/1bZhdhsH) [2.1.0] by Plasmo
 - [Player Animator](https://modrinth.com/mod/gedNE4y2) [1.0.2-rc1+1.20] by KosmX  
 - [PolyLib](https://www.curseforge.com/projects/576589) [2000.0.3-build.143] by CreeperHost
 - [Polymorph](https://modrinth.com/mod/tagwiZkJ) [0.49.7+1.20.1] by Illusive Soulworks
@@ -278,11 +273,11 @@
 - [Tom's Simple Storage Mod](https://modrinth.com/mod/XZNI4Cpy) [1.6.8] by tom5454
 - [Towns and Towers](https://modrinth.com/mod/DjLobEOy) [1.10.2] by Kubek, Biban_Auriu, Cristelknight
 - [Trading Post](https://modrinth.com/mod/8pcjMDgj) [8.0.2] by Fuzs
+- [Traveler's Backpack](https://modrinth.com/mod/rlloIFEV) [9.1.17] by Tiviacz1337
 - [Traveler's Titles](https://modrinth.com/mod/JtifUr64) [1.20-Fabric-4.0.2] by YUNGNICKYOUNG
 - [Trinkets](https://modrinth.com/mod/5aaWibi9) [3.7.2] by Emi, C4
 - [True Ending: Ender Dragon Overhaul](https://modrinth.com/mod/MCnBYP0b) [1-v1.1.0c] by limesplatus
 - [UI Lib](https://modrinth.com/mod/AOEDs9Al) [0.3.5] by DAQEM
-- [Valkyrien Skies 2](https://modrinth.com/mod/V5ujR2yw) [2.3.0-beta.5] by Tri0de, Rubydesic
 - [Villager Death Messages](https://modrinth.com/mod/9uICvZTr) [3.5] by Rick South
 - [Villager Names](https://modrinth.com/mod/gqRXDo8B) [8.1] by Rick South
 - [Visual Workbench](https://modrinth.com/mod/kfqD1JRw) [8.0.0] by Fuzs
@@ -292,8 +287,6 @@
 - [What Are They Up To](https://modrinth.com/mod/AtB5mHky) [1.20.1-1.1.3] by Corosus
 - [Witcher Class Mod](https://modrinth.com/mod/4eW1c7Gj) [1.1.2] by Fichte
 - [Wizards (RPG Series)](https://modrinth.com/mod/NkGaQMDA) [1.3.0+1.20.1] by Daedelus
-- [Xaero's Minimap](https://modrinth.com/mod/1bokaNcj) [24.5.0] by xaero96
-- [Xaero's World Map](https://modrinth.com/mod/NcUtCpym) [1.39.0] by xaero96
 - [YUNG's API](https://modrinth.com/mod/Ua7DFN59) [1.20-Fabric-4.0.6] by YUNGNICKYOUNG
 - [YUNG's Better Desert Temples](https://modrinth.com/mod/XNlO7sBv) [1.20-Fabric-3.0.3] by YUNGNICKYOUNG, Tera
 - [YUNG's Better Dungeons](https://modrinth.com/mod/o1C1Dkj5) [1.20-Fabric-4.0.4] by YUNGNICKYOUNG, Acarii
@@ -320,8 +313,3 @@
 - [iChunUtil](https://modrinth.com/mod/W6ROj0Hl) [1.0.0] by iChun
 - [libIPN](https://modrinth.com/mod/onSQdWhM) [4.0.2] by mirinimi/blackd
 - [oωo](https://modrinth.com/mod/ccKDOlHs) [0.11.2+1.20] by glisco, BasiqueEvangelist, Noaaan
-- [pv-addon-broadcast](https://modrinth.com/mod/ZI9h3Y7k) [1.1.0] by Apehum
-- [pv-addon-groups](https://modrinth.com/mod/g2HFPeCl) [1.1.0] by KPidS
-- [pv-addon-priority](https://modrinth.com/mod/DoKOaUOC) [1.1.0] by Apehum
-- [pv-addon-sculk](https://modrinth.com/mod/7dI2zrDy) [1.1.0] by Apehum
-- [pv-addon-whisper](https://modrinth.com/mod/pZxauj81) [1.1.0] by Apehum

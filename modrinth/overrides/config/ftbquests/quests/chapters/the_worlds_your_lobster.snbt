@@ -5,6 +5,14 @@
 	group: "4D9515EE9951EFE0"
 	icon: "minecraft:spyglass"
 	id: "2EEFB0D998EE0174"
+	images: [{
+		height: 10.0d
+		image: "numismatics:item/coin/outline/cog"
+		rotation: 0.0d
+		width: 10.0d
+		x: 2.0d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -25,7 +33,7 @@
 			}]
 			title: "I spy with my little eye"
 			x: -1.0d
-			y: -2.0d
+			y: 4.0d
 		}
 		{
 			id: "5D2F1D1A4A095836"
@@ -60,8 +68,8 @@
 				type: "advancement"
 			}]
 			title: "Why hi there"
-			x: 5.0d
-			y: -2.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			id: "1A37E452353932D8"
@@ -92,7 +100,7 @@
 				value: 2
 			}]
 			title: "Nat 1"
-			x: 3.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -112,8 +120,8 @@
 				type: "advancement"
 			}]
 			title: "Sleep sweet sleep"
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			id: "68008196946F40B1"
@@ -137,63 +145,16 @@
 				type: "item"
 			}]
 			title: "To see the world"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			id: "5522826F970E42AD"
-			shape: "hexagon"
-			tasks: [{
-				icon: "minecraft:magma_cube_spawn_egg"
-				id: "4B02E79AFDCA25FC"
-				title: "&lEaster Eggs&r"
-				type: "custom"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			id: "7926FDB2AEC2B5A8"
-			shape: "hexagon"
-			tasks: [{
-				icon: "minecraft:magma_cube_spawn_egg"
-				id: "4B126BA633510763"
-				title: "&lEaster Eggs&r"
-				type: "custom"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			id: "12C7379BEB69D0E2"
-			shape: "hexagon"
-			tasks: [{
-				icon: "minecraft:magma_cube_spawn_egg"
-				id: "2F55546A48BE8FAA"
-				title: "&lEaster Eggs&r"
-				type: "custom"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			id: "107EDFCCEED1BBD6"
-			shape: "hexagon"
-			tasks: [{
-				icon: "minecraft:magma_cube_spawn_egg"
-				id: "0E706AE70D2595B9"
-				title: "&lEaster Eggs&r"
-				type: "custom"
-			}]
-			x: 2.0d
-			y: 5.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			id: "520D4F14D2E78846"
 			invisible: true
 			rewards: [{
-				id: "3CA6E41CB065F338"
-				item: "ironchest:iron_diamond_upgrade"
+				count: 4
+				id: "1DDD23D31BD37884"
+				item: "minecraft:bamboo"
 				type: "item"
 			}]
 			subtitle: "Some would call it magic, I call it mineral."
@@ -203,8 +164,8 @@
 				type: "item"
 			}]
 			title: "A storage upgrade"
-			x: 1.0d
-			y: 0.0d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -230,8 +191,8 @@
 				type: "item"
 			}]
 			title: "Time to magic"
-			x: 3.0d
-			y: 0.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "3B720890149924BF"
@@ -251,8 +212,8 @@
 				type: "advancement"
 			}]
 			title: "When two .exe files collide"
-			x: 5.0d
-			y: 0.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "4F27ED25516A4B1A"
@@ -269,12 +230,13 @@
 				type: "item"
 			}]
 			title: "Let's make some bubbles"
-			x: -1.0d
-			y: 2.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2D09F0B2E121523E"]
 			id: "12B07666A92A2F93"
+			invisible: true
 			rewards: [{
 				count: 12
 				id: "3358A50B8A2A8145"
@@ -288,39 +250,52 @@
 				type: "item"
 			}]
 			title: "Come one, come all"
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			id: "625793721736F571"
-			subtitle: "W.I.P."
-			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "066F3B626D4A40FE"
-				title: "Placeholder"
-				type: "custom"
-			}]
-			x: 3.0d
-			y: 2.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
+				"5660458D8863A92F"
 				"3054F11FDE1C2994"
+				"31F02616E9E811CD"
 				"1A37E452353932D8"
 				"3B720890149924BF"
+				"6AC166BBC407ABFB"
+				"7F4B747BAF2CABFA"
+				"6D03A0DE3E2246F9"
+				"0752AA452C65FF54"
+				"794EB0FA4B44AB57"
 				"68008196946F40B1"
 				"5D2F1D1A4A095836"
+				"57336AF58F424C0E"
+				"4150804A49642D52"
 				"39E9854CAE64CC6F"
 				"12B07666A92A2F93"
 				"4F27ED25516A4B1A"
-				"107EDFCCEED1BBD6"
-				"12C7379BEB69D0E2"
+				"4762C61FC4A94FC6"
+				"06183025BA878CE9"
+				"64EB2C42E08CFCF0"
 				"520D4F14D2E78846"
+				"2ABEB74118483B4A"
 				"218432F4D8D7EB18"
+				"174894BE31B6951D"
+				"6F0CD5D1FD114027"
+				"7013E60C99EFAD7C"
+				"498C17568B168EF1"
+				"74CD18D253FAA778"
+				"61DEF2F08C6B8868"
 			]
 			hide_dependency_lines: true
 			id: "14EC955BA0DECB9D"
 			invisible: true
+			rewards: [{
+				count: 3
+				id: "11375EC8A4F805FA"
+				item: "minecraft:diamond_block"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Woah, you've done it!"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -333,64 +308,490 @@
 			y: 1.0d
 		}
 		{
-			id: "4DAF49CD7F4889E0"
-			subtitle: "W.I.P."
+			id: "4762C61FC4A94FC6"
+			invisible: true
+			rewards: [
+				{
+					count: 4
+					id: "438357A73CD69626"
+					item: "hauntedharvest:candy_corn"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70C4B04DCA830366"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+			]
+			subtitle: "I T  I S  D A  S P O O K Y  M O N T H"
 			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "208F885AB7687B6E"
-				title: "Placeholder"
-				type: "custom"
+				id: "3B2975E9FEA14905"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			title: "Trick or treat"
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			id: "4846C392BB87F93A"
-			subtitle: "W.I.P."
+			id: "06183025BA878CE9"
+			invisible: true
+			subtitle: "Can be used to save you from a fall."
 			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "6954F4270E78C5F7"
-				title: "Placeholder"
-				type: "custom"
+				id: "23B5AF8D3D3DC6E2"
+				item: "supplementaries:spring_launcher"
+				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			title: "Better than a slime block"
+			x: 3.5d
+			y: -0.5d
 		}
 		{
-			id: "6318EF5367B569E5"
-			subtitle: "W.I.P."
+			id: "6AC166BBC407ABFB"
+			invisible: true
+			rewards: [
+				{
+					id: "04B4327808969924"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "6952C01F562823C4"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "And a happy new day!"
 			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "472846ACBB2CACA4"
-				title: "Placeholder"
-				type: "custom"
+				id: "54954ED9AB1DE4B4"
+				item: "supplementaries:present"
+				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			title: "Merry Blockmas"
+			x: 0.5d
+			y: 2.5d
 		}
 		{
-			id: "24718DE01EB63F87"
-			subtitle: "W.I.P."
-			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "24593F2B684C89C8"
-				title: "Placeholder"
-				type: "custom"
+			id: "7F4B747BAF2CABFA"
+			invisible: true
+			rewards: [{
+				id: "416AE04666088176"
+				item: {
+					Count: 1
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			subtitle: "Did I just see an anvil fly?"
+			tasks: [{
+				id: "3C55C0765D20DB09"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "supplementaries:stasis"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "A new meaning of stasis"
+			x: 0.5d
+			y: -0.5d
 		}
 		{
-			id: "376BC1D5B9C18FC0"
-			subtitle: "W.I.P."
-			tasks: [{
-				icon: "createutilities:void_steel_block"
-				id: "0E6A87E73AC8C76E"
-				title: "Placeholder"
-				type: "custom"
+			can_repeat: true
+			dependencies: ["3B720890149924BF"]
+			icon: "minecells:boss_stem_cell"
+			id: "58FE532EF3F93F44"
+			rewards: [{
+				id: "0651ADB2751F8624"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "minecells:minecells_guidebook"
+					}
+				}
+				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			subtitle: "Up for a challenge?"
+			tasks: [{
+				id: "79B581B233FCB61A"
+				title: "Need another one?"
+				type: "checkmark"
+			}]
+			title: "Minecells"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["38527C6260F93CA4"]
+			id: "57336AF58F424C0E"
+			invisible: true
+			rewards: [{
+				count: 16
+				id: "1FDE12C9E299A3D4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "The higher ground isn't even needed now."
+			tasks: [{
+				id: "2CBDE66F183C4F0D"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900.0f
+					}
+				}
+				type: "item"
+			}]
+			title: "A more advanced mode"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "6D03A0DE3E2246F9"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "6EEAEFCA6C8F5BB6"
+				item: "supplementaries:rope"
+				type: "item"
+			}]
+			subtitle: "A way to save yourself."
+			tasks: [{
+				id: "7969C681BA8465DD"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			title: "Just in case"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "2ABEB74118483B4A"
+			invisible: true
+			rewards: [
+				{
+					id: "31D4ED978EF7283F"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0E0834A8FA042D17"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "So much just for decorations."
+			tasks: [
+				{
+					id: "0642FE853FC4A9ED"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "48993F6DD1083762"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "01532F0D4BE92C89"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "0413E5B435563004"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "349E9BA4AF69B455"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "6DDE912DB06166DC"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "548C5BB868CB199A"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "The whole decorated set"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4150804A49642D52"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "11113524159A6B4E"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			subtitle: "There's no such thing as a mistake, just happy little accidents."
+			tasks: [{
+				id: "7F8C8DB4C0B75461"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			title: "Van Gogh's blessing"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4150804A49642D52"]
+			id: "0752AA452C65FF54"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "72DC88A049BDBAD8"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			subtitle: "And your creativity will style the walls."
+			tasks: [{
+				id: "0C38BFAFA2A32924"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			title: "Just a press"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0752AA452C65FF54"]
+			id: "5660458D8863A92F"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "7C38A4FF50B44326"
+				item: "immersive_paintings:glow_painting"
+				type: "item"
+			}]
+			subtitle: "See the starry sky in 4K HDR."
+			tasks: [{
+				id: "78FF30BB7640F807"
+				item: "immersive_paintings:glow_painting"
+				type: "item"
+			}]
+			title: "Glowing Ross"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5660458D8863A92F"]
+			id: "31F02616E9E811CD"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "27D3CEAD2B88AAD3"
+				item: "immersive_paintings:glow_graffiti"
+				type: "item"
+			}]
+			subtitle: "Or will you leave things as they were?"
+			tasks: [{
+				id: "450089B06C3DBDF3"
+				item: "immersive_paintings:glow_graffiti"
+				type: "item"
+			}]
+			title: "Glowing Styles"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "64EB2C42E08CFCF0"
+			invisible: true
+			rewards: [{
+				id: "55244833778A9461"
+				item: "botania:sextant"
+				type: "item"
+			}]
+			subtitle: "And don't forget to even it out!"
+			tasks: [{
+				id: "22AF7D3EA74AD3D1"
+				item: "measurements:tape_measure"
+				type: "item"
+			}]
+			title: "Pixel-perfect"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "794EB0FA4B44AB57"
+			invisible: true
+			rewards: [{
+				id: "6661D0F628EB1B22"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			subtitle: "Don't you usually want it the other way around?"
+			tasks: [{
+				id: "109218F669F27D88"
+				item: "supplementaries:antique_ink"
+				type: "item"
+			}]
+			title: "Looks older than it really is"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "174894BE31B6951D"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "577D66D6674F907B"
+				table_id: 829105786776704630L
+				type: "choice"
+			}]
+			subtitle: "Time for an upgrade."
+			tasks: [{
+				id: "7AE0337040AC82E6"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			title: "Automated cooking"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "6F0CD5D1FD114027"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "7CE660938DE7E328"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39CAF030116B9EF6"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "And stay out!"
+			tasks: [{
+				id: "4CC580FDF631E753"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "A flame in the dark"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7013E60C99EFAD7C"]
+			id: "498C17568B168EF1"
+			invisible: true
+			rewards: [{
+				id: "7C8A48B0FBD8885F"
+				item: "botania:overgrowth_seed"
+				type: "item"
+			}]
+			subtitle: "Unless someone like you cares a whole awful lot, nothing is gonna change, it's not."
+			tasks: [{
+				id: "50E9D1F28612BC10"
+				item: "botania:overgrowth_seed"
+				type: "item"
+			}]
+			title: "A powerful little seed"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "7013E60C99EFAD7C"
+			invisible: true
+			subtitle: "Watch the world turn green in envy."
+			tasks: [{
+				id: "1A9DBDFDCBAE3023"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			title: "Let's spread some grass"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "74CD18D253FAA778"
+			invisible: true
+			rewards: [{
+				count: 16
+				id: "205625B2DD8E8D7D"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			subtitle: "Quickly change one block for another."
+			tasks: [{
+				id: "2A618DB14F78337F"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			title: "A build wand"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74CD18D253FAA778"]
+			id: "6289763DC5ACA72C"
+			invisible: true
+			rewards: [{
+				count: 32
+				id: "2049DB42C790A151"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			subtitle: "Cut across the Y axis."
+			tasks: [{
+				id: "101FBDE08E72C1A1"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			title: "Flattening things out"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7013E60C99EFAD7C"]
+			id: "15FA89B31D496E1A"
+			tasks: [{
+				id: "4A22BC2947731B98"
+				item: "botania:pink_floating_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64EB2C42E08CFCF0"]
+			id: "61DEF2F08C6B8868"
+			invisible: true
+			subtitle: "Quickly place one block onto another."
+			tasks: [{
+				id: "3D07AC9ED9B5FA9B"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
+			title: "A build orb"
+			x: -3.0d
+			y: 1.0d
 		}
 	]
 	subtitle: [

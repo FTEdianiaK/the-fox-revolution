@@ -1,0 +1,540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_evolve"
+	group: "4D9515EE9951EFE0"
+	hide_quest_until_deps_visible: true
+	icon: "create_new_age:overcharged_iron"
+	id: "31B79131F261BDA9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["107CE45F00C6E1B0"]
+			hide_dependency_lines: true
+			id: "657B6DBB5E55B3CE"
+			shape: "gear"
+			subtitle: "Alakazam!"
+			tasks: [{
+				id: "644B68B47F63AC20"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			title: "&kTime to magic&r"
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["657B6DBB5E55B3CE"]
+			id: "543BCA775967E82A"
+			subtitle: "From items and people."
+			tasks: [{
+				id: "3738CF10F133CFA2"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "Recycling experience"
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["543BCA775967E82A"]
+			id: "22DB8A772C3BAAF9"
+			subtitle: "Time to get writing."
+			tasks: [{
+				id: "44734DD137C709EC"
+				item: "create_enchantment_industry:ink_bucket"
+				type: "item"
+			}]
+			title: "Enough for a library"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["22DB8A772C3BAAF9"]
+			id: "21EBC7F9231E5727"
+			subtitle: "Or just use a printer."
+			tasks: [{
+				id: "07879F02BE7977A6"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			title: "A printer"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["543BCA775967E82A"]
+			id: "77E2C8197EA1138B"
+			subtitle: "Woah, sparkly."
+			tasks: [{
+				id: "319914F818BE234B"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "Even more breakable"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B0B1E42EAF31725"]
+			id: "0631AFBB8C2950BF"
+			subtitle: "With diesel!"
+			tasks: [{
+				id: "7AA0BD814BD614F3"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			title: "New way of power"
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0631AFBB8C2950BF"]
+			id: "21052EF44D15DFD2"
+			subtitle: "Stack them together!"
+			tasks: [{
+				id: "67A7F341FB79C45E"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			title: "Modular engines"
+			x: 5.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["21052EF44D15DFD2"]
+			id: "714FA5E11B755B97"
+			subtitle: "Look at that size!"
+			tasks: [{
+				id: "4512757763B252DD"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			title: "Diesel giants"
+			x: 8.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0631AFBB8C2950BF"]
+			id: "79D1342FAFE5686C"
+			subtitle: "Time for magnets!"
+			tasks: [{
+				id: "1E25069F412243C6"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			title: "Careful with metals"
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["79D1342FAFE5686C"]
+			id: "5D10263E0D636E72"
+			subtitle: "This one transfers power to a usable state."
+			tasks: [
+				{
+					id: "5B26D9C4DA0C4A69"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "4E52C276C9C1F5C1"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			title: "A different kind of brush"
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["79D1342FAFE5686C"]
+			id: "123DE761CEAA0B94"
+			subtitle: "It's finally efficient."
+			tasks: [{
+				id: "34917CB4F23A175F"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			title: "Four times more power"
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["123DE761CEAA0B94"]
+			id: "243BD3A2EED34464"
+			subtitle: "Now, that's what I call efficient."
+			tasks: [{
+				id: "66353927B667C0BC"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			title: "Six times the power"
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["39E1C614316BC565"]
+			hide_dependency_lines: true
+			id: "00BB2199C1502043"
+			shape: "gear"
+			subtitle: "Here comes the sun, to-do-dodo-"
+			tasks: [{
+				id: "561BEC9E59CD8F39"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			title: "Harnessing the sun"
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["00BB2199C1502043"]
+			id: "2D388EEC3C6126B1"
+			subtitle: "And harnessing its energy."
+			tasks: [
+				{
+					id: "699D1A2E76C91A35"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+				{
+					id: "6E90B1F6121FD342"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+			]
+			title: "Moving heat"
+			x: -7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2D388EEC3C6126B1"]
+			id: "76990CC02785F4A8"
+			subtitle: "See the air transform."
+			tasks: [{
+				id: "705CAC5BD227AA6C"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			title: "Heat to power"
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["76990CC02785F4A8"]
+			id: "6B0B1E42EAF31725"
+			subtitle: "Works with pure heat."
+			tasks: [{
+				id: "792690144F1F145C"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			title: "Alternative to blazes"
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["37D560ADFC9B85D3"]
+			id: "6927D5187239C592"
+			subtitle: "As is everything else."
+			tasks: [{
+				id: "282C53A84EC1EC93"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			title: "Stuff of atoms"
+			x: 14.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6927D5187239C592"]
+			hide_dependency_lines: true
+			id: "2A65FA501DDE5025"
+			shape: "gear"
+			subtitle: "Do I need a protective suit for this?"
+			tasks: [{
+				id: "54447F9BE9F5D87B"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			title: "Start of a nuclear era"
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2A65FA501DDE5025"]
+			id: "1EE1A70D43C2B86E"
+			subtitle: "Clean and dangerous power."
+			tasks: [{
+				id: "3CAEE9F333D2B697"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			title: "Fuel in a tube"
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1EE1A70D43C2B86E"]
+			id: "163EBC1D55D48505"
+			subtitle: "Use this for its shell."
+			tasks: [
+				{
+					id: "2CC8DA084499B306"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "0B2378FEA8D5356A"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "Building a reactor"
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["163EBC1D55D48505"]
+			id: "3E5853C650A01503"
+			subtitle: "Put it in the middle."
+			tasks: [{
+				id: "3C62BFEEF94FA3FC"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			title: "Place for power"
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3E5853C650A01503"]
+			id: "3EF8FED76467F22C"
+			subtitle: "On one side of the rod."
+			tasks: [{
+				id: "1FE00EAA3DBAEA12"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			title: "Way of flow"
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3EF8FED76467F22C"]
+			id: "7267B2034D4D8580"
+			subtitle: "And this on the other end."
+			tasks: [{
+				id: "0B5FDAF6E1A3CE56"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			title: "Way of flow II"
+			x: 5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5D10263E0D636E72"]
+			id: "37D560ADFC9B85D3"
+			subtitle: "Some lunatics call it eel-ect-rick-ity."
+			tasks: [{
+				id: "4F2473959FE05280"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			title: "Transfering pure power"
+			x: 11.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["37D560ADFC9B85D3"]
+			id: "05C03A3DA5F18971"
+			subtitle: "All that power in a tiny wire."
+			tasks: [{
+				id: "63D9C30BABE69CA5"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			title: "Warning! Overcharge"
+			x: 14.0d
+			y: -15.0d
+		}
+		{
+			id: "0A741799333A5047"
+			shape: "rsquare"
+			tasks: [{
+				icon: "create:cogwheel"
+				id: "7B89D66E34950C33"
+				title: "Continued from &lLet's Create&r"
+				type: "custom"
+			}]
+			x: -13.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["74B263CE0FB58677"]
+			hide_dependency_lines: true
+			id: "2287010A0F6F4A1F"
+			shape: "gear"
+			subtitle: "What a surprise!"
+			tasks: [{
+				id: "0E97E9DE801ED1DA"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			title: "Enderman can be useful?"
+			x: -10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2287010A0F6F4A1F"]
+			id: "6FF115A38A1DC6D0"
+			subtitle: "Basically, a shareable ender chest."
+			tasks: [{
+				id: "53F79B7B5E53BC91"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			title: "Frequency tuning"
+			x: -7.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6FF115A38A1DC6D0"]
+			id: "066853691393DD25"
+			subtitle: "What is bothering you?"
+			tasks: [{
+				id: "6946F38BBE8B2878"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			title: "Transferring stress"
+			x: -4.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["066853691393DD25"]
+			id: "56DBAAD0942BFE45"
+			subtitle: "Umm, okay?"
+			tasks: [{
+				id: "73F0460C3A5ED364"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			title: "Transferring fluids"
+			x: -1.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["56DBAAD0942BFE45"]
+			id: "2E5AE12A9A0C878C"
+			subtitle: "Or so that wacko says."
+			tasks: [{
+				id: "12A72775427EEB46"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			title: "Transferring eels"
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0AE32CAE90F20CC9"]
+			id: "46397F2FEE29A4DE"
+			shape: "gear"
+			subtitle: "A carbon like a carbon."
+			tasks: [{
+				id: "7EB614FAA0DE0BF4"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "A gem in disguise"
+			x: -10.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["46397F2FEE29A4DE"]
+			id: "56B55E1F596382BD"
+			subtitle: "Industrial revolution has already started, time for an economical one."
+			tasks: [{
+				id: "51D525B1A94A91AA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Your first coin"
+			x: -7.0d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"15C5ABC95FD8A523"
+				"787A1093F8DBF3E8"
+				"74B263CE0FB58677"
+			]
+			id: "09C54D306ACAFE8E"
+			subtitle: "Time to start a stock market."
+			tasks: [{
+				id: "115E170EF4AB6752"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			title: "A banker's guide"
+			x: 2.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["56B55E1F596382BD"]
+			id: "3892C1FA4EAD980D"
+			subtitle: "Spur goes in, signal goes out."
+			tasks: [{
+				id: "67594B979B29B25D"
+				item: "numismatics:andesite_depositor"
+				type: "item"
+			}]
+			title: "A machine that makes a clink"
+			x: -4.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3892C1FA4EAD980D"]
+			id: "787A1093F8DBF3E8"
+			subtitle: "Something for something, the most basic of trades."
+			tasks: [{
+				id: "69E0D365E604C0FE"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Quid pro quo"
+			x: -1.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["09C54D306ACAFE8E"]
+			id: "06DC0496ED69811C"
+			subtitle: "Automated Teller Machines"
+			tasks: [
+				{
+					id: "2567770FFBA323B2"
+					item: "numismatics:bank_terminal"
+					type: "item"
+				}
+				{
+					id: "7E5241DBCB0F56A8"
+					item: "numismatics:white_card"
+					type: "item"
+				}
+			]
+			title: "The first ever ATMs"
+			x: 5.0d
+			y: -22.5d
+		}
+	]
+	subtitle: [
+		"Upgrades, my friends, upgrades!"
+		"Create (cont.)"
+		"(Walkthrough)"
+	]
+	title: "Let's Evolve"
+}

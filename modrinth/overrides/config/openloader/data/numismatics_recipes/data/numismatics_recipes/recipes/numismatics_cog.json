@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"item": "minecraft:emerald"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "numismatics:cog",
+			"count": 1
+		}
+	]
+}

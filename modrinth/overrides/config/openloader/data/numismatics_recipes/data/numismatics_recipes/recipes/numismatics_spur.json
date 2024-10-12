@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"item": "minecraft:coal"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "numismatics:spur",
+			"count": 1
+		}
+	]
+}

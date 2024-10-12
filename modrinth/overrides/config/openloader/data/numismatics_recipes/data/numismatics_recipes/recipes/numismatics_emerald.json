@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "numismatics:cog"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:emerald",
+			"count": 1
+		}
+	]
+}

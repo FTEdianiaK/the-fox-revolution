@@ -365,6 +365,11 @@
 				"Time to follow them."
 			]
 			id: "624376E1F1DBFE45"
+			rewards: [{
+				id: "218996D6496831CE"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
 			subtitle: "The final ark awaits."
 			tasks: [{
 				icon: "minecraft:mossy_stone_bricks"
@@ -772,11 +777,19 @@
 				"Well, they could do that before as well, but... who cares, you're a hero!"
 			]
 			id: "7E1758924C42FD07"
-			rewards: [{
-				id: "1AAB613CD565D242"
-				item: "minecraft:dragon_head"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "72DD93712A24B4A7"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "0C5173881006C238"
+					item: "botania:laputa_shard"
+					type: "item"
+				}
+			]
 			subtitle: "It's over."
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
@@ -804,6 +817,11 @@
 				"Keep it safe."
 			]
 			id: "38527C6260F93CA4"
+			rewards: [{
+				id: "48F6E2993DFE504E"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
 			subtitle: "To travel the worlds."
 			tasks: [{
 				id: "518861209C3D1E3A"
@@ -1088,7 +1106,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "pentagon"
 			subtitle: "Long live the new one!"
 			tasks: [{
 				id: "746FE8420BA7CD50"
@@ -1133,6 +1151,17 @@
 				"They are also the other ingredient that you'll need for what comes next."
 			]
 			id: "20B753485250E0EF"
+			rewards: [{
+				id: "112C352AF6C62335"
+				item: {
+					Count: 1
+					id: "botania:ender_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "They hold an unknown teleportation spell."
 			tasks: [
 				{
@@ -1154,7 +1183,7 @@
 					value: 1L
 				}
 			]
-			title: "Killing the &kRevolutionaries&r"
+			title: "&rKilling the&r &kRevolutionaries&r"
 			x: 12.5d
 			y: 1.5d
 		}
@@ -1282,6 +1311,11 @@
 			description: ["Might not be the best idea to show the lost souls that there really was an easier way to get (at least half) immortality."]
 			id: "7E7930C243FB565B"
 			invisible: true
+			rewards: [{
+				id: "016BE191EADE80F6"
+				item: "friendsandfoes:totem_of_illusion"
+				type: "item"
+			}]
 			subtitle: "Better keep it to yourself though."
 			tasks: [{
 				id: "74FF10C42AF5CA22"
@@ -1297,6 +1331,7 @@
 				"7E1758924C42FD07"
 				"670AC84EEB4C73A2"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Before their demise, the &l&6Revolutionaries&r split into two groups."
 				"{@pagebreak}"
@@ -1311,7 +1346,13 @@
 				"Finish the story."
 			]
 			id: "2E4287F9DC4F22BA"
-			shape: "hexagon"
+			rewards: [{
+				id: "527C9F5A9FA14D01"
+				item: "portablehole:portable_hole"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "The end is never the end is never the end is never the ..."
 			tasks: [{
 				id: "1C439AFD6BFAB596"
 				title: "This isn't the only end"
@@ -1357,6 +1398,7 @@
 			}]
 			subtitle: "Don't worry, I've got you covered."
 			tasks: [{
+				consume_items: true
 				id: "40E2ED8273073609"
 				item: {
 					Count: 1
@@ -1387,10 +1429,15 @@
 			dependencies: ["67A0E3CDF53DA991"]
 			id: "17AE0B1476D31CFA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F02A84B0319E92C"
-				table_id: 968571458129304118L
-				type: "choice"
+				id: "3C3050523E103F5C"
+				item: {
+					Count: 1
+					id: "botania:laputa_shard"
+					tag: {
+						level: 19
+					}
+				}
+				type: "item"
 			}]
 			subtitle: "Time for a rematch."
 			tasks: [{
@@ -1401,6 +1448,30 @@
 			title: "Better in pink"
 			x: 6.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0FB9F1DEDC797477"]
+			description: [
+				"You're not sure where this book came from, it seemingly just materalized out of thin air when you entered the portal."
+				""
+				"It's cover radiates with hopelessness, it might come in useful."
+			]
+			icon: "minecraft:end_stone"
+			id: "3F43A7BB262DF091"
+			rewards: [{
+				id: "694D4C2E15B22DE9"
+				item: "betterend:guidebook"
+				type: "item"
+			}]
+			subtitle: "Don't get lost in there."
+			tasks: [{
+				id: "4BD2DABD507370F5"
+				title: "Need another one?"
+				type: "checkmark"
+			}]
+			title: "Better End"
+			x: 26.5d
+			y: 6.0d
 		}
 	]
 	subtitle: [

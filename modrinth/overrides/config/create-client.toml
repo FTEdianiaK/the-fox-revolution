@@ -91,7 +91,7 @@
 		editingMode = false
 		#.
 		#Slow down a ponder scene whenever there is text on screen.
-		comfyReading = true
+		comfyReading = false
 	#.
 	#Railway related settings
 	[client.trains]

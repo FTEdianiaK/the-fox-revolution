@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "numismatics:spur"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:coal",
+			"count": 1
+		}
+	]
+}

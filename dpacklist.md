@@ -1,0 +1,3 @@
+- [Create Immersive Aircrafts - Recipes](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-data-pack)
+- [Tom's Create Storage Recipes (Datapack)](https://www.curseforge.com/minecraft/texture-packs/create-simple-storage-recipes-datapack)
+- Numismatics Recipes 

@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "numismatics:sun"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:ancient_debris",
+			"count": 1
+		}
+	]
+}

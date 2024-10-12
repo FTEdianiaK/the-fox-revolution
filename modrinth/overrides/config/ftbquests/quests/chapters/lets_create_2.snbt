@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "lets_create_2"
 	group: "4D9515EE9951EFE0"
+	hide_quest_until_deps_visible: true
 	icon: "create:cogwheel"
 	id: "700ADDF90A9BFFD4"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -62,7 +63,7 @@
 				type: "item"
 			}]
 			title: "Harnessing the water"
-			x: 8.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -88,7 +89,7 @@
 				}
 			]
 			title: "Harnessing the wind"
-			x: 8.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -117,7 +118,7 @@
 				}
 			]
 			title: "A simple shift"
-			x: 11.0d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -130,7 +131,7 @@
 				type: "item"
 			}]
 			title: "Encasing the heart"
-			x: 14.0d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -163,7 +164,7 @@
 				}
 			]
 			title: "The mechanical press"
-			x: 17.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -176,7 +177,7 @@
 				type: "item"
 			}]
 			title: "A way to see more"
-			x: 20.0d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
@@ -209,7 +210,7 @@
 				type: "item"
 			}]
 			title: "Tools of the trade"
-			x: 23.0d
+			x: 23.5d
 			y: 2.0d
 		}
 		{
@@ -229,7 +230,7 @@
 				}
 			]
 			title: "More ways to process"
-			x: 23.0d
+			x: 23.5d
 			y: 0.0d
 		}
 		{
@@ -312,7 +313,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["451E9F9466A1B0C8"]
 			id: "254CC3072829F7A6"
+			subtitle: "It can hold blocks together."
 			tasks: [{
 				id: "2E9731A61B6E0725"
 				item: {
@@ -324,18 +327,22 @@
 				}
 				type: "item"
 			}]
-			x: 40.0d
-			y: 3.5d
+			title: "Super duper glue"
+			x: 14.5d
+			y: 21.0d
 		}
 		{
+			dependencies: ["749F374B63210935"]
 			id: "019928A2D92FB53E"
+			subtitle: "We got freight trains now too."
 			tasks: [{
 				id: "7A6CDEDD36F2F65A"
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 42.0d
-			y: 3.5d
+			title: "The final step in logistics"
+			x: 26.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4B6C1D04A18DD342"]
@@ -388,11 +395,12 @@
 				type: "item"
 			}]
 			title: "Getting an exact reading"
-			x: 23.0d
+			x: 23.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6C13BB5C85A09A2B"]
+			hide_dependency_lines: true
 			id: "74B263CE0FB58677"
 			rewards: [{
 				id: "6C7544AF933C6143"
@@ -407,8 +415,8 @@
 				type: "item"
 			}]
 			title: "Entering the blaze era"
-			x: 38.5d
-			y: 0.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4DCE753E5868FFE5"]
@@ -426,8 +434,8 @@
 				type: "item"
 			}]
 			title: "It sucks"
-			x: 47.5d
-			y: 0.0d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4948961348DEEAAF"]
@@ -438,9 +446,9 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			title: "A well-made machine"
-			x: 50.5d
-			y: -2.0d
+			title: "A &lwell&r-made machine"
+			x: 11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["74B263CE0FB58677"]
@@ -451,9 +459,9 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			title: "Adult steps"
-			x: 41.5d
-			y: 0.0d
+			title: "Teenage steps"
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["452893C567867760"]
@@ -465,19 +473,21 @@
 				type: "item"
 			}]
 			title: "Encasing the future"
-			x: 44.5d
-			y: 0.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4948961348DEEAAF"]
 			id: "1D625EE4230190F5"
+			subtitle: "It's a pressure that'll never stop."
 			tasks: [{
 				id: "30729CF2371063AC"
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 50.5d
-			y: 2.0d
+			title: "Drip, drip, drop"
+			x: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4948961348DEEAAF"]
@@ -489,8 +499,8 @@
 				type: "item"
 			}]
 			title: "Steam, finally"
-			x: 50.5d
-			y: 0.0d
+			x: 11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4D61679745EFC502"]
@@ -521,8 +531,790 @@
 				}
 			]
 			title: "Time for a deep dive"
-			x: 53.5d
-			y: 0.0d
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BC545F7AC03AD05"]
+			id: "6AE8240B69DE52E0"
+			subtitle: "Moving on."
+			tasks: [{
+				id: "06F78AB7A0BC2EB7"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Adult steps"
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6AE8240B69DE52E0"]
+			id: "39E1C614316BC565"
+			subtitle: "Yep, time to do it all again."
+			tasks: [{
+				id: "33BBA1D6B56C95E6"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Encasing things again"
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39E1C614316BC565"]
+			id: "341EF3452DC3856B"
+			subtitle: "Manual labor awaits."
+			tasks: [
+				{
+					id: "48E0649472BF5B53"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "283E2FBE29AD2704"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Time to get sanding"
+			x: 23.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1505B25084E0CE97"]
+			id: "0CEF0288B73D57DA"
+			rewards: [{
+				id: "5D2392DC65B1A0B5"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			subtitle: "Who knows what you might find."
+			tasks: [{
+				id: "5FFE850DEEE68B29"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			title: "Spooky time"
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["37FD1D2CD78BF763"]
+			id: "1505B25084E0CE97"
+			subtitle: "Tick, tock, goes the clock."
+			tasks: [{
+				id: "5925C9A31008702B"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			title: "Time to tell time"
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["341EF3452DC3856B"]
+			hide_dependency_lines: true
+			id: "4DC4CAE9FF8E868C"
+			shape: "gear"
+			subtitle: "Moving on."
+			tasks: [{
+				id: "4DC93AA491C189D1"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Result of your hard work"
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4DC4CAE9FF8E868C"]
+			id: "37FD1D2CD78BF763"
+			subtitle: "Time to turn on the lights."
+			tasks: [{
+				id: "143AF91D440A762B"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Bring forth the electron age"
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["37FD1D2CD78BF763"]
+			id: "3A60F6BA82BC60FF"
+			subtitle: "It's quite an uncanny resemblance."
+			tasks: [{
+				id: "5E10383D4A6CE9B5"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Deployer joined the chat"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["168B806314F26D9D"]
+			id: "3D488EB7CCE8D4E6"
+			subtitle: "Please, terminate boarding and exiting, the train is leaving."
+			tasks: [{
+				id: "311C43E91B711DB0"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			title: "The P.A. system"
+			x: 11.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["37FD1D2CD78BF763"]
+			id: "58E6E5304802A1DE"
+			subtitle: "BORING!"
+			tasks: [{
+				id: "093F3B806269B8EB"
+				item: "create:display_link"
+				type: "item"
+			}]
+			title: "Wow, that's so..."
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["58E6E5304802A1DE"]
+			id: "107CE45F00C6E1B0"
+			subtitle: "Fun fact: Having an HDMI cabel is good, but it's useless without a monitor."
+			tasks: [{
+				id: "4A6CAE3B2BAB6F2E"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Now that's more like it"
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["107CE45F00C6E1B0"]
+			id: "5F87B7005F1815E1"
+			subtitle: "Remember when these were all the rage?"
+			tasks: [{
+				id: "49CBBB1CEF2DFF2A"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			title: "Bring back the retro"
+			x: 11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5BC545F7AC03AD05"]
+			id: "6DE91AB7B32370D6"
+			subtitle: "Reach for the stars!"
+			tasks: [{
+				id: "452AFC94A09D8D52"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Powerin' up"
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E8A14D9B9C29D49"]
+			id: "28581131FF3E8234"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "7C4C5A73AC95CF87"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			title: "A remote controlled train"
+			x: 5.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["28581131FF3E8234"]
+			id: "019C68D23DC22F61"
+			subtitle: "Now, that's an RC train!"
+			tasks: [{
+				id: "015288ACEFD142C4"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			title: "We've got a controller now"
+			x: 8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3A60F6BA82BC60FF"]
+			description: ["...you have a ten times bigger chance at winning a regular villager bingo than at making this freaking thing?"]
+			id: "35637DFAAF00B986"
+			subtitle: "Did you know that..."
+			tasks: [{
+				id: "4A0902FA334DAC50"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Playing the aprroximation bingo"
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["35637DFAAF00B986"]
+			id: "6067199717516924"
+			subtitle: "Number ten will surprise you!"
+			tasks: [{
+				id: "35FB6E80B06B281D"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Ten simple tricks that engineers hate!"
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6067199717516924"]
+			id: "618D55FE42EE640E"
+			subtitle: "Without the manual labor and bad ethics."
+			tasks: [{
+				id: "51BC924621D68917"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Starting a manufacture"
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["618D55FE42EE640E"]
+			description: [
+				"> git push"
+				"Running pre-push tests..."
+				"Check #1/3 passed."
+				"Check #2/3 passed."
+				"Check #3/3 failed, already have this feature."
+			]
+			id: "372E2EA08427BE1B"
+			subtitle: "✨ automation: Added better functionality."
+			tasks: [{
+				id: "0881A65D54FD4D31"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Crafting table V2.0"
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["372E2EA08427BE1B"]
+			id: "45C127749F9D6433"
+			subtitle: "Don't worry."
+			tasks: [{
+				id: "560141DA0EF0A75D"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			title: "A homegrown vegetable"
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["45C127749F9D6433"]
+			id: "22F40A0A13A0AF7A"
+			subtitle: "You'll understand in a moment."
+			tasks: [{
+				id: "0DB2711AE51B99FD"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "A barrel"
+			x: 26.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["22F40A0A13A0AF7A"]
+			id: "3104061BB9B1255F"
+			rewards: [{
+				count: 64
+				id: "4C3505BD99597C32"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			subtitle: "I came here to farm and shoot zombies, and I'm all out of farmland."
+			tasks: [{
+				id: "7DB20DE51972FC9B"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A cannon"
+			x: 29.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["372E2EA08427BE1B"]
+			id: "2B1A0C6ABAF86B45"
+			subtitle: "G-get it? Crushing?"
+			tasks: [{
+				id: "60BD4D0169886965"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Delivering a crushing blow"
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2B1A0C6ABAF86B45"]
+			id: "2E6E4F6D0601E3F3"
+			subtitle: "Have you heard of a village called Pompeii?"
+			tasks: [{
+				id: "47713E1B4BF68538"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Cry of the ages"
+			x: 26.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E6E4F6D0601E3F3"]
+			id: "59F73CA2E9C352D0"
+			subtitle: "Even the strongest material has a breaking point."
+			tasks: [{
+				id: "2E26A638383E0871"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			title: "A growing pressure"
+			x: 29.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["59F73CA2E9C352D0"]
+			hide_dependency_lines: true
+			id: "15C5ABC95FD8A523"
+			shape: "gear"
+			subtitle: "\"Then at last\"? Is that all?"
+			tasks: [{
+				id: "13C0624346452F1F"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Then at last"
+			x: -0.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["15C5ABC95FD8A523"]
+			id: "6E8A14D9B9C29D49"
+			subtitle: "From brass to trains."
+			tasks: [{
+				id: "392B2FD2267E6856"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Enfuturing the casing"
+			x: 2.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["6E8A14D9B9C29D49"]
+			id: "7957074D4680DA02"
+			subtitle: "We don't have hovering ones just yet."
+			tasks: [{
+				id: "2CC62B905DDF9CC2"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "A road for trains"
+			x: 5.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7957074D4680DA02"]
+			id: "168B806314F26D9D"
+			subtitle: "Please, don't step on the tracks."
+			tasks: [{
+				id: "07C6A85AB23902D0"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Coming into station"
+			x: 8.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["168B806314F26D9D"]
+			id: "451E9F9466A1B0C8"
+			subtitle: "You don't want to fly around the train now, do you?"
+			tasks: [{
+				id: "242E263743B98BC5"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			title: "A place to sit"
+			x: 11.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5D5A88504224F2CE"]
+			id: "7CAC92B892F63DC4"
+			subtitle: "You go there."
+			tasks: [{
+				id: "0B240710A5F4B172"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "You go here"
+			x: 20.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7CAC92B892F63DC4"]
+			id: "749F374B63210935"
+			subtitle: "Or playing: Red light, Green light"
+			tasks: [{
+				id: "3BAECE260D19C1FB"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "Avoiding crashes"
+			x: 23.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7CAC92B892F63DC4"]
+			id: "675A7EDFDB65552A"
+			subtitle: "And even our version of IDOS."
+			tasks: [{
+				id: "6DA811A2FA462979"
+				item: "createrailwaysnavigator:navigator"
+				type: "item"
+			}]
+			title: "We have Minenet now"
+			x: 23.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["675A7EDFDB65552A"]
+			id: "077D125D35DE22FF"
+			subtitle: "What's the next station?"
+			tasks: [{
+				id: "45CE689E614E3A40"
+				item: "createrailwaysnavigator:advanced_display"
+				type: "item"
+			}]
+			title: "A way to display more"
+			x: 26.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["5F787E0FCB441C9D"]
+			id: "52220B1EAF479976"
+			subtitle: "Shows info and protects at the same time."
+			tasks: [{
+				id: "34972350DD5366E9"
+				item: {
+					Count: 1
+					id: "creategoggles:goggle_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Useful and useful"
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DE91AB7B32370D6"]
+			id: "316A0B70799AC597"
+			subtitle: "Steam and armor."
+			tasks: [{
+				id: "301EA2EFE01F7DD3"
+				item: {
+					Count: 1
+					id: "creategoggles:iron_backtank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Once again for usefullness"
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["74B263CE0FB58677"]
+			id: "79ABBD684356FBD8"
+			subtitle: "As in backing up, not hero."
+			tasks: [{
+				id: "585B34683E8E7C75"
+				item: "create_power_loader:empty_andesite_chunk_loader"
+				type: "item"
+			}]
+			title: "A basic world saver"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["79ABBD684356FBD8"]
+			id: "0E31EBEF8164B331"
+			tasks: [{
+				icon: "minecraft:ghast_spawn_egg"
+				id: "7351399E3EB9C532"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Ghast"
+				to_observe: "minecraft:ghast"
+				type: "observation"
+			}]
+			title: "Flying squids"
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0E31EBEF8164B331"]
+			id: "46A180A447453518"
+			subtitle: "Hope you don't mind me spinning you around for the rest of eternity."
+			tasks: [{
+				id: "2F7ABA149B9544FF"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			title: "Now it's mine"
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CAC92B892F63DC4"]
+			id: "08D983520A04CCA8"
+			subtitle: "Not this again."
+			tasks: [{
+				id: "59E820501B24E93F"
+				item: "railways:light_blue_conductor_cap"
+				type: "item"
+			}]
+			title: "Upgrading the schedule"
+			x: 23.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["254CC3072829F7A6"]
+			id: "5D5A88504224F2CE"
+			subtitle: "How about a way to control it?"
+			tasks: [{
+				id: "779764B19C7F935F"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Choo-choo"
+			x: 17.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["08D983520A04CCA8"]
+			id: "402246DBEDCBD747"
+			subtitle: "Yes, chief!"
+			tasks: [{
+				id: "77D28643ED9E9563"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			title: "Pick me up"
+			x: 26.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["402246DBEDCBD747"]
+			id: "494BD67B0DC7CA9A"
+			subtitle: "I mean, what?"
+			tasks: [{
+				id: "56E012B9FA8761FE"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			title: "I spy with your little eye"
+			x: 29.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["35637DFAAF00B986"]
+			id: "2A5117868AE203C2"
+			rewards: [{
+				count: 6
+				id: "262586243942E28A"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Easy way to make a warehouse."
+			tasks: [{
+				id: "3BDC87FEBCF4620E"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "A storage interface"
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2A5117868AE203C2"]
+			id: "12C07321A3F50FF3"
+			rewards: [{
+				count: 8
+				id: "2C03E1DBF0D23393"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "A closed alternative to mechanical belts."
+			tasks: [{
+				id: "14BEE4AE5CB74F01"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "A storage connector"
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["372E2EA08427BE1B"]
+			id: "4AB795519A27FE1A"
+			rewards: [{
+				count: 4
+				id: "6E727433ED7160E0"
+				item: "ironchest:wood_iron_upgrade"
+				type: "item"
+			}]
+			subtitle: "A C00L way to craft."
+			tasks: [{
+				id: "518D25B1285AF3AD"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "A crafting interface"
+			x: 23.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4AB795519A27FE1A"]
+			id: "18930C7D87D58F8E"
+			rewards: [{
+				count: 2
+				id: "7725991703E0E83E"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "Pinging the crafting server."
+			tasks: [{
+				id: "1D09D33F273263F1"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "A remote access"
+			x: 26.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["35637DFAAF00B986"]
+			id: "713CFA7015694206"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "210E56713EA71384"
+				table_id: 829105786776704630L
+				type: "choice"
+			}]
+			subtitle: "You better be ready to push."
+			tasks: [{
+				id: "3E1B16DCA55B0874"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "Manual transportation"
+			x: 14.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"713CFA7015694206"
+				"372E2EA08427BE1B"
+			]
+			id: "7F25B450F3BB49C2"
+			rewards: [{
+				count: 4
+				id: "42529DDAFC8A01D0"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Just don't blow it up."
+			tasks: [{
+				id: "51288A194DE1757F"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "Zeppelin's idea"
+			x: 17.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7F25B450F3BB49C2"]
+			id: "08BA99538AFF0FC4"
+			rewards: [{
+				id: "5AF8FCD9034B4C26"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			subtitle: "Get ready for the delays."
+			tasks: [{
+				id: "00100FE16AA0E791"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "World-wide flights"
+			x: 20.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5921A5E8EC8F985D"]
+			id: "39504DA23C433F51"
+			subtitle: "And I thought water doesn't mix with technology."
+			tasks: [{
+				id: "7AB69A79C63E1B78"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			title: "Automated water"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45C127749F9D6433"]
+			id: "797C16FDDCD5B7B2"
+			shape: "pentagon"
+			subtitle: "How did that &lthing&r get here?"
+			tasks: [{
+				id: "504B9947D0067825"
+				item: "botania:tiny_potato"
+				type: "item"
+			}]
+			title: "Hello :)"
+			x: 20.5d
+			y: 12.0d
 		}
 	]
 	subtitle: [

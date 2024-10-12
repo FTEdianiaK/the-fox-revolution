@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "numismatics:crown"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:diamond",
+			"count": 1
+		}
+	]
+}

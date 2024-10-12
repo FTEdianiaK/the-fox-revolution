@@ -22,143 +22,111 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				bee = true
 				axolotl = true
 				egg = true
-				arrow = true
-				cow = true
-				pig = true
 				allay = true
-				skeleton = true
 				llama = true
 				bat = true
-				frog = true
 				husk = true
-				hoglin = true
 				camel = true
 				experience_bottle = true
 				rabbit = true
 				firework_rocket = true
-				armor_stand = true
 				giant = true
 				drowned = true
-				experience_orb = true
-				dolphin = true
 				item = true
-				stray = true
-				salmon = true
 				goat = true
-				ocelot = true
-				furnace_minecart = true
-				item_frame = true
 				vindicator = true
 				horse = true
-				phantom = true
-				ender_dragon = true
-				leash_knot = true
-				evoker = true
 				llama_spit = true
-				glow_squid = true
-				warden = true
 				glow_item_frame = false
-				squid = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
-				enderman = true
-				dragon_fireball = true
-				chicken = true
-				donkey = true
 				evoker_fangs = true
 				tropical_fish = true
 				chest_minecart = true
-				fox = true
 				slime = true
 				pillager = true
-				iron_golem = true
 				area_effect_cloud = true
 				blaze = true
+				piglin = true
 				end_crystal = true
 				endermite = true
-				cat = true
 				zombie = true
 				ender_pearl = true
 				item_display = true
 				guardian = true
-				ghast = true
-				sheep = true
 				fireball = true
-				player = true
-				pufferfish = true
 				illusioner = true
 				eye_of_ender = true
-				villager = true
 				wolf = true
-				skeleton_horse = true
 				zombie_villager = true
 				tnt_minecart = true
 				block_display = true
 				elder_guardian = true
 				chest_boat = true
 				boat = true
-				polar_bear = true
-				hopper_minecart = true
-				falling_block = true
-				painting = true
+				strider = true
 				cave_spider = true
-				interaction = true
 				cod = true
 				witch = true
 				spider = true
 				command_block_minecart = true
-
-			[light_sources.settings.entities.naturalist]
-				zebra = true
-				deer = true
-				rattlesnake = true
-				snail = true
-				canary = true
-				rhino = true
-				firefly = true
-				bluejay = true
-				coral_snake = true
-				snake = true
-				cardinal = true
-				lion = true
-				vulture = true
-				boar = true
-				robin = true
-				bass = true
-				tortoise = true
-				giraffe = true
-				butterfly = true
-				bear = true
-				sparrow = true
-				elephant = true
-				lizard = true
-				finch = true
-
-			[light_sources.settings.entities.majruszsdifficulty]
-				illusioner = true
-				tank = true
-
-			[light_sources.settings.entities.immersive_aircraft]
-				biplane = true
-
-			[light_sources.settings.entities.minecells]
-				shieldbearer = true
-
-			[light_sources.settings.entities.friendsandfoes]
-				glare = true
-				copper_golem = true
-				mauler = true
-				rascal = true
+				bee = true
+				arrow = true
+				cow = true
+				magma_cube = true
+				pig = true
+				skeleton = true
+				frog = true
+				hoglin = true
+				armor_stand = true
+				experience_orb = true
+				dolphin = true
+				stray = true
+				salmon = true
+				wandering_trader = true
+				wither_skeleton = true
+				ocelot = true
+				furnace_minecart = true
+				item_frame = true
+				phantom = true
+				ender_dragon = true
+				leash_knot = true
+				evoker = true
+				glow_squid = true
+				warden = true
+				squid = true
+				enderman = true
+				dragon_fireball = true
+				chicken = true
+				trader_llama = true
+				donkey = true
+				fox = true
+				iron_golem = true
+				zombified_piglin = true
+				cat = true
+				ghast = true
+				sheep = true
+				player = true
+				pufferfish = true
+				potion = true
+				trident = true
+				villager = true
+				skeleton_horse = true
+				polar_bear = true
+				hopper_minecart = true
+				falling_block = true
+				painting = true
+				interaction = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
 				snowy_creeper = true
 				ocean_creeper = true
 				dark_oak_creeper = true
+				desert_creeper = true
 				jungle_creeper = true
 				dripstone_creeper = true
 				cave_creeper = true
@@ -170,6 +138,94 @@ mode = "fancy"
 				shattered = true
 				sculk_centipede = true
 
+			[light_sources.settings.entities.mcwfurnitures]
+				chair_entity = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				sorcerer = true
+				provoker = true
+				inquisitor = true
+				marauder = true
+
+			[light_sources.settings.entities.naturalist]
+				deer = true
+				snail = true
+				rhino = true
+				bluejay = true
+				snake = true
+				boar = true
+				robin = true
+				tortoise = true
+				butterfly = true
+				duck = true
+				bear = true
+				sparrow = true
+				lizard = true
+				zebra = true
+				rattlesnake = true
+				canary = true
+				firefly = true
+				coral_snake = true
+				cardinal = true
+				lion = true
+				vulture = true
+				bass = true
+				giraffe = true
+				elephant = true
+				finch = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				tank = true
+
+			[light_sources.settings.entities.mcdar]
+				enchanted_blue_sheep = true
+
+			[light_sources.settings.entities.botania]
+				pixie = true
+				mana_burst = true
+				vine_ball = true
+				magic_missile = true
+				doppleganger = true
+				flame_ring = true
+				magic_landmine = true
+				babylon_weapon = true
+				thorn_chakram = true
+				player_mover = true
+				corporea_spark = true
+
+			[light_sources.settings.entities.betternether]
+				firefly = true
+				hydrogen_jellyfish = true
+				naga = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				biplane = true
+
+			[light_sources.settings.entities.minecells]
+				shieldbearer = true
+
+			[light_sources.settings.entities.beansbackpacks]
+				backpack = true
+
+			[light_sources.settings.entities.supplementaries]
+				red_merchant = true
+				hat_stand = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				super_glue = true
+				potato_projectile = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				copper_golem = true
+				mauler = true
+				rascal = true
+
 			[light_sources.settings.entities.aquamirae]
 				anglerfish = true
 				tortured_soul = true
@@ -177,11 +233,6 @@ mode = "fancy"
 				spinefish = true
 
 			[light_sources.settings.entities.tinyskeletons]
+				baby_stray = true
 				baby_skeleton = true
-
-			[light_sources.settings.entities.illagerinvasion]
-				sorcerer = true
-				provoker = true
-				inquisitor = true
-				marauder = true
 
