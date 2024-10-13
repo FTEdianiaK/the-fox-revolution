@@ -32,6 +32,7 @@ mode = "fancy"
 				experience_bottle = true
 				rabbit = true
 				firework_rocket = true
+				silverfish = true
 				giant = true
 				drowned = true
 				item = true
@@ -71,6 +72,7 @@ mode = "fancy"
 				cave_spider = true
 				cod = true
 				witch = true
+				snow_golem = true
 				spider = true
 				command_block_minecart = true
 				bee = true
@@ -85,6 +87,7 @@ mode = "fancy"
 				experience_orb = true
 				dolphin = true
 				stray = true
+				turtle = true
 				salmon = true
 				wandering_trader = true
 				wither_skeleton = true
@@ -123,16 +126,18 @@ mode = "fancy"
 
 			[light_sources.settings.entities.creeperoverhaul]
 				bamboo_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+				spruce_creeper = true
 				snowy_creeper = true
+				badlands_creeper = true
 				ocean_creeper = true
 				dark_oak_creeper = true
 				desert_creeper = true
-				jungle_creeper = true
 				dripstone_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				hills_creeper = true
-				spruce_creeper = true
 
 			[light_sources.settings.entities.deeperdarker]
 				shattered = true
@@ -211,19 +216,28 @@ mode = "fancy"
 			[light_sources.settings.entities.beansbackpacks]
 				backpack = true
 
+			[light_sources.settings.entities.dummmmmmy]
+				target_dummy = true
+
 			[light_sources.settings.entities.supplementaries]
 				red_merchant = true
 				hat_stand = true
 
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
+				stationary_contraption = true
 				super_glue = true
 				potato_projectile = true
+
+			[light_sources.settings.entities.origins]
+				enderian_pearl = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
+				moobloom = true
 				mauler = true
+				crab = true
 				rascal = true
 
 			[light_sources.settings.entities.aquamirae]
@@ -235,4 +249,7 @@ mode = "fancy"
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
 				baby_skeleton = true
+
+			[light_sources.settings.entities.travelersbackpack]
+				backpack = true
 

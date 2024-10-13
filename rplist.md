@@ -3,8 +3,6 @@
 - Better tom's create storage
 - Create Simple Storage Solid GUI
 - [Eclectic Trove](https://modrinth.com/resourcepack/eclectic-trove-legendary-tooltips)
-- [Unique Dark Gui Modded Compat](https://www.curseforge.com/minecraft/texture-packs/unique-dark-gui-modded-compat)
-- [Unique Dark](https://modrinth.com/resourcepack/unique-dark)
 - [Raven Phantoms](https://modrinth.com/resourcepack/raven-phantoms)
 - [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player)
 - [FA+ Details](https://modrinth.com/resourcepack/fresh-animations-extensions)

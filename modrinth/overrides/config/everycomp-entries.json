@@ -1,6 +1,51 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "types": {
+    "wood_type": {
+      "betternether.nether_reed": true,
+      "betternether.stalagnate": true,
+      "betternether.willow": true,
+      "betternether.wart": true,
+      "betternether.rubeus": true,
+      "betternether.mushroom_fir": true,
+      "betternether.nether_mushroom": true,
+      "betternether.anchor_tree": true,
+      "betternether.nether_sakura": true,
+      "betterarcheology.rotten": true,
+      "betterend.mossy_glowshroom": true,
+      "betterend.pythadendron": true,
+      "betterend.end_lotus": true,
+      "betterend.lacugrove": true,
+      "betterend.dragon_tree": true,
+      "betterend.tenanea": true,
+      "betterend.helix_tree": true,
+      "betterend.umbrella_tree": true,
+      "betterend.jellyshroom": true,
+      "betterend.lucernia": true,
+      "botania.livingwood": true,
+      "botania.dreamwood": true,
+      "deeperdarker.echo": true,
+      "minecells.putrid": true
+    },
+    "cake": {
+      "createfood.berry_cream_cake_chorus_fruit": true,
+      "createfood.berry_cream_cake_glow_berry": true,
+      "createfood.berry_cream_cake_sweet_berry": true,
+      "createfood.cake_chorus_fruit": true,
+      "createfood.cake_glow_berry": true,
+      "createfood.chocolate_cream_cake_butterscotch": true,
+      "createfood.chocolate_cream_cake_caramel": true,
+      "createfood.chocolate_cream_cake_chocolate": true,
+      "createfood.chocolate_cream_cake_dark_chocolate": true,
+      "createfood.chocolate_cream_cake_toffee": true,
+      "createfood.chocolate_cream_cake_white_chocolate": true,
+      "createfood.chorus_fruit_cream_cake_chorus_fruit": true,
+      "createfood.chorus_fruit_cream_cake_glow_berry": true,
+      "createfood.chorus_fruit_cream_cake_sweet_berry": true,
+      "createfood.glow_berry_cream_cake_chorus_fruit": true,
+      "createfood.glow_berry_cream_cake_glow_berry": true,
+      "createfood.glow_berry_cream_cake_sweet_berry": true
+    },
     "leaves_type": {
       "chipped.apple_acacia": true,
       "chipped.cherry_acacia": true,
@@ -179,57 +224,9 @@
       "immersive_weathering.snowy_stone": true,
       "immersive_weathering.sandy_stone": true,
       "supplementaries.ash": true
-    },
-    "cake": {
-      "createfood.berry_cream_cake_chorus_fruit": true,
-      "createfood.berry_cream_cake_glow_berry": true,
-      "createfood.berry_cream_cake_sweet_berry": true,
-      "createfood.cake_chorus_fruit": true,
-      "createfood.cake_glow_berry": true,
-      "createfood.chocolate_cream_cake_butterscotch": true,
-      "createfood.chocolate_cream_cake_caramel": true,
-      "createfood.chocolate_cream_cake_chocolate": true,
-      "createfood.chocolate_cream_cake_dark_chocolate": true,
-      "createfood.chocolate_cream_cake_toffee": true,
-      "createfood.chocolate_cream_cake_white_chocolate": true,
-      "createfood.chorus_fruit_cream_cake_chorus_fruit": true,
-      "createfood.chorus_fruit_cream_cake_glow_berry": true,
-      "createfood.chorus_fruit_cream_cake_sweet_berry": true,
-      "createfood.glow_berry_cream_cake_chorus_fruit": true,
-      "createfood.glow_berry_cream_cake_glow_berry": true,
-      "createfood.glow_berry_cream_cake_sweet_berry": true
-    },
-    "wood_type": {
-      "betternether.nether_reed": true,
-      "betternether.stalagnate": true,
-      "betternether.willow": true,
-      "betternether.wart": true,
-      "betternether.rubeus": true,
-      "betternether.mushroom_fir": true,
-      "betternether.nether_mushroom": true,
-      "betternether.anchor_tree": true,
-      "betternether.nether_sakura": true,
-      "betterarcheology.rotten": true,
-      "betterend.mossy_glowshroom": true,
-      "betterend.pythadendron": true,
-      "betterend.end_lotus": true,
-      "betterend.lacugrove": true,
-      "betterend.dragon_tree": true,
-      "betterend.tenanea": true,
-      "betterend.helix_tree": true,
-      "betterend.umbrella_tree": true,
-      "betterend.jellyshroom": true,
-      "betterend.lucernia": true,
-      "botania.livingwood": true,
-      "botania.dreamwood": true,
-      "deeperdarker.echo": true,
-      "minecells.putrid": true
     }
   },
   "entries": {
-    "leaves_type": {
-      "mcwfences.hedge": true
-    },
     "wood_type": {
       "chipped.fine_planks": true,
       "chipped.checkered_trapdoor": true,
@@ -417,6 +414,9 @@
       "chipped.damaged_log": true,
       "chipped.golden_barred_trapdoor": true,
       "chipped.nailed_log": true
+    },
+    "leaves_type": {
+      "mcwfences.hedge": true
     }
   }
 }

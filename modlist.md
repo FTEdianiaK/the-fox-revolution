@@ -1,3 +1,5 @@
+- MRU-1.0.2+1.20.1+fabric
+- Sounds-2.1.0+1.20.1+fabric
 - [Adaptive Tooltips](https://modrinth.com/mod/wFv8yCxM) [1.3.0] by isXander
 - [Additional RPG Jewelry](https://modrinth.com/mod/rULzJh3O) [1.0.6] by Fichte
 - [Advanced Netherite](https://modrinth.com/mod/CFX9ftUJ) [2.1.3-1.20.1] by Autovw
@@ -14,6 +16,7 @@
 - [Areas](https://modrinth.com/mod/NWvsqJ2Z) [6.0] by Rick South
 - [Armor Statues](https://modrinth.com/mod/bbGCtEvb) [8.0.6] by Fuzs
 - [Athena](https://modrinth.com/mod/b1ZV3DIJ) [3.1.2] by ThatGravyBoat
+- [Auto AFK](https://modrinth.com/mod/8zpoj8HB) [1.2.5] by Matter_Moulder
 - [AutoTag Convention](https://modrinth.com/mod/8FdYDHF5) [2.0.2+1.20] by Apace, Will BL
 - [AzureLib Armor](https://modrinth.com/mod/pduQXSbl) [2.0.12] by AzureDoom, Gecko, Eliot, Hydos, DerToaster, Tslat, KyoSleep, Bvanseg
 - [BCLib](https://modrinth.com/mod/BgNRHReB) [3.0.14] by Quiqueck, paulevs, Bulldog83
@@ -31,6 +34,7 @@
 - [Better Statistics Screen](https://modrinth.com/mod/n6PXGAoM) [3.12.6+fabric-1.20.1] by TheCSDev
 - [Better Third Person](https://modrinth.com/mod/G1s2WpNo) [1.9.0] by Socolio, DreenDex
 - [BetterF3](https://modrinth.com/mod/8shC1gFX) [7.0.2] by cominixo, TreyRuffy
+- [BlueMap Marker Manager](https://modrinth.com/mod/a8UoyV2h) [151] by Miraculixx
 - [BlueMap](https://modrinth.com/mod/swbUV1cr) [5.3] by Blue (TBlueF, Lukas Rieger)
 - [Botania](https://modrinth.com/mod/pfjLUfGv) [1.20.1-446-FABRIC] by Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220
 - [Botarium](https://modrinth.com/mod/2u6LRnMa) [2.3.4] by CodexAdrian
@@ -47,9 +51,10 @@
 - [Chat Heads](https://modrinth.com/mod/Wb5oqrBJ) [0.13.3] by dzwdz, Fourmisain
 - [Chipped](https://modrinth.com/mod/BAscRYKm) [3.0.6] by Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat
 - [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/fgmhI8kH) [3.4.9a] by ChoiceTheorem
+- [ChunkyBorder](https://modrinth.com/mod/s86X568j) [1.1.53] by pop4959
 - [Chunky](https://modrinth.com/mod/fALzjamp) [1.3.146] by pop4959
-- [Cloth Config v11](https://minecraft.curseforge.com/projects/cloth-config) [11.1.118] by shedaniel
 - [Cloth Config v11](https://modrinth.com/mod/9s6osm5g) [11.1.136] by shedaniel
+- [Cloth Config v11](https://www.curseforge.com/projects/348521) [11.1.118] by shedaniel
 - [Clumps](https://modrinth.com/mod/Wnxd13zP) [12.0.0.4] by Jaredlll08
 - [Collective](https://modrinth.com/mod/e0M1UDsY) [7.84] by Rick South
 - [Common Network](https://modrinth.com/mod/HIuqnQpi) [1.0.5-1.20.1] by Mysticdrew
@@ -113,8 +118,8 @@
 - [FTB Teams](https://www.curseforge.com/projects/438497) [2001.3.0] by FTB Team
 - [FTB XMod Compat](https://www.curseforge.com/projects/889915) [2.1.1] by FTB Team
 - [Fabric API](https://modrinth.com/mod/P7dR8mSH) [0.92.2+1.20.1] by FabricMC
-- [Fabric Language Kotlin](https://minecraft.curseforge.com/projects/fabric-language-kotlin) [1.12.1+kotlin.2.0.20] by FabricMC
 - [Fabric Language Kotlin](https://modrinth.com/mod/Ha28R6CL) [1.12.2+kotlin.2.0.20] by FabricMC
+- [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) [1.12.1+kotlin.2.0.20] by FabricMC
 - [Fabric Seasons: Delight Compat](https://modrinth.com/mod/4VYO7ir0) [1.0-1.3.9] by D4rkness_King
 - [Fabric Seasons: Extras](https://modrinth.com/mod/64FYdx5z) [1.3.2-BETA+1.20] by D4rkness_King
 - [Fabric Seasons: Terralith Compat](https://modrinth.com/mod/D53qveoj) [1.0-2.3.7] by D4rkness_King
@@ -175,7 +180,6 @@
 - [Let Me Despawn](https://modrinth.com/mod/vE2FN5qn) [1.3.2b] by frikinjay
 - [Lithium](https://modrinth.com/mod/gvQqBUqZ) [0.11.2] by JellySquid, 2No2Name
 - [Lithostitched](https://modrinth.com/mod/XaDC71GB) [1.3.1] by Apollo
-- [M.R.U](https://modrinth.com/mod/SNVQ2c0g) [nMynfQWi]
 - [MC Dungeons Armors](https://modrinth.com/mod/oMitr7dU) [5.0.2] by Chronosacaria, Kluzzio, SeaOfPixels (Art), SattesKrokodil (Art), Patreons (Support)
 - [MC Dungeons Artifacts](https://modrinth.com/mod/xweQBqAC) [4.0.4] by Chronosacaria, Kluzzio, SeaOfPixels (Art), SattesKrokodil (Art), Patreons (Support)
 - [MC Dungeons Weapons](https://modrinth.com/mod/FZmGDE43) [9.0.4] by Chronosacaria, Kluzzio
@@ -199,7 +203,6 @@
 - [MmmMmmMmmMmm](https://modrinth.com/mod/Adega8YN) [1.20-2.0.3] by Mehvahdjukaar, Bonusboni, Gooigipunch, Plantkillable
 - [Mod Menu](https://modrinth.com/mod/mOgUt4GM) [7.2.2] by Prospector, haykam821, TerraformersMC
 - [ModernFix](https://modrinth.com/mod/nmDcB62a) [5.19.4+mc1.20.1] by embeddedt
-- [Modpack Update Checker](https://modrinth.com/mod/rR4tY6Cw) [0.15.2] by Jab125
 - [Moonlight](https://modrinth.com/mod/twkfQtEc) [1.20-2.13.3] by MehVahdJukaar
 - [More Armor Trims](https://modrinth.com/mod/FGNYBAJ6) [1.4.0-1.20.1] by Masik16u
 - [More Culling](https://modrinth.com/mod/51shyZVL) [1.20.4-0.24.0] by FX - PR0CESS
@@ -246,17 +249,16 @@
 - [Runes](https://modrinth.com/mod/lP9Yrr1E) [0.9.13+1.20.1] by Daedelus
 - [Searchables](https://modrinth.com/mod/fuuu3xnx) [1.0.3] by Jaredlll08
 - [Shield API](https://modrinth.com/mod/y9clIFY4) [1.0.1+1.20.1] by TheRedBrain
+- [Silk (All modules)](https://modrinth.com/mod/aTaCgKLW) [1.10.1] by jakobkmar, _F0X
 - [Simple Fog Control](https://modrinth.com/mod/Glp1bwYc) [1.4.0] by Draradech
 - [Simple Hud Enhanced](https://modrinth.com/mod/PE656UHx) [4.7.2] by SoRadGaming
 - [Simple RPC](https://modrinth.com/mod/ObXSoyrn) [3.3.3] by HypherionMC
 - [Snow! Real Magic!](https://modrinth.com/mod/iJNje1E8) [10.5.2] by Snownee
 - [Sodium Extra](https://modrinth.com/mod/PtjYWJkn) [0.5.4+mc1.20.1-build.115] by FlashyReese
 - [Sodium](https://modrinth.com/mod/AANobbMI) [0.5.11+mc1.20.1] by @jellysquid3
-- [Sounds](https://modrinth.com/mod/ZouiUX7t) [7Wra4eBi]
 - [Spell Engine](https://modrinth.com/mod/XvoWJaA2) [0.15.11+1.20.1] by Daedelus
 - [Spell Power Attribute](https://modrinth.com/mod/8ooWzSQP) [0.12.0+1.20.1] by Daedelus
 - [SprintAfterDeath](https://modrinth.com/mod/Ny7u54yS) [1.0.1] by SmajloSlovakian
-- [StartInv](https://modrinth.com/mod/8jUIs1kd) [xAFYQm6h]
 - [Steve's Realistic Sleep](https://modrinth.com/mod/ZPywkPEo) [1.11.0+mc1.20-1.20.1] by Steveplays28
 - [Stoneworks](https://modrinth.com/mod/FzyTKtVF) [8.0.0] by Fuzs
 - [Structure Pool API](https://modrinth.com/mod/LrYZi08Q) [1.0+1.20.1] by Daedelus
@@ -264,6 +266,7 @@
 - [SuperMartijn642's Core Lib](https://modrinth.com/mod/rOUBggPv) [1.1.17+a] by SuperMartijn642
 - [Supplementaries](https://modrinth.com/mod/fFEIiSDQ) [1.20-2.8.17] by MehVahdJukaar, Plantkillable
 - [TCD Commons API](https://modrinth.com/mod/Eldc1g37) [3.12.3+fabric-1.20.1] by TheCSDev
+- [TabTPS](https://modrinth.com/mod/cUhi3iB2) [1.3.18] by jmp
 - [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs) [1.3.12] by Fourmisain
 - [Tectonic](https://modrinth.com/mod/lWDHr9jE) [2.4.1b] by Apollo
 - [Terralith](https://modrinth.com/mod/8oi3bsk5) [2.5.4] by Stardust Labs
@@ -313,3 +316,4 @@
 - [iChunUtil](https://modrinth.com/mod/W6ROj0Hl) [1.0.0] by iChun
 - [libIPN](https://modrinth.com/mod/onSQdWhM) [4.0.2] by mirinimi/blackd
 - [oωo](https://modrinth.com/mod/ccKDOlHs) [0.11.2+1.20] by glisco, BasiqueEvangelist, Noaaan
+- fabric-startinv-1.0.0-1.20.1(1)
