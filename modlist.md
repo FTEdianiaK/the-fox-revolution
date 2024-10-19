@@ -3,11 +3,12 @@
 - [Adaptive Tooltips](https://modrinth.com/mod/wFv8yCxM) [1.3.0] by isXander
 - [Additional RPG Jewelry](https://modrinth.com/mod/rULzJh3O) [1.0.6] by Fichte
 - [Advanced Netherite](https://modrinth.com/mod/CFX9ftUJ) [2.1.3-1.20.1] by Autovw
+- [Almanac](https://modrinth.com/mod/Gi02250Z) [1.0.2] by frikinjay
 - [AlmostUnified](https://modrinth.com/mod/sdaSaQEz) [1.20.1-0.9.4] by Almost Reliable
 - [AltOriginGui](https://modrinth.com/mod/ldWHqZwQ) [1.1.1] by UltrusBot
 - [Ambient Environment](https://modrinth.com/mod/DyTvM1dv) [11.0.0.1] by Jaredlll08
 - [AmbientSounds](https://modrinth.com/mod/fM515JnW) [6.1.1] by CreativeMD
-- [Amendments](https://modrinth.com/mod/6iTJugQR) [1.20-1.2.11] by MehVahdJukaar
+- [Amendments](https://modrinth.com/mod/6iTJugQR) [1.20-1.2.12] by MehVahdJukaar
 - [Anvil Restoration](https://modrinth.com/mod/bd8nwTGy) [2.3] by Rick South
 - [AppleSkin](https://modrinth.com/mod/EsAfCjCV) [2.5.1+mc1.20] by squeek502
 - [Aquamirae](https://modrinth.com/mod/k23mNPhZ) [6] by Obscuria
@@ -40,7 +41,7 @@
 - [Botarium](https://modrinth.com/mod/2u6LRnMa) [2.3.4] by CodexAdrian
 - [Bountiful](https://modrinth.com/mod/BpwWFOVM) [6.0.3+1.20.1] by Ejektaflex
 - [CICADA](https://modrinth.com/mod/IwCkru1D) [0.8.3+1.20.1] by enjarai
-- [CIT Resewn](https://modrinth.com/mod/otVJckYQ) [1.1.5+1.20.1] by SHsuperCM
+- [CIT Resewn](https://modrinth.com/mod/otVJckYQ) [1.2.2+1.20.1] by SHsuperCM
 - [CTOV - Create: Structures](https://modrinth.com/mod/l9fldtN4) [1.0] by ChoiceTheorem
 - [CTOV - Farmer Delight Compat](https://modrinth.com/mod/CdRC4fyI) [2.1] by ChoiceTheorem
 - [CTOV - Friends and Foes Compat](https://modrinth.com/mod/kawJN2LZ) [2.0] by ChoiceTheorem
@@ -49,12 +50,12 @@
 - [CTOV - Paladins & Priests compat](https://modrinth.com/mod/prik3cIi) [1.0] by ChoiceTheorem
 - [Cardinal Components API](https://modrinth.com/mod/K01OU20C) [5.2.2] by UpcraftLP, Pyrofab
 - [Chat Heads](https://modrinth.com/mod/Wb5oqrBJ) [0.13.3] by dzwdz, Fourmisain
-- [Chipped](https://modrinth.com/mod/BAscRYKm) [3.0.6] by Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat
+- [Chipped](https://modrinth.com/mod/BAscRYKm) [3.0.7] by Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat
 - [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/fgmhI8kH) [3.4.9a] by ChoiceTheorem
 - [ChunkyBorder](https://modrinth.com/mod/s86X568j) [1.1.53] by pop4959
 - [Chunky](https://modrinth.com/mod/fALzjamp) [1.3.146] by pop4959
-- [Cloth Config v11](https://modrinth.com/mod/9s6osm5g) [11.1.136] by shedaniel
 - [Cloth Config v11](https://www.curseforge.com/projects/348521) [11.1.118] by shedaniel
+- [Cloth Config v11](https://www.curseforge.com/projects/348521) [11.1.136] by shedaniel
 - [Clumps](https://modrinth.com/mod/Wnxd13zP) [12.0.0.4] by Jaredlll08
 - [Collective](https://modrinth.com/mod/e0M1UDsY) [7.84] by Rick South
 - [Common Network](https://modrinth.com/mod/HIuqnQpi) [1.0.5-1.20.1] by Mysticdrew
@@ -63,19 +64,19 @@
 - [Controlling For Fabric](https://modrinth.com/mod/xv94TkTM) [12.0.2] by Jaredlll08
 - [CoroUtil](https://modrinth.com/mod/rLLJ1OZM) [1.20.1-1.3.7] by Corosus
 - [Cosmetica](https://modrinth.com/mod/s9hF9QGp) [1.2.9] by Eyezah, Valoeghese
-- [CraterLib](https://modrinth.com/mod/Nn8Wasaq) [2.1.0] by HypherionSA, Misha
+- [CraterLib](https://modrinth.com/mod/Nn8Wasaq) [2.1.1] by HypherionSA, Misha
 - [Create Deco](https://modrinth.com/mod/sMvUb4Rb) [2.0.2-1.20.1-fabric] by Kayla, Talrey
 - [Create Diesel Generators](https://modrinth.com/mod/reiRz8zO) [2.1.4] by MrSterner
 - [Create Enchantment Industry](https://modrinth.com/mod/AEZO385x) [1.2.16] by MarbleGate, RaymondBlaze
 - [Create Goggles](https://modrinth.com/mod/L1RT5SJc) [0.5.5.g] by Robocraft999
 - [Create Jetpack](https://modrinth.com/mod/UbFnAd4l) [4.2.0] by possible_triangle
 - [Create Questing](https://modrinth.com/mod/jUlR3XZM) [1.0.0] by ElocinDev
-- [Create Railways Navigator](https://modrinth.com/mod/Dq3STxps) [1.20.1-0.5.5] by MrJulsen
+- [Create Railways Navigator](https://modrinth.com/mod/Dq3STxps) [1.20.1-0.6.0] by MrJulsen
 - [Create Slice & Dice](https://modrinth.com/mod/GmjmRQ0A) [3.3.1] by possible_triangle
 - [Create Utilities](https://modrinth.com/mod/PRHeWeBs) [0.3.0+1.20.1] by Duquee_
 - [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv) [0.4.5] by sudolev
 - [Create: Copycats+](https://modrinth.com/mod/UT2M39wf) [2.1.4+mc.1.20.1-fabric] by Lysine, Bennyboy1695, Redcat_XVIII
-- [Create: Food](https://modrinth.com/mod/4HnO3el1) [1.1.2] by average_anime
+- [Create: Food](https://modrinth.com/mod/4HnO3el1) [1.1.4] by average_anime
 - [Create: New Age](https://modrinth.com/mod/FTeXqI9v) [1.1.2] by Antarctic Gardens
 - [Create: Numismatics](https://modrinth.com/mod/Jdbbtt0i) [1.0.6+fabric-mc1.20.1] by IThundxr, Violet, Pink, Slimeist, Razziel
 - [Create: Power Loader](https://modrinth.com/mod/E9MuZ1zB) [1.5.3-mc1.20.1-fabric] by Lysine
@@ -96,45 +97,46 @@
 - [Do a Barrel Roll](https://modrinth.com/mod/6FtRfnLg) [3.6.1+1.20.1] by enjarai
 - [Double Doors](https://modrinth.com/mod/JrvR9OHr) [5.9] by Rick South
 - [Dramatic Doors](https://modrinth.com/mod/aQ7h7gal) [1.20.1-3.2.7_1] by FizzWare
-- [Drippy Loading Screen](https://modrinth.com/mod/v3CYg2V9) [3.0.2] by Keksuccino
+- [Drippy Loading Screen](https://modrinth.com/mod/v3CYg2V9) [3.0.8] by Keksuccino
 - [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/mod/DNuNq5bb) [1] by NovaWostra
 - [Dungeons and Taverns](https://modrinth.com/mod/tpehi7ww) [3.0.3.f] by NovaWostra, Walls
-- [EMI](https://modrinth.com/mod/fRiHVvU7) [1.1.14+1.20.1+fabric] by Emi
+- [EMI](https://modrinth.com/mod/fRiHVvU7) [1.1.16+1.20.1+fabric] by Emi
 - [Elemental Wizards (RPG Class)](https://modrinth.com/mod/PeZ4h4i0) [1.2.3-1.20.1] by Fichte
 - [Elytra Physics](https://modrinth.com/mod/jfvCMH0K) [2.1_mc1.19.3+] by ImJoshh_
 - [Elytra Trims Extensions](https://modrinth.com/mod/5edtQ4at) [2.2.1] by KikuGie
-- [Elytra Trims](https://modrinth.com/mod/XpzGz7KD) [3.5.3] by KikuGie
+- [Elytra Trims](https://modrinth.com/mod/XpzGz7KD) [3.5.4] by KikuGie
 - [Elytra recipe Vanilla edition](https://modrinth.com/mod/q2Zfl4Oo) [1.0.0] by AShadedBlobfish
 - [End Remastered](https://modrinth.com/mod/ZJTGwAND) [5.2.4] by jack_bagel Dev, maxmitchelson Dev, And Artist, gilvoisard Artist
 - [Entity Model Features](https://modrinth.com/mod/4I1XuqiY) [2.2.6] by Traben
 - [Entity Texture Features](https://modrinth.com/mod/BVzZfTc1) [6.2.5] by Traben
-- [Every Compat](https://modrinth.com/mod/eiktJyw1) [1.20-2.6.80] by MehVahdJukaar
+- [Every Compat](https://modrinth.com/mod/eiktJyw1) [1.20-2.6.84H] by MehVahdJukaar
 - [Explorify](https://modrinth.com/mod/HSfsxuTo) [1.6.2] by bebebea_loste
 - [FPS Reducer](https://modrinth.com/mod/iZ10HXDj) [1.20-2.5] by bre2el
 - [FTB Backups 2](https://www.curseforge.com/projects/622737) [1.0.23] by CreeperHost
 - [FTB Essentials](https://www.curseforge.com/projects/410811) [2001.2.2] by FTB Team
 - [FTB Library](https://www.curseforge.com/projects/438495) [2001.2.4] by FTB Team
-- [FTB Quests](https://www.curseforge.com/projects/438496) [2001.4.8] by FTB Team
+- [FTB Quests](https://www.curseforge.com/projects/438496) [2001.4.9] by FTB Team
 - [FTB Teams](https://www.curseforge.com/projects/438497) [2001.3.0] by FTB Team
 - [FTB XMod Compat](https://www.curseforge.com/projects/889915) [2.1.1] by FTB Team
 - [Fabric API](https://modrinth.com/mod/P7dR8mSH) [0.92.2+1.20.1] by FabricMC
 - [Fabric Language Kotlin](https://modrinth.com/mod/Ha28R6CL) [1.12.2+kotlin.2.0.20] by FabricMC
 - [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) [1.12.1+kotlin.2.0.20] by FabricMC
+- [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) [1.12.3+kotlin.2.0.21] by FabricMC
 - [Fabric Seasons: Delight Compat](https://modrinth.com/mod/4VYO7ir0) [1.0-1.3.9] by D4rkness_King
 - [Fabric Seasons: Extras](https://modrinth.com/mod/64FYdx5z) [1.3.2-BETA+1.20] by D4rkness_King
 - [Fabric Seasons: Terralith Compat](https://modrinth.com/mod/D53qveoj) [1.0-2.3.7] by D4rkness_King
-- [Fabric Seasons](https://modrinth.com/mod/KJe6y9Eu) [2.4.1-BETA+1.20] by D4rkness_King
-- [FancyMenu](https://modrinth.com/mod/Wq5SjeWM) [3.2.3] by Keksuccino
+- [Fabric Seasons](https://modrinth.com/mod/KJe6y9Eu) [2.4.2-BETA+1.20] by D4rkness_King
+- [FancyMenu](https://modrinth.com/mod/Wq5SjeWM) [3.3.2] by Keksuccino
 - [Farmer's Delight](https://modrinth.com/mod/4EakbH8e) [1.20.1-1.4.3] by Zifiv, vectorwing, StevenPlayzz, dopadream, orlouge, BarchamMal, AwesomeDude091
 - [Farmer's Delight](https://modrinth.com/mod/7vxePowz) [1.20.1-2.1.6+refabricated] by MehVahdJukaar, MerchantPug
 - [FastQuit](https://modrinth.com/mod/x1hIzbuY) [3.0.0+1.20+] by KingContaria
 - [Faster Random](https://modrinth.com/mod/RfFxanNh) [5.1.0] by AnOpenSauceDev
 - [FerriteCore](https://modrinth.com/mod/uXXizFIs) [6.0.1] by malte0811
 - [Fish On The Line](https://modrinth.com/mod/R6PYx1PW) [3.4] by Rick South
-- [Forcemaster Class Mod](https://modrinth.com/mod/K3yHebFL) [1.1.1] by Fichte
+- [Forcemaster Class Mod](https://modrinth.com/mod/K3yHebFL) [1.1.2] by Fichte
 - [Forge Config API Port](https://modrinth.com/mod/ohNO6lps) [8.0.0] by Fuzs
 - [Forgotten Graves](https://modrinth.com/mod/FrZIkosK) [3.2.14+1.20.1] by Ginsm
-- [Friends & Foes](https://modrinth.com/mod/POQ2i9zu) [3.0.3] by Faboslav
+- [Friends & Foes](https://modrinth.com/mod/POQ2i9zu) [3.0.5] by Faboslav
 - [Friends&Foes - Beekeeper Hut](https://modrinth.com/mod/Kt4RVKEd) [2.0.1] by Faboslav
 - [Fusion](https://modrinth.com/mod/p19vrgc2) [1.1.1] by SuperMartijn642
 - [Gazebos](https://modrinth.com/mod/XIpMGI6r) [1.1.1+1.20.1] by Daedelus
@@ -157,8 +159,8 @@
 - [Immersive Weathering](https://modrinth.com/mod/jkskOO9i) [1.20.1-2.0.3] by Ordana, MehVahdjukaar, Keyberries, kayla_the_bee
 - [Incendium](https://modrinth.com/mod/ZVzW5oNS) [5.3.5] by Stardust Labs
 - [Indium](https://modrinth.com/mod/Orvt0mRa) [1.0.34+mc1.20.1] by comp500
-- [Iris Flywheel Compat](https://modrinth.com/mod/ndHYMY2K) [1.1.3a] by Leon
-- [Iris](https://modrinth.com/mod/YL57xq9U) [1.7.2+mc1.20.1] by coderbot, IMS212, Justsnoopy30, FoundationGames
+- [Iris Flywheel Compat](https://modrinth.com/mod/ndHYMY2K) [1.1.4] by Leon
+- [Iris](https://modrinth.com/mod/YL57xq9U) [1.7.5+mc1.20.1] by coderbot, IMS212, Justsnoopy30, FoundationGames
 - [Iron Chests: Restocked](https://modrinth.com/mod/n2de3t2z) [5.0.2] by Dev and Upgrade Textures - ThatGravyBoat, All Other Textures - Kekie
 - [Iron Chests](https://modrinth.com/mod/7mHyGgvW) [2.0.2] by anner
 - [Items Displayed](https://modrinth.com/mod/Guh4HXen) [1.3] by FREEDINNER
@@ -167,19 +169,19 @@
 - [Jewelry (RPG Series)](https://modrinth.com/mod/sNJAIjUm) [1.3.7+1.20.1] by Daedelus
 - [JourneyMap-Teams](https://modrinth.com/mod/EV5wjtvP) [1.1.0] by Mysticdrew
 - [JourneyMapIntegration](https://modrinth.com/mod/M1ZKbfkJ) [1.20.1-0.14-48] by frankV
-- [Journeymap](https://modrinth.com/mod/lfHFW1mp) [5.10.2] by Mysticdrew, Techbrew
-- [Just Enough Items](https://modrinth.com/mod/u6dRKJwZ) [15.20.0.102] by mezz
+- [Journeymap](https://modrinth.com/mod/lfHFW1mp) [5.10.3] by Mysticdrew, Techbrew
+- [Just Enough Items](https://modrinth.com/mod/u6dRKJwZ) [15.20.0.104] by mezz
 - [Just Mob Heads](https://modrinth.com/mod/jzTUm9hE) [8.3] by Rick South
 - [Just Player Heads](https://modrinth.com/mod/YdVBZMNR) [4.1] by Rick South
 - [Kambrik](https://modrinth.com/mod/zfbCkvdZ) [6.1.1+1.20.1] by Ejektaflex
-- [Kiwi Library](https://modrinth.com/mod/ufdDoWPd) [11.8.24+fabric] by Snownee
+- [Kiwi Library](https://modrinth.com/mod/ufdDoWPd) [11.8.26+fabric] by Snownee
 - [KleeSlabs](https://modrinth.com/mod/7uh75ruZ) [15.0.0] by BlayTheNinth
 - [Konkrete](https://modrinth.com/mod/J81TRJWm) [1.8.1] by Keksuccino
 - [LambDynamicLights](https://modrinth.com/mod/yBW8D80W) [2.3.2+1.20.1] by LambdAurora
 - [Legendary Tooltips](https://modrinth.com/mod/atHH8NyV) [1.4.5] by Grend
-- [Let Me Despawn](https://modrinth.com/mod/vE2FN5qn) [1.3.2b] by frikinjay
+- [Let Me Despawn](https://modrinth.com/mod/vE2FN5qn) [1.4.4] by frikinjay
 - [Lithium](https://modrinth.com/mod/gvQqBUqZ) [0.11.2] by JellySquid, 2No2Name
-- [Lithostitched](https://modrinth.com/mod/XaDC71GB) [1.3.1] by Apollo
+- [Lithostitched](https://modrinth.com/mod/XaDC71GB) [1.3.1a] by Apollo
 - [MC Dungeons Armors](https://modrinth.com/mod/oMitr7dU) [5.0.2] by Chronosacaria, Kluzzio, SeaOfPixels (Art), SattesKrokodil (Art), Patreons (Support)
 - [MC Dungeons Artifacts](https://modrinth.com/mod/xweQBqAC) [4.0.4] by Chronosacaria, Kluzzio, SeaOfPixels (Art), SattesKrokodil (Art), Patreons (Support)
 - [MC Dungeons Weapons](https://modrinth.com/mod/FZmGDE43) [9.0.4] by Chronosacaria, Kluzzio
@@ -203,7 +205,7 @@
 - [MmmMmmMmmMmm](https://modrinth.com/mod/Adega8YN) [1.20-2.0.3] by Mehvahdjukaar, Bonusboni, Gooigipunch, Plantkillable
 - [Mod Menu](https://modrinth.com/mod/mOgUt4GM) [7.2.2] by Prospector, haykam821, TerraformersMC
 - [ModernFix](https://modrinth.com/mod/nmDcB62a) [5.19.4+mc1.20.1] by embeddedt
-- [Moonlight](https://modrinth.com/mod/twkfQtEc) [1.20-2.13.3] by MehVahdJukaar
+- [Moonlight](https://modrinth.com/mod/twkfQtEc) [1.20-2.13.13] by MehVahdJukaar
 - [More Armor Trims](https://modrinth.com/mod/FGNYBAJ6) [1.4.0-1.20.1] by Masik16u
 - [More Culling](https://modrinth.com/mod/51shyZVL) [1.20.4-0.24.0] by FX - PR0CESS
 - [More Music Discs](https://modrinth.com/mod/pXYChc1a) [1.20.1-33.1-fabric] by 1 block microwave
@@ -232,7 +234,7 @@
 - [Player Animator](https://modrinth.com/mod/gedNE4y2) [1.0.2-rc1+1.20] by KosmX  
 - [PolyLib](https://www.curseforge.com/projects/576589) [2000.0.3-build.143] by CreeperHost
 - [Polymorph](https://modrinth.com/mod/tagwiZkJ) [0.49.7+1.20.1] by Illusive Soulworks
-- [Polytone](https://modrinth.com/mod/3qAYkBMB) [1.20-2.3.2] by MehVahdJukaar
+- [Polytone](https://modrinth.com/mod/3qAYkBMB) [1.20-2.3.3] by MehVahdJukaar
 - [Portable Crafting](https://modrinth.com/mod/qmVRzDCY) [2.2.1+1.19.3] by Sisby Folk
 - [Portable Hole](https://modrinth.com/mod/jckrUoUe) [8.0.0] by Fuzs
 - [Presence Footsteps](https://modrinth.com/mod/rcTfTZr3) [1.9.4+1.20.1] by Hurricaaane (Ha3), Sollace
@@ -267,16 +269,16 @@
 - [Supplementaries](https://modrinth.com/mod/fFEIiSDQ) [1.20-2.8.17] by MehVahdJukaar, Plantkillable
 - [TCD Commons API](https://modrinth.com/mod/Eldc1g37) [3.12.3+fabric-1.20.1] by TheCSDev
 - [TabTPS](https://modrinth.com/mod/cUhi3iB2) [1.3.18] by jmp
-- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs) [1.3.12] by Fourmisain
+- [Tax Free Levels](https://modrinth.com/mod/jCBrrLTs) [1.4.1] by Fourmisain
 - [Tectonic](https://modrinth.com/mod/lWDHr9jE) [2.4.1b] by Apollo
 - [Terralith](https://modrinth.com/mod/8oi3bsk5) [2.5.4] by Stardust Labs
 - [The Lost Castle](https://modrinth.com/mod/FGlHZl7X) [1.0.1] by Jack Bagel, GilVoisard
-- [Tiny Mob Farm](https://modrinth.com/mod/fhAM8VCH) [1.2.1-1.20.1] by DAQEM
+- [Tiny Mob Farm](https://modrinth.com/mod/fhAM8VCH) [1.3-1.20.1] by DAQEM
 - [Tiny Skeletons](https://modrinth.com/mod/A2xcMSUn) [8.0.1] by Fuzs
 - [Tom's Simple Storage Mod](https://modrinth.com/mod/XZNI4Cpy) [1.6.8] by tom5454
 - [Towns and Towers](https://modrinth.com/mod/DjLobEOy) [1.10.2] by Kubek, Biban_Auriu, Cristelknight
 - [Trading Post](https://modrinth.com/mod/8pcjMDgj) [8.0.2] by Fuzs
-- [Traveler's Backpack](https://modrinth.com/mod/rlloIFEV) [9.1.17] by Tiviacz1337
+- [Traveler's Backpack](https://modrinth.com/mod/rlloIFEV) [9.1.18] by Tiviacz1337
 - [Traveler's Titles](https://modrinth.com/mod/JtifUr64) [1.20-Fabric-4.0.2] by YUNGNICKYOUNG
 - [Trinkets](https://modrinth.com/mod/5aaWibi9) [3.7.2] by Emi, C4
 - [True Ending: Ender Dragon Overhaul](https://modrinth.com/mod/MCnBYP0b) [1-v1.1.0c] by limesplatus
