@@ -17,7 +17,6 @@
 - [Areas](https://modrinth.com/mod/NWvsqJ2Z) [6.0] by Rick South
 - [Armor Statues](https://modrinth.com/mod/bbGCtEvb) [8.0.6] by Fuzs
 - [Athena](https://modrinth.com/mod/b1ZV3DIJ) [3.1.2] by ThatGravyBoat
-- [Auto AFK](https://modrinth.com/mod/8zpoj8HB) [1.2.5] by Matter_Moulder
 - [AutoTag Convention](https://modrinth.com/mod/8FdYDHF5) [2.0.2+1.20] by Apace, Will BL
 - [AzureLib Armor](https://modrinth.com/mod/pduQXSbl) [2.0.12] by AzureDoom, Gecko, Eliot, Hydos, DerToaster, Tslat, KyoSleep, Bvanseg
 - [BCLib](https://modrinth.com/mod/BgNRHReB) [3.0.14] by Quiqueck, paulevs, Bulldog83
