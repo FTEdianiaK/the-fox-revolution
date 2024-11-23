@@ -24,6 +24,7 @@ mode = "fancy"
 			[light_sources.settings.entities.minecraft]
 				axolotl = true
 				egg = true
+				zoglin = true
 				allay = true
 				llama = true
 				bat = true
@@ -41,6 +42,7 @@ mode = "fancy"
 				horse = true
 				llama_spit = true
 				glow_item_frame = false
+				snowball = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
@@ -68,6 +70,7 @@ mode = "fancy"
 				elder_guardian = true
 				chest_boat = true
 				boat = true
+				small_fireball = true
 				strider = true
 				cave_spider = true
 				cod = true
@@ -91,6 +94,8 @@ mode = "fancy"
 				salmon = true
 				wandering_trader = true
 				wither_skeleton = true
+				vex = true
+				piglin_brute = true
 				ocelot = true
 				furnace_minecart = true
 				item_frame = true
@@ -124,35 +129,24 @@ mode = "fancy"
 				painting = true
 				interaction = true
 
-			[light_sources.settings.entities.creeperoverhaul]
-				bamboo_creeper = true
-				jungle_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
-				hills_creeper = true
-				spruce_creeper = true
-				snowy_creeper = true
-				badlands_creeper = true
-				ocean_creeper = true
-				dark_oak_creeper = true
-				desert_creeper = true
-				dripstone_creeper = true
+			[light_sources.settings.entities.spell_engine]
+				spell_projectile = true
+				spell_area_effect = true
 
-			[light_sources.settings.entities.deeperdarker]
-				shattered = true
-				sculk_centipede = true
-
-			[light_sources.settings.entities.mcwfurnitures]
-				chair_entity = true
-
-			[light_sources.settings.entities.railways]
-				conductor = true
+			[light_sources.settings.entities.niftycarts]
+				plow = true
+				supply_cart = true
+				postilion = true
+				hand_cart = true
+				animal_cart = true
 
 			[light_sources.settings.entities.illagerinvasion]
 				sorcerer = true
 				provoker = true
+				archivist = true
 				inquisitor = true
+				basher = true
+				invoker = true
 				marauder = true
 
 			[light_sources.settings.entities.naturalist]
@@ -184,10 +178,13 @@ mode = "fancy"
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				illusioner = true
+				cursed_armor = true
+				cerberus = true
 				tank = true
 
 			[light_sources.settings.entities.mcdar]
 				enchanted_blue_sheep = true
+				golem_kit_golem = true
 
 			[light_sources.settings.entities.botania]
 				pixie = true
@@ -203,25 +200,16 @@ mode = "fancy"
 				corporea_spark = true
 
 			[light_sources.settings.entities.betternether]
+				naga_projectile = true
 				firefly = true
 				hydrogen_jellyfish = true
+				skull = true
+				jungle_skeleton = true
 				naga = true
 
 			[light_sources.settings.entities.immersive_aircraft]
+				gyrodyne = true
 				biplane = true
-
-			[light_sources.settings.entities.minecells]
-				shieldbearer = true
-
-			[light_sources.settings.entities.beansbackpacks]
-				backpack = true
-
-			[light_sources.settings.entities.dummmmmmy]
-				target_dummy = true
-
-			[light_sources.settings.entities.supplementaries]
-				red_merchant = true
-				hat_stand = true
 
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
@@ -232,9 +220,79 @@ mode = "fancy"
 			[light_sources.settings.entities.origins]
 				enderian_pearl = true
 
+			[light_sources.settings.entities.travelersbackpack]
+				backpack = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				bamboo_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+				spruce_creeper = true
+				snowy_creeper = true
+				badlands_creeper = true
+				ocean_creeper = true
+				dark_oak_creeper = true
+				desert_creeper = true
+				dripstone_creeper = true
+
+			[light_sources.settings.entities.deeperdarker]
+				shattered = true
+				sludge = true
+				shriek_worm = true
+				sculk_centipede = true
+				sculk_leech = true
+				sculk_snapper = true
+
+			[light_sources.settings.entities.mcwfurnitures]
+				chair_entity = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+
+			[light_sources.settings.entities.hauntedharvest]
+				splattered_egg = true
+
+			[light_sources.settings.entities.minecells]
+				grenadier = true
+				leaping_zombie = true
+				sweeper = true
+				conjunctivius_obelisk = true
+				protector = true
+				conjunctivius_projectile = true
+				conjunctivius = true
+				mutated_bat = true
+				elite_obelisk = true
+				magic_orb = true
+				concierge_obelisk = true
+				undead_archer = true
+				custom_arrow = true
+				buzzcutter = true
+				shieldbearer = true
+				elevator = true
+				inquisitor = true
+				runner = true
+				shockwave_placer = true
+				sewers_tentacle = true
+				concierge = true
+
+			[light_sources.settings.entities.beansbackpacks]
+				backpack = true
+
+			[light_sources.settings.entities.dummmmmmy]
+				target_dummy = true
+
+			[light_sources.settings.entities.supplementaries]
+				red_merchant = true
+				hat_stand = true
+				rope_arrow = true
+
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
+				player_illusion = true
 				moobloom = true
 				mauler = true
 				crab = true
@@ -248,8 +306,6 @@ mode = "fancy"
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_stray = true
+				baby_wither_skeleton = true
 				baby_skeleton = true
-
-			[light_sources.settings.entities.travelersbackpack]
-				backpack = true
 

@@ -1,6 +1,6 @@
 version:3465
 fullscreenMonitor:"0,0,2560,1440"
-fullscreenMode:2
+fullscreenMode:0
 preferredFullscreenMode:2
 autoJump:false
 operatorItemsTab:false
@@ -25,7 +25,7 @@ toggleSprint:false
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.65
+fov:1.0
 screenEffectScale:0.25
 fovEffectScale:0.25
 darknessEffectScale:0.5035211267605634
@@ -79,7 +79,7 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
@@ -247,6 +247,8 @@ key_keybindings.spell_engine.spell_hotbar_7:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_8:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_9:key.keyboard.unknown
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
+key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.toms_storage.open_terminal:key.keyboard.i
 key_key.travelersbackpack.inventory:key.keyboard.p
 key_key.travelersbackpack.sort:key.keyboard.unknown
@@ -261,9 +263,9 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.end
 key_iris.keybind.shaderPackSelection:key.keyboard.home
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.152317880794702
-soundCategory_music:0.056338028169014086
-soundCategory_record:0.75
+soundCategory_master:1.0
+soundCategory_music:0.0
+soundCategory_record:0.602112676056338
 soundCategory_weather:0.602112676056338
 soundCategory_block:1.0
 soundCategory_hostile:1.0
@@ -271,7 +273,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:0.6091549295774648
 soundCategory_voice:1.0
-modelPart_cape:false
+modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true
